@@ -2,20 +2,60 @@ const fs = require('fs');
 const csvToObj = require('csv-to-js-parser').csvToObj;
 
 const accountData = fs.readFileSync('Transactions2014.csv').toString();
-const accounts =
-    {
-        Date:     {type: 'string'},
-        From:         {type: 'string', group:1},
-        To:      {type: 'string'},
-        Narrative:   {type: 'string'},
-        Amount:           {type: 'number'}
-    };
 let obj = csvToObj(accountData);
-for (const acc in obj) {
-        for (const key of Object.keys(obj)) {
-                console.log(key, obj[key]);
+class Bank {
+        date;
+        from;
+        to;
+        narrative;
+        amount;
+        constructor(date, from, to, narrative, amount) {
+                this.date = date;
+                this.from = from;
+                this.to = to;
+                this.narrative = narrative;
+                this.amount = amount;
+        }
+}
+class Account {
+        holder;
+        balance;
+        constructor(holder, balance) {
+                this.holder = holder;
+                this.balance = balance;
+        };
+}
+
+const bank = new Bank(obj);
+let accounts = [];
+for (const transaction in bank) {
+        console.log("From: " + transaction.from);
+        if (accounts.some(account => account.name === transaction.from))
+        {
+                let account = accounts.find(account => account.name === transaction.from);
+                account.balance = account.balance - transaction.amount;
+        }
+        else
+        {
+                accounts.push(new Account(transaction.from, (transaction.amount)*-1));
         }
 
-        // console.log(`${acc.Date}: ${obj[acc.Date]}`);
+        if (accounts.some(account => account.name === transaction.to))
+        {
+                let account = accounts.find(account => account.name === transaction.to);
+                account.balance = account.balance + transaction.amount;
+        }
+        else
+        {
+                accounts.push(new Account(transaction.to, transaction.amount));
+        }
+        for (const key of Object.keys(bank)) {
+                // console.log(key, bank[key]);
+        }
+        for (const key of Object.keys(accounts)) {
+                console.log(key, accounts[key]);
+        }
 }
+
+
 
