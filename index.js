@@ -36,15 +36,15 @@ let accounts = [];
 // Object.keys(bank).forEach((key) =>
 bank.forEach(transaction =>
      {
-            if (accounts.some(account => account['name'] === transaction['from'])) {
-                    let account = accounts.find(account => account['name'] === transaction['from']);
+            if (accounts.some(account => account['holder'] === transaction['from'])) {
+                    let account = accounts.find(account => account['holder'] === transaction['from']);
                     account['balance'] = account['balance'] - transaction['amount'];
             } else {
                     accounts.push(new Account(transaction['from'], (transaction['amount']) * -1));
             }
 
-            if (accounts.some(account => account['name'] === transaction['to'])) {
-                    let account = accounts.find(account => account['name'] === transaction['to']);
+            if (accounts.some(account => account['holder'] === transaction['to'])) {
+                    let account = accounts.find(account => account['holder'] === transaction['to']);
                     account['balance'] = account['balance'] + transaction['amount'];
             } else {
                     accounts.push(new Account(transaction['to'], transaction['amount']));
