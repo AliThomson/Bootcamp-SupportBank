@@ -29,34 +29,25 @@ class Account {
 let bank = []
 for (let i=0;i<obj.length; i++)
 {
-        bank.push(new Bank(obj[i]));
+    bank.push(new Bank(Date.parse((obj[i]['Date'])), obj[i]['From'], obj[i]['To'], obj[i]['Narrative'], obj[i]['Amount']));
 }
-console.log("Length = " + bank.length);
-console.log(`Bank.from: ${obj[0]['From']}`)
-console.log(`Bank.from: ${bank[0]['from']}`)
 let accounts = [];
-
-// for (const transaction in bank) {
-// for (let i=0;i<bank.length; i++)
 
 // Object.keys(bank).forEach((key) =>
 bank.forEach(transaction =>
      {
-            // console.log(`From: ${transaction['from']}`);
-
-            if (accounts.some(account => account.name === bank.from)) {
-                    let account = accounts.find(account => account.name === bank.from);
-                    account.balance = account.balance - bank.amount;
+            if (accounts.some(account => account['name'] === transaction['from'])) {
+                    let account = accounts.find(account => account['name'] === transaction['from']);
+                    account['balance'] = account['balance'] - transaction['amount'];
             } else {
-                    console.log("here");
-                    accounts.push(new Account(bank.from, (bank.amount) * -1));
+                    accounts.push(new Account(transaction['from'], (transaction['amount']) * -1));
             }
 
-            if (accounts.some(account => account.name === bank.to)) {
-                    let account = accounts.find(account => account.name === bank.to);
-                    account.balance = account.balance + bank.amount;
+            if (accounts.some(account => account['name'] === transaction['to'])) {
+                    let account = accounts.find(account => account['name'] === transaction['to']);
+                    account['balance'] = account['balance'] + transaction['amount'];
             } else {
-                    accounts.push(new Account(bank.to, bank.amount));
+                    accounts.push(new Account(transaction['to'], transaction['amount']));
             }
     });
 
@@ -64,6 +55,6 @@ bank.forEach(transaction =>
                 console.log(key, bank[key]);
         }
         for (const key of Object.keys(accounts)) {
-                // console.log(key, accounts[key]);
+                console.log(key, accounts[key]);
         }
 
