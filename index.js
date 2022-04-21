@@ -2,9 +2,6 @@ const fs = require('fs');
 const csvToObj = require('csv-to-js-parser').csvToObj;
 const readlineSync = require('readline-sync');
 
-// Wait for user's response.
-
-
 const accountData = fs.readFileSync('Transactions2014.csv').toString();
 let obj = csvToObj(accountData);
 class Bank {
@@ -37,7 +34,6 @@ for (let i=0;i<obj.length; i++)
 }
 let accounts = [];
 
-// Object.keys(bank).forEach((key) =>
 bank.forEach(transaction =>
      {
             if (accounts.some(account => account['holder'] === transaction['from'])) {
@@ -83,5 +79,3 @@ if (option === "List All") {
         console.log("Please enter a valid account holder");
     }
 }
-
-
