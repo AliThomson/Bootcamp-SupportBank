@@ -2,5 +2,7 @@
   "name": "Bootcamp-SupportBank",
   "version": "1.0.0",
   "dependencies": {
+    "csv-to-js-parser": "^2.3.4",
+    "readline-sync": "^1.4.10"
   }
 }
