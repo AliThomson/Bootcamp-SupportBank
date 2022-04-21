@@ -1,8 +1,22 @@
 const fs = require('fs');
 const csvToObj = require('csv-to-js-parser').csvToObj;
 const readlineSync = require('readline-sync');
+const log4js = require('log4js');
+const logger = log4js.getLogger('<filename>');
 
-const accountData = fs.readFileSync('Transactions2014.csv').toString();
+log4js.configure({
+    appenders: {
+        file: { type: 'fileSync', filename: 'logs/debug.log' }
+    },
+    categories: {
+        default: { appenders: ['file'], level: 'debug'}
+    }
+});
+
+const dodgyFileName = "DodgyTransactions2015.csv";
+const goodFileName = "Transactions2014.csv";
+
+const accountData = fs.readFileSync(dodgyFileName).toString();
 let obj = csvToObj(accountData);
 class Bank {
         date;
@@ -27,10 +41,14 @@ class Account {
         };
 }
 
-let bank = []
-for (let i=0;i<obj.length; i++)
-{
-    bank.push(new Bank((obj[i]['Date']), obj[i]['From'], obj[i]['To'], obj[i]['Narrative'], parseFloat(obj[i]['Amount'])));
+let bank = [];
+try {
+    for (let i = 0; i < obj.length; i++) {
+        bank.push(new Bank((obj[i]['Date']), obj[i]['From'], obj[i]['To'], obj[i]['Narrative'], parseFloat(obj[i]['Amount'])));
+    }
+}
+catch(err) {
+    logger.error("Error loading bank")
 }
 let accounts = [];
 
