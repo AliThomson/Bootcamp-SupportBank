@@ -29,7 +29,7 @@ class Account {
 let bank = []
 for (let i=0;i<obj.length; i++)
 {
-    bank.push(new Bank(Date.parse((obj[i]['Date'])), obj[i]['From'], obj[i]['To'], obj[i]['Narrative'], parseFloat(obj[i]['Amount'])));
+    bank.push(new Bank((obj[i]['Date']), obj[i]['From'], obj[i]['To'], obj[i]['Narrative'], parseFloat(obj[i]['Amount'])));
 }
 let accounts = [];
 
@@ -38,16 +38,18 @@ bank.forEach(transaction =>
      {
             if (accounts.some(account => account['holder'] === transaction['from'])) {
                     let account = accounts.find(account => account['holder'] === transaction['from']);
-                    account['balance'] = account['balance'] - parseFloat(transaction['amount']);
+                    let balance = parseFloat(account['balance']) - parseFloat(transaction['amount']);
+                    account['balance'] = balance.toFixed(2);
             } else {
-                    accounts.push(new Account(transaction['from'], parseFloat(transaction['amount']) * -1));
+                    accounts.push(new Account(transaction['from'], parseFloat(transaction['amount']).toFixed(2) * -1));
             }
 
             if (accounts.some(account => account['holder'] === transaction['to'])) {
                     let account = accounts.find(account => account['holder'] === transaction['to']);
-                    account['balance'] = account['balance'] + parseFloat(transaction['amount']);
+                    let balance = parseFloat(account['balance']) + parseFloat(transaction['amount'])
+                    account['balance'] = balance.toFixed(2);
             } else {
-                    accounts.push(new Account(transaction['to'], transaction['amount']));
+                    accounts.push(new Account(transaction['to'], parseFloat(transaction['amount']).toFixed(2)));
             }
     });
 
