@@ -4,6 +4,7 @@ const readlineSync = require('readline-sync');
 const log4js = require('log4js');
 const logger = log4js.getLogger('dodgyFileName');
 const format = require('date-fns/format');
+const {loadFile} = require('./loadFile');
 
 log4js.configure({
     appenders: {
@@ -16,9 +17,9 @@ log4js.configure({
 
 const dodgyFileName = "DodgyTransactions2015.csv";
 const goodFileName = "Transactions2014.csv";
+let filename = dodgyFileName;
+let inputData = loadFile(filename);
 
-const accountData = fs.readFileSync(dodgyFileName).toString();
-let obj = csvToObj(accountData);
 class Bank {
         date;
         from;
@@ -44,13 +45,12 @@ class Account {
 
 let bank = [];
 try {
-    for (let i = 0; i < obj.length; i++) {
-        let amount = parseFloat(obj[i]['Amount'])
+    for (let i = 0; i < inputData.length; i++) {
+        let amount = parseFloat(inputData[i]['Amount'])
 
-        // let inputDate = format(new Date(obj[i]['Date']), 'yyyy-MM-dd')//Date.parse(obj[i]['Date']);
-        let inputDate  = obj[i]['Date'] //date string in dd/mm/yyyy format
+        let dateFromFile  = inputData[i]['Date'] //date string in dd/mm/yyyy format
 
-        let dateArray = inputDate.split("/");
+        let dateArray = dateFromFile.split("/");
         let day = parseInt(dateArray[0], 10);
         let month = parseInt(dateArray[1], 10)-1;
         let year = parseInt(dateArray[2], 10);
@@ -58,14 +58,16 @@ try {
         let outputDate = new Date(year, month, day);
 
         if (isNaN(outputDate)) {
-            logger.error(`Date is not valid (${obj[i]['Date']}), From ${obj[i]['From']} to ${obj[i]['To']}, narrative: ${obj[i]['Narrative']}`)
+            logger.error(`Date is not valid (${inputData[i]['Date']}), 
+                From ${inputData[i]['From']} to ${inputData[i]['To']}, 
+                narrative: ${inputData[i]['Narrative']}`);
         } else if (isNaN(amount)) {
-            logger.error(`Amount (${amount}) is not a number on ${obj[i]['Date']}: from ${obj[i]['From']} to ${obj[i]['To']}`)
+            logger.error(`Amount (${amount}) is not a number on ${inputData[i]['Date']}: from ${inputData[i]['From']} to ${inputData[i]['To']}`)
         } else {
-            bank.push(new Bank((format(outputDate, 'd-M-yyyy')), obj[i]['From'], obj[i]['To'], obj[i]['Narrative'], amount));
-            logger.info(`Transaction added: ${obj[i]['Date']}), 
-                From ${obj[i]['From']} to ${obj[i]['To']}, 
-                narrative: ${obj[i]['Narrative']}`);
+            bank.push(new Bank((format(outputDate, 'd-M-yyyy')), inputData[i]['From'], inputData[i]['To'], inputData[i]['Narrative'], amount));
+            logger.info(`Transaction added: ${inputData[i]['Date']}), 
+                From ${inputData[i]['From']} to ${inputData[i]['To']}, 
+                narrative: ${inputData[i]['Narrative']}`);
         }
     }
 }
