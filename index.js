@@ -1,10 +1,14 @@
 const fs = require('fs');
-const csvToObj = require('csv-to-js-parser').csvToObj;
 const readlineSync = require('readline-sync');
 const log4js = require('log4js');
-const logger = log4js.getLogger('dodgyFileName');
+const logger = log4js.getLogger('filename');
 const format = require('date-fns/format');
-const {loadFile} = require('./loadFile');
+const {loadCsvData, loadJsonData} = require('./loadFile');
+const {formatDate,
+    setCsvToInput,
+    setCsvFromInput,
+    setJsonFromInput,
+    setJsonToInput} = require('./inputValidation');
 
 log4js.configure({
     appenders: {
@@ -17,8 +21,17 @@ log4js.configure({
 
 const dodgyFileName = "DodgyTransactions2015.csv";
 const goodFileName = "Transactions2014.csv";
+const jsonFileName = "Transactions2013.json";
 let filename = dodgyFileName;
-let inputData = loadFile(filename);
+let fileType = filename.split('.').pop().toLowerCase();
+const accountData = fs.readFileSync(filename).toString();
+let inputData = [];
+if (fileType === 'csv') {
+    inputData = loadCsvData(accountData);
+}
+if (fileType === 'json') {
+    inputData = loadJsonData(accountData);
+}
 
 class Bank {
         date;
@@ -48,14 +61,14 @@ try {
     for (let i = 0; i < inputData.length; i++) {
         let amount = parseFloat(inputData[i]['Amount'])
 
-        let dateFromFile  = inputData[i]['Date'] //date string in dd/mm/yyyy format
+        let dateFromFile  = inputData[i]['Date'];
+        let outputDate = "";
 
-        let dateArray = dateFromFile.split("/");
-        let day = parseInt(dateArray[0], 10);
-        let month = parseInt(dateArray[1], 10)-1;
-        let year = parseInt(dateArray[2], 10);
-
-        let outputDate = new Date(year, month, day);
+        if (isNaN(Date.parse(dateFromFile))) {
+            outputDate = formatDate(dateFromFile);
+        } else {
+            outputDate = Date.parse(dateFromFile);
+        }
 
         if (isNaN(outputDate)) {
             logger.error(`Date is not valid (${inputData[i]['Date']}), 
@@ -64,10 +77,21 @@ try {
         } else if (isNaN(amount)) {
             logger.error(`Amount (${amount}) is not a number on ${inputData[i]['Date']}: from ${inputData[i]['From']} to ${inputData[i]['To']}`)
         } else {
-            bank.push(new Bank((format(outputDate, 'd-M-yyyy')), inputData[i]['From'], inputData[i]['To'], inputData[i]['Narrative'], amount));
+            let from = "";
+            let to =  "";
+
+            if (fileType === 'csv') {
+                from = setCsvFromInput(inputData, i);
+                to = setCsvToInput(inputData, i);
+            } else if (fileType === 'json') {
+                from = setJsonFromInput(inputData, i);
+                to = setJsonToInput(inputData, i);
+            }
+            bank.push(new Bank((format(outputDate, 'd-M-yyyy')), from, to, inputData[i]['Narrative'], amount));
             logger.info(`Transaction added: ${inputData[i]['Date']}), 
                 From ${inputData[i]['From']} to ${inputData[i]['To']}, 
                 narrative: ${inputData[i]['Narrative']}`);
+
         }
     }
 }
