@@ -46,9 +46,7 @@ let bank = [];
 try {
     for (let i = 0; i < obj.length; i++) {
         let amount = parseFloat(obj[i]['Amount'])
-        if (isNaN(amount)) {
-            logger.error(`Amount is not a number on ${obj[i]['Date']}: from ${obj[i]['From']}: to ${obj[i]['To']}`)
-        }
+
         // let inputDate = format(new Date(obj[i]['Date']), 'yyyy-MM-dd')//Date.parse(obj[i]['Date']);
         let inputDate  = obj[i]['Date'] //date string in dd/mm/yyyy format
 
@@ -60,9 +58,15 @@ try {
         let outputDate = new Date(year, month, day);
 
         if (isNaN(outputDate)) {
-            logger.error(`Date is not valid(${obj[i]['Date']}): from ${obj[i]['From']}: to ${obj[i]['To']} narrative: ${obj[i]['Narrative']}`)
+            logger.error(`Date is not valid (${obj[i]['Date']}), From ${obj[i]['From']} to ${obj[i]['To']}, narrative: ${obj[i]['Narrative']}`)
+        } else if (isNaN(amount)) {
+            logger.error(`Amount (${amount}) is not a number on ${obj[i]['Date']}: from ${obj[i]['From']} to ${obj[i]['To']}`)
+        } else {
+            bank.push(new Bank((format(outputDate, 'd-M-yyyy')), obj[i]['From'], obj[i]['To'], obj[i]['Narrative'], amount));
+            logger.info(`Transaction added: ${obj[i]['Date']}), 
+                From ${obj[i]['From']} to ${obj[i]['To']}, 
+                narrative: ${obj[i]['Narrative']}`);
         }
-        bank.push(new Bank((obj[i]['Date']), obj[i]['From'], obj[i]['To'], obj[i]['Narrative'], amount));
     }
 }
 catch(err) {
@@ -76,16 +80,23 @@ bank.forEach(transaction =>
                     let account = accounts.find(account => account['holder'] === transaction['from']);
                     let balance = parseFloat(account['balance']) - parseFloat(transaction['amount']);
                     account['balance'] = balance.toFixed(2);
+                logger.info(`Balance decremented for ${account['holder']} by ${transaction['amount']}`);
             } else {
                     accounts.push(new Account(transaction['from'], parseFloat(transaction['amount']).toFixed(2) * -1));
+                logger.info(`Account created for ${transaction['to']} 
+                with balance (${parseFloat(transaction['amount']).toFixed(2)}`);
             }
 
             if (accounts.some(account => account['holder'] === transaction['to'])) {
-                    let account = accounts.find(account => account['holder'] === transaction['to']);
-                    let balance = parseFloat(account['balance']) + parseFloat(transaction['amount'])
+                    let account = accounts.find(account =>
+                        account['holder'] === transaction['to']);
+                    let balance = parseFloat(account['balance']) + parseFloat(transaction['amount']);
                     account['balance'] = balance.toFixed(2);
+                logger.info(`Balance incremented for ${account['holder']} by ${transaction['amount']}`);
             } else {
                     accounts.push(new Account(transaction['to'], parseFloat(transaction['amount']).toFixed(2)));
+                logger.info(`Account created for ${transaction['to']} 
+                    with balance (${parseFloat(transaction['amount']).toFixed(2)}`);
             }
     });
 

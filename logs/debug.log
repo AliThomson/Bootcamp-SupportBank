@@ -1,160 +1,259 @@
-[2022-04-22T08:18:10.506] [ERROR] <filename> - Error loading bank
-[2022-04-22T08:54:52.801] [ERROR] <filename> - Amount is not a number on undefined: from undefined: to undefined
-[2022-04-22T08:57:37.989] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T09:02:52.119] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T09:03:08.867] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T09:08:09.532] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T09:08:09.533] [ERROR] dodgyFileName - Date is not valid(13/02/2015): from Laura B: to Gergana I narrative: Beers
-[2022-04-22T09:08:09.534] [ERROR] dodgyFileName - Date is not valid(13/04/2015): from Laura B: to Tim L narrative: Services Rendered
-[2022-04-22T09:08:09.534] [ERROR] dodgyFileName - Date is not valid(15/01/2015): from Todd: to Rob S narrative: Beers
-[2022-04-22T09:08:09.534] [ERROR] dodgyFileName - Date is not valid(15/03/2015): from Todd: to Sam N narrative: Pokemon Training
-[2022-04-22T09:08:09.535] [ERROR] dodgyFileName - Date is not valid(15/04/2015): from Ben B: to Sam N narrative: Lego Assistance
-[2022-04-22T09:08:09.535] [ERROR] dodgyFileName - Date is not valid(16/01/2015): from Laura B: to Jon A narrative: Lego Assistance
-[2022-04-22T09:08:09.535] [ERROR] dodgyFileName - Date is not valid(16/02/2015): from Chris W: to Dan W narrative: Jenkins Fees
-[2022-04-22T09:08:09.536] [ERROR] dodgyFileName - Date is not valid(17/02/2015): from Sarah T: to Dan W narrative: Sandbox Help
-[2022-04-22T09:08:09.536] [ERROR] dodgyFileName - Date is not valid(18/01/2015): from Jon A: to Sarah T narrative: Coffee
-[2022-04-22T09:08:09.537] [ERROR] dodgyFileName - Date is not valid(18/02/2015): from Stephen S: to Rob S narrative: Lego Assistance
-[2022-04-22T09:08:09.537] [ERROR] dodgyFileName - Date is not valid(19/03/2015): from Laura B: to Chris W narrative: Coffee
-[2022-04-22T09:08:09.538] [ERROR] dodgyFileName - Date is not valid(19/04/2015): from Stephen S: to Chris W narrative: White Water Rafting
-[2022-04-22T09:08:09.538] [ERROR] dodgyFileName - Date is not valid(21/02/2015): from Dan W: to Ben B narrative: Pokemon Training
-[2022-04-22T09:08:09.538] [ERROR] dodgyFileName - Date is not valid(21/03/2015): from Jon A: to Gergana I narrative: Beers
-[2022-04-22T09:08:09.539] [ERROR] dodgyFileName - Date is not valid(22/01/2015): from Gergana I: to Todd narrative: Coffee
-[2022-04-22T09:08:09.539] [ERROR] dodgyFileName - Date is not valid(23/04/2015): from Tim L: to Todd narrative: Misc Morale
-[2022-04-22T09:08:09.539] [ERROR] dodgyFileName - Date is not valid(24/01/2015): from Gergana I: to Chris W narrative: Coffee
-[2022-04-22T09:08:09.540] [ERROR] dodgyFileName - Date is not valid(24/02/2015): from Todd: to Gergana I narrative: Coffee
-[2022-04-22T09:08:09.540] [ERROR] dodgyFileName - Date is not valid(24/04/2015): from Tim L: to Sarah T narrative: Arcade Social
-[2022-04-22T09:08:09.541] [ERROR] dodgyFileName - Date is not valid(25/03/2015): from Gergana I: to Ben B narrative: Automated Testing Services
-[2022-04-22T09:08:09.541] [ERROR] dodgyFileName - Date is not valid(26/02/2015): from Stephen S: to Jon A narrative: Pokemon Training
-[2022-04-22T09:08:09.541] [ERROR] dodgyFileName - Date is not valid(26/04/2015): from Jon A: to Todd narrative: Stationary Items
-[2022-04-22T09:08:09.542] [ERROR] dodgyFileName - Date is not valid(27/01/2015): from Laura B: to Tim L narrative: Jenkins Fees
-[2022-04-22T09:08:09.542] [ERROR] dodgyFileName - Date is not valid(27/04/2015): from Ben B: to Jon A narrative: Pokemon Training
-[2022-04-22T09:08:09.543] [ERROR] dodgyFileName - Date is not valid(28/03/2015): from Stephen S: to Tim L narrative: Lunch
-[2022-04-22T09:08:09.543] [ERROR] dodgyFileName - Date is not valid(29/01/2015): from Sam N: to Chris W narrative: Lunch
-[2022-04-22T09:08:09.543] [ERROR] dodgyFileName - Date is not valid(29/03/2015): from Gergana I: to Ben B narrative: Audit and Other Financial Services
-[2022-04-22T09:08:09.544] [ERROR] dodgyFileName - Date is not valid(30/03/2015): from Tim L: to Todd narrative: Pokemon Training
-[2022-04-22T09:08:09.544] [ERROR] dodgyFileName - Date is not valid(Last Thursday): from Sarah T: to Dan W narrative: Beers
-[2022-04-22T09:37:59.640] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T09:37:59.641] [ERROR] dodgyFileName - Date is not valid(13/02/2015): from Laura B: to Gergana I narrative: Beers
-[2022-04-22T09:37:59.642] [ERROR] dodgyFileName - Date is not valid(13/04/2015): from Laura B: to Tim L narrative: Services Rendered
-[2022-04-22T09:37:59.642] [ERROR] dodgyFileName - Date is not valid(15/01/2015): from Todd: to Rob S narrative: Beers
-[2022-04-22T09:37:59.643] [ERROR] dodgyFileName - Date is not valid(15/03/2015): from Todd: to Sam N narrative: Pokemon Training
-[2022-04-22T09:37:59.643] [ERROR] dodgyFileName - Date is not valid(15/04/2015): from Ben B: to Sam N narrative: Lego Assistance
-[2022-04-22T09:37:59.644] [ERROR] dodgyFileName - Date is not valid(16/01/2015): from Laura B: to Jon A narrative: Lego Assistance
-[2022-04-22T09:37:59.644] [ERROR] dodgyFileName - Date is not valid(16/02/2015): from Chris W: to Dan W narrative: Jenkins Fees
-[2022-04-22T09:37:59.645] [ERROR] dodgyFileName - Date is not valid(17/02/2015): from Sarah T: to Dan W narrative: Sandbox Help
-[2022-04-22T09:37:59.645] [ERROR] dodgyFileName - Date is not valid(18/01/2015): from Jon A: to Sarah T narrative: Coffee
-[2022-04-22T09:37:59.646] [ERROR] dodgyFileName - Date is not valid(18/02/2015): from Stephen S: to Rob S narrative: Lego Assistance
-[2022-04-22T09:37:59.646] [ERROR] dodgyFileName - Date is not valid(19/03/2015): from Laura B: to Chris W narrative: Coffee
-[2022-04-22T09:37:59.647] [ERROR] dodgyFileName - Date is not valid(19/04/2015): from Stephen S: to Chris W narrative: White Water Rafting
-[2022-04-22T09:37:59.647] [ERROR] dodgyFileName - Date is not valid(21/02/2015): from Dan W: to Ben B narrative: Pokemon Training
-[2022-04-22T09:37:59.647] [ERROR] dodgyFileName - Date is not valid(21/03/2015): from Jon A: to Gergana I narrative: Beers
-[2022-04-22T09:37:59.648] [ERROR] dodgyFileName - Date is not valid(22/01/2015): from Gergana I: to Todd narrative: Coffee
-[2022-04-22T09:37:59.648] [ERROR] dodgyFileName - Date is not valid(23/04/2015): from Tim L: to Todd narrative: Misc Morale
-[2022-04-22T09:37:59.649] [ERROR] dodgyFileName - Date is not valid(24/01/2015): from Gergana I: to Chris W narrative: Coffee
-[2022-04-22T09:37:59.649] [ERROR] dodgyFileName - Date is not valid(24/02/2015): from Todd: to Gergana I narrative: Coffee
-[2022-04-22T09:37:59.650] [ERROR] dodgyFileName - Date is not valid(24/04/2015): from Tim L: to Sarah T narrative: Arcade Social
-[2022-04-22T09:37:59.650] [ERROR] dodgyFileName - Date is not valid(25/03/2015): from Gergana I: to Ben B narrative: Automated Testing Services
-[2022-04-22T09:37:59.651] [ERROR] dodgyFileName - Date is not valid(26/02/2015): from Stephen S: to Jon A narrative: Pokemon Training
-[2022-04-22T09:37:59.651] [ERROR] dodgyFileName - Date is not valid(26/04/2015): from Jon A: to Todd narrative: Stationary Items
-[2022-04-22T09:37:59.652] [ERROR] dodgyFileName - Date is not valid(27/01/2015): from Laura B: to Tim L narrative: Jenkins Fees
-[2022-04-22T09:37:59.652] [ERROR] dodgyFileName - Date is not valid(27/04/2015): from Ben B: to Jon A narrative: Pokemon Training
-[2022-04-22T09:37:59.653] [ERROR] dodgyFileName - Date is not valid(28/03/2015): from Stephen S: to Tim L narrative: Lunch
-[2022-04-22T09:37:59.653] [ERROR] dodgyFileName - Date is not valid(29/01/2015): from Sam N: to Chris W narrative: Lunch
-[2022-04-22T09:37:59.653] [ERROR] dodgyFileName - Date is not valid(29/03/2015): from Gergana I: to Ben B narrative: Audit and Other Financial Services
-[2022-04-22T09:37:59.654] [ERROR] dodgyFileName - Date is not valid(30/03/2015): from Tim L: to Todd narrative: Pokemon Training
-[2022-04-22T09:37:59.654] [ERROR] dodgyFileName - Date is not valid(Last Thursday): from Sarah T: to Dan W narrative: Beers
-[2022-04-22T09:49:08.899] [ERROR] dodgyFileName - RangeError: Invalid time value
-    at format (C:\Work\Training\Bootcamp-SupportBank\node_modules\date-fns\format\index.js:392:11)
-    at Object.<anonymous> (C:\Work\Training\Bootcamp-SupportBank\index.js:52:25)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
-    at internal/main/run_main_module.js:17:47
-[2022-04-22T09:52:29.762] [ERROR] dodgyFileName - Date is not valid(01/01/2015): from Laura B: to Sarah T narrative: Misc Morale
-[2022-04-22T09:52:29.763] [ERROR] dodgyFileName - Date is not valid(01/02/2015): from Stephen S: to Laura B narrative: Coffee
-[2022-04-22T09:52:29.764] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T09:52:29.764] [ERROR] dodgyFileName - Date is not valid(01/03/2015): from Ben B: to Sam N narrative: Lunch
-[2022-04-22T09:52:29.764] [ERROR] dodgyFileName - Date is not valid(02/02/2015): from Stephen S: to Rob S narrative: Fantasy Football
-[2022-04-22T09:52:29.765] [ERROR] dodgyFileName - Date is not valid(02/03/2015): from Todd: to Chris W narrative: Sandbox Help
-[2022-04-22T09:52:29.765] [ERROR] dodgyFileName - Date is not valid(02/04/2015): from Stephen S: to Chris W narrative: Pokemon Training
-[2022-04-22T09:52:29.766] [ERROR] dodgyFileName - Date is not valid(04/01/2015): from Stephen S: to Gergana I narrative: Lunch
-[2022-04-22T09:52:29.766] [ERROR] dodgyFileName - Date is not valid(04/02/2015): from Rob S: to Stephen S narrative: Fantasy Football
-[2022-04-22T09:52:29.766] [ERROR] dodgyFileName - Date is not valid(04/03/2015): from Laura B: to Jon A narrative: Sandcastle Help
-[2022-04-22T09:52:29.767] [ERROR] dodgyFileName - Date is not valid(05/04/2015): from Chris W: to Ben B narrative: Lunch
-[2022-04-22T09:52:29.767] [ERROR] dodgyFileName - Date is not valid(06/02/2015): from Dan W: to Gergana I narrative: Automated Testing Services
-[2022-04-22T09:52:29.768] [ERROR] dodgyFileName - Date is not valid(06/03/2015): from Stephen S: to Gergana I narrative: Lego Assistance
-[2022-04-22T09:52:29.768] [ERROR] dodgyFileName - Date is not valid(07/01/2015): from Ben B: to Jon A narrative: Fantasy Football
-[2022-04-22T09:52:29.768] [ERROR] dodgyFileName - Date is not valid(07/02/2015): from Jon A: to Chris W narrative: Rails Consultancy
-[2022-04-22T09:52:29.769] [ERROR] dodgyFileName - Date is not valid(08/03/2015): from Ben B: to Sam N narrative: Pokemon Training
-[2022-04-22T09:52:29.769] [ERROR] dodgyFileName - Date is not valid(09/04/2015): from Chris W: to Rob S narrative: Audit and Other Financial Services
-[2022-04-22T09:52:29.769] [ERROR] dodgyFileName - Date is not valid(10/02/2015): from Sam N: to Gergana I narrative: Sandbox Help
-[2022-04-22T09:52:29.770] [ERROR] dodgyFileName - Date is not valid(11/01/2015): from Ben B: to Todd narrative: Lunch
-[2022-04-22T09:52:29.770] [ERROR] dodgyFileName - Date is not valid(11/02/2015): from Chris W: to Stephen S narrative: Misc Morale
-[2022-04-22T09:52:29.770] [ERROR] dodgyFileName - Date is not valid(11/03/2015): from Stephen S: to Jon A narrative: Sandcastle Help
-[2022-04-22T09:52:29.771] [ERROR] dodgyFileName - Date is not valid(12/01/2015): from Laura B: to Ben B narrative: Beers
-[2022-04-22T09:52:29.771] [ERROR] dodgyFileName - Date is not valid(12/04/2015): from Gergana I: to Laura B narrative: Stationary Items
-[2022-04-22T09:52:29.772] [ERROR] dodgyFileName - RangeError: Invalid time value
-    at format (C:\Work\Training\Bootcamp-SupportBank\node_modules\date-fns\format\index.js:392:11)
-    at Object.<anonymous> (C:\Work\Training\Bootcamp-SupportBank\index.js:52:25)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
-    at internal/main/run_main_module.js:17:47
-[2022-04-22T09:54:15.757] [ERROR] dodgyFileName - TypeError: Date.parse is not a constructor
-    at Object.<anonymous> (C:\Work\Training\Bootcamp-SupportBank\index.js:52:32)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
-    at internal/main/run_main_module.js:17:47
-[2022-04-22T10:19:06.053] [ERROR] dodgyFileName - Date is not valid(01/01/2015): from Laura B: to Sarah T narrative: Misc Morale
-[2022-04-22T10:19:06.054] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T10:19:06.055] [ERROR] dodgyFileName - Date is not valid(04/01/2015): from Stephen S: to Gergana I narrative: Lunch
-[2022-04-22T10:19:06.055] [ERROR] dodgyFileName - Date is not valid(07/01/2015): from Ben B: to Jon A narrative: Fantasy Football
-[2022-04-22T10:19:06.056] [ERROR] dodgyFileName - Date is not valid(11/01/2015): from Ben B: to Todd narrative: Lunch
-[2022-04-22T10:19:06.056] [ERROR] dodgyFileName - Date is not valid(12/01/2015): from Laura B: to Ben B narrative: Beers
-[2022-04-22T10:19:06.056] [ERROR] dodgyFileName - Date is not valid(15/01/2015): from Todd: to Rob S narrative: Beers
-[2022-04-22T10:19:06.057] [ERROR] dodgyFileName - Date is not valid(16/01/2015): from Laura B: to Jon A narrative: Lego Assistance
-[2022-04-22T10:19:06.057] [ERROR] dodgyFileName - Date is not valid(18/01/2015): from Jon A: to Sarah T narrative: Coffee
-[2022-04-22T10:19:06.058] [ERROR] dodgyFileName - Date is not valid(22/01/2015): from Gergana I: to Todd narrative: Coffee
-[2022-04-22T10:19:06.058] [ERROR] dodgyFileName - Date is not valid(24/01/2015): from Gergana I: to Chris W narrative: Coffee
-[2022-04-22T10:19:06.058] [ERROR] dodgyFileName - Date is not valid(27/01/2015): from Laura B: to Tim L narrative: Jenkins Fees
-[2022-04-22T10:19:06.059] [ERROR] dodgyFileName - Date is not valid(29/01/2015): from Sam N: to Chris W narrative: Lunch
-[2022-04-22T10:19:06.059] [ERROR] dodgyFileName - Date is not valid(Last Thursday): from Sarah T: to Dan W narrative: Beers
-[2022-04-22T10:32:20.119] [ERROR] dodgyFileName - Date is not valid(01/01/2015): from Laura B: to Sarah T narrative: Misc Morale
-[2022-04-22T10:32:20.122] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T10:32:20.122] [ERROR] dodgyFileName - Date is not valid(04/01/2015): from Stephen S: to Gergana I narrative: Lunch
-[2022-04-22T10:32:20.123] [ERROR] dodgyFileName - Date is not valid(07/01/2015): from Ben B: to Jon A narrative: Fantasy Football
-[2022-04-22T10:32:20.123] [ERROR] dodgyFileName - Date is not valid(11/01/2015): from Ben B: to Todd narrative: Lunch
-[2022-04-22T10:32:20.124] [ERROR] dodgyFileName - Date is not valid(12/01/2015): from Laura B: to Ben B narrative: Beers
-[2022-04-22T10:32:20.124] [ERROR] dodgyFileName - Date is not valid(15/01/2015): from Todd: to Rob S narrative: Beers
-[2022-04-22T10:32:20.124] [ERROR] dodgyFileName - Date is not valid(16/01/2015): from Laura B: to Jon A narrative: Lego Assistance
-[2022-04-22T10:32:20.125] [ERROR] dodgyFileName - Date is not valid(18/01/2015): from Jon A: to Sarah T narrative: Coffee
-[2022-04-22T10:32:20.125] [ERROR] dodgyFileName - Date is not valid(22/01/2015): from Gergana I: to Todd narrative: Coffee
-[2022-04-22T10:32:20.126] [ERROR] dodgyFileName - Date is not valid(24/01/2015): from Gergana I: to Chris W narrative: Coffee
-[2022-04-22T10:32:20.126] [ERROR] dodgyFileName - Date is not valid(27/01/2015): from Laura B: to Tim L narrative: Jenkins Fees
-[2022-04-22T10:32:20.127] [ERROR] dodgyFileName - Date is not valid(29/01/2015): from Sam N: to Chris W narrative: Lunch
-[2022-04-22T10:32:20.127] [ERROR] dodgyFileName - Date is not valid(Last Thursday): from Sarah T: to Dan W narrative: Beers
-[2022-04-22T10:53:22.811] [ERROR] dodgyFileName - Date is not valid(01/01/2015): from Laura B: to Sarah T narrative: Misc Morale
-[2022-04-22T10:53:22.814] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T10:53:22.815] [ERROR] dodgyFileName - Date is not valid(04/01/2015): from Stephen S: to Gergana I narrative: Lunch
-[2022-04-22T10:53:22.816] [ERROR] dodgyFileName - Date is not valid(07/01/2015): from Ben B: to Jon A narrative: Fantasy Football
-[2022-04-22T10:53:22.818] [ERROR] dodgyFileName - Date is not valid(11/01/2015): from Ben B: to Todd narrative: Lunch
-[2022-04-22T10:53:22.819] [ERROR] dodgyFileName - Date is not valid(12/01/2015): from Laura B: to Ben B narrative: Beers
-[2022-04-22T10:53:22.820] [ERROR] dodgyFileName - Date is not valid(15/01/2015): from Todd: to Rob S narrative: Beers
-[2022-04-22T10:53:22.822] [ERROR] dodgyFileName - Date is not valid(16/01/2015): from Laura B: to Jon A narrative: Lego Assistance
-[2022-04-22T10:53:22.823] [ERROR] dodgyFileName - Date is not valid(18/01/2015): from Jon A: to Sarah T narrative: Coffee
-[2022-04-22T10:53:22.825] [ERROR] dodgyFileName - Date is not valid(22/01/2015): from Gergana I: to Todd narrative: Coffee
-[2022-04-22T10:53:22.826] [ERROR] dodgyFileName - Date is not valid(24/01/2015): from Gergana I: to Chris W narrative: Coffee
-[2022-04-22T10:53:22.828] [ERROR] dodgyFileName - Date is not valid(27/01/2015): from Laura B: to Tim L narrative: Jenkins Fees
-[2022-04-22T10:53:22.829] [ERROR] dodgyFileName - Date is not valid(29/01/2015): from Sam N: to Chris W narrative: Lunch
-[2022-04-22T10:53:22.830] [ERROR] dodgyFileName - Date is not valid(Last Thursday): from Sarah T: to Dan W narrative: Beers
-[2022-04-22T10:58:58.838] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T10:58:58.844] [ERROR] dodgyFileName - Date is not valid(Last Thursday): from Sarah T: to Dan W narrative: Beers
-[2022-04-22T10:59:27.913] [ERROR] dodgyFileName - Amount is not a number on 01/03/2015: from Ben B: to Sam N
-[2022-04-22T10:59:27.914] [ERROR] dodgyFileName - Date is not valid(Last Thursday): from Sarah T: to Dan W narrative: Beers
+[2022-04-22T11:59:10.559] [INFO] dodgyFileName - Transaction added: 01/01/2015), 
+                From Laura B to Sarah T, 
+                narrative: Misc Morale
+[2022-04-22T11:59:10.560] [INFO] dodgyFileName - Transaction added: 01/02/2015), 
+                From Stephen S to Laura B, 
+                narrative: Coffee
+[2022-04-22T11:59:10.561] [ERROR] dodgyFileName - Amount (NaN) is not a number on 01/03/2015: from Ben B to Sam N
+[2022-04-22T11:59:10.561] [INFO] dodgyFileName - Transaction added: 02/02/2015), 
+                From Stephen S to Rob S, 
+                narrative: Fantasy Football
+[2022-04-22T11:59:10.561] [INFO] dodgyFileName - Transaction added: 02/03/2015), 
+                From Todd to Chris W, 
+                narrative: Sandbox Help
+[2022-04-22T11:59:10.562] [INFO] dodgyFileName - Transaction added: 02/04/2015), 
+                From Stephen S to Chris W, 
+                narrative: Pokemon Training
+[2022-04-22T11:59:10.562] [INFO] dodgyFileName - Transaction added: 04/01/2015), 
+                From Stephen S to Gergana I, 
+                narrative: Lunch
+[2022-04-22T11:59:10.563] [INFO] dodgyFileName - Transaction added: 04/02/2015), 
+                From Rob S to Stephen S, 
+                narrative: Fantasy Football
+[2022-04-22T11:59:10.563] [INFO] dodgyFileName - Transaction added: 04/03/2015), 
+                From Laura B to Jon A, 
+                narrative: Sandcastle Help
+[2022-04-22T11:59:10.563] [INFO] dodgyFileName - Transaction added: 05/04/2015), 
+                From Chris W to Ben B, 
+                narrative: Lunch
+[2022-04-22T11:59:10.564] [INFO] dodgyFileName - Transaction added: 06/02/2015), 
+                From Dan W to Gergana I, 
+                narrative: Automated Testing Services
+[2022-04-22T11:59:10.564] [INFO] dodgyFileName - Transaction added: 06/03/2015), 
+                From Stephen S to Gergana I, 
+                narrative: Lego Assistance
+[2022-04-22T11:59:10.565] [INFO] dodgyFileName - Transaction added: 07/01/2015), 
+                From Ben B to Jon A, 
+                narrative: Fantasy Football
+[2022-04-22T11:59:10.565] [INFO] dodgyFileName - Transaction added: 07/02/2015), 
+                From Jon A to Chris W, 
+                narrative: Rails Consultancy
+[2022-04-22T11:59:10.565] [INFO] dodgyFileName - Transaction added: 08/03/2015), 
+                From Ben B to Sam N, 
+                narrative: Pokemon Training
+[2022-04-22T11:59:10.566] [INFO] dodgyFileName - Transaction added: 09/04/2015), 
+                From Chris W to Rob S, 
+                narrative: Audit and Other Financial Services
+[2022-04-22T11:59:10.566] [INFO] dodgyFileName - Transaction added: 10/02/2015), 
+                From Sam N to Gergana I, 
+                narrative: Sandbox Help
+[2022-04-22T11:59:10.567] [INFO] dodgyFileName - Transaction added: 11/01/2015), 
+                From Ben B to Todd, 
+                narrative: Lunch
+[2022-04-22T11:59:10.567] [INFO] dodgyFileName - Transaction added: 11/02/2015), 
+                From Chris W to Stephen S, 
+                narrative: Misc Morale
+[2022-04-22T11:59:10.567] [INFO] dodgyFileName - Transaction added: 11/03/2015), 
+                From Stephen S to Jon A, 
+                narrative: Sandcastle Help
+[2022-04-22T11:59:10.568] [INFO] dodgyFileName - Transaction added: 12/01/2015), 
+                From Laura B to Ben B, 
+                narrative: Beers
+[2022-04-22T11:59:10.568] [INFO] dodgyFileName - Transaction added: 12/04/2015), 
+                From Gergana I to Laura B, 
+                narrative: Stationary Items
+[2022-04-22T11:59:10.569] [INFO] dodgyFileName - Transaction added: 13/02/2015), 
+                From Laura B to Gergana I, 
+                narrative: Beers
+[2022-04-22T11:59:10.569] [INFO] dodgyFileName - Transaction added: 13/04/2015), 
+                From Laura B to Tim L, 
+                narrative: Services Rendered
+[2022-04-22T11:59:10.570] [INFO] dodgyFileName - Transaction added: 15/01/2015), 
+                From Todd to Rob S, 
+                narrative: Beers
+[2022-04-22T11:59:10.570] [INFO] dodgyFileName - Transaction added: 15/03/2015), 
+                From Todd to Sam N, 
+                narrative: Pokemon Training
+[2022-04-22T11:59:10.570] [INFO] dodgyFileName - Transaction added: 15/04/2015), 
+                From Ben B to Sam N, 
+                narrative: Lego Assistance
+[2022-04-22T11:59:10.571] [INFO] dodgyFileName - Transaction added: 16/01/2015), 
+                From Laura B to Jon A, 
+                narrative: Lego Assistance
+[2022-04-22T11:59:10.571] [INFO] dodgyFileName - Transaction added: 16/02/2015), 
+                From Chris W to Dan W, 
+                narrative: Jenkins Fees
+[2022-04-22T11:59:10.572] [INFO] dodgyFileName - Transaction added: 17/02/2015), 
+                From Sarah T to Dan W, 
+                narrative: Sandbox Help
+[2022-04-22T11:59:10.572] [INFO] dodgyFileName - Transaction added: 18/01/2015), 
+                From Jon A to Sarah T, 
+                narrative: Coffee
+[2022-04-22T11:59:10.573] [INFO] dodgyFileName - Transaction added: 18/02/2015), 
+                From Stephen S to Rob S, 
+                narrative: Lego Assistance
+[2022-04-22T11:59:10.573] [INFO] dodgyFileName - Transaction added: 19/03/2015), 
+                From Laura B to Chris W, 
+                narrative: Coffee
+[2022-04-22T11:59:10.573] [INFO] dodgyFileName - Transaction added: 19/04/2015), 
+                From Stephen S to Chris W, 
+                narrative: White Water Rafting
+[2022-04-22T11:59:10.574] [INFO] dodgyFileName - Transaction added: 21/02/2015), 
+                From Dan W to Ben B, 
+                narrative: Pokemon Training
+[2022-04-22T11:59:10.574] [INFO] dodgyFileName - Transaction added: 21/03/2015), 
+                From Jon A to Gergana I, 
+                narrative: Beers
+[2022-04-22T11:59:10.575] [INFO] dodgyFileName - Transaction added: 22/01/2015), 
+                From Gergana I to Todd, 
+                narrative: Coffee
+[2022-04-22T11:59:10.575] [INFO] dodgyFileName - Transaction added: 23/04/2015), 
+                From Tim L to Todd, 
+                narrative: Misc Morale
+[2022-04-22T11:59:10.576] [INFO] dodgyFileName - Transaction added: 24/01/2015), 
+                From Gergana I to Chris W, 
+                narrative: Coffee
+[2022-04-22T11:59:10.576] [INFO] dodgyFileName - Transaction added: 24/02/2015), 
+                From Todd to Gergana I, 
+                narrative: Coffee
+[2022-04-22T11:59:10.577] [INFO] dodgyFileName - Transaction added: 24/04/2015), 
+                From Tim L to Sarah T, 
+                narrative: Arcade Social
+[2022-04-22T11:59:10.577] [INFO] dodgyFileName - Transaction added: 25/03/2015), 
+                From Gergana I to Ben B, 
+                narrative: Automated Testing Services
+[2022-04-22T11:59:10.577] [INFO] dodgyFileName - Transaction added: 26/02/2015), 
+                From Stephen S to Jon A, 
+                narrative: Pokemon Training
+[2022-04-22T11:59:10.578] [INFO] dodgyFileName - Transaction added: 26/04/2015), 
+                From Jon A to Todd, 
+                narrative: Stationary Items
+[2022-04-22T11:59:10.578] [INFO] dodgyFileName - Transaction added: 27/01/2015), 
+                From Laura B to Tim L, 
+                narrative: Jenkins Fees
+[2022-04-22T11:59:10.579] [INFO] dodgyFileName - Transaction added: 27/04/2015), 
+                From Ben B to Jon A, 
+                narrative: Pokemon Training
+[2022-04-22T11:59:10.579] [INFO] dodgyFileName - Transaction added: 28/03/2015), 
+                From Stephen S to Tim L, 
+                narrative: Lunch
+[2022-04-22T11:59:10.580] [INFO] dodgyFileName - Transaction added: 29/01/2015), 
+                From Sam N to Chris W, 
+                narrative: Lunch
+[2022-04-22T11:59:10.580] [INFO] dodgyFileName - Transaction added: 29/03/2015), 
+                From Gergana I to Ben B, 
+                narrative: Audit and Other Financial Services
+[2022-04-22T11:59:10.580] [INFO] dodgyFileName - Transaction added: 30/03/2015), 
+                From Tim L to Todd, 
+                narrative: Pokemon Training
+[2022-04-22T11:59:10.581] [ERROR] dodgyFileName - Date is not valid (Last Thursday), From Sarah T to Dan W, narrative: Beers
+[2022-04-22T11:59:10.581] [INFO] dodgyFileName - Account created for Sarah T 
+                with balance (10.54
+[2022-04-22T11:59:10.582] [INFO] dodgyFileName - Account created for Sarah T 
+                    with balance (10.54
+[2022-04-22T11:59:10.582] [INFO] dodgyFileName - Account created for Laura B 
+                with balance (7.53
+[2022-04-22T11:59:10.583] [INFO] dodgyFileName - Balance incremented for Laura B by 7.53
+[2022-04-22T11:59:10.583] [INFO] dodgyFileName - Balance decremented for Stephen S by 7.43
+[2022-04-22T11:59:10.583] [INFO] dodgyFileName - Account created for Rob S 
+                    with balance (7.43
+[2022-04-22T11:59:10.584] [INFO] dodgyFileName - Account created for Chris W 
+                with balance (1.92
+[2022-04-22T11:59:10.584] [INFO] dodgyFileName - Account created for Chris W 
+                    with balance (1.92
+[2022-04-22T11:59:10.585] [INFO] dodgyFileName - Balance decremented for Stephen S by 1.11
+[2022-04-22T11:59:10.585] [INFO] dodgyFileName - Balance incremented for Chris W by 1.11
+[2022-04-22T11:59:10.585] [INFO] dodgyFileName - Balance decremented for Stephen S by 3.22
+[2022-04-22T11:59:10.586] [INFO] dodgyFileName - Account created for Gergana I 
+                    with balance (3.22
+[2022-04-22T11:59:10.586] [INFO] dodgyFileName - Balance decremented for Rob S by 5.78
+[2022-04-22T11:59:10.587] [INFO] dodgyFileName - Balance incremented for Stephen S by 5.78
+[2022-04-22T11:59:10.587] [INFO] dodgyFileName - Balance decremented for Laura B by 9.09
+[2022-04-22T11:59:10.588] [INFO] dodgyFileName - Account created for Jon A 
+                    with balance (9.09
+[2022-04-22T11:59:10.588] [INFO] dodgyFileName - Balance decremented for Chris W by 0.96
+[2022-04-22T11:59:10.588] [INFO] dodgyFileName - Account created for Ben B 
+                    with balance (0.96
+[2022-04-22T11:59:10.589] [INFO] dodgyFileName - Account created for Gergana I 
+                with balance (10.29
+[2022-04-22T11:59:10.589] [INFO] dodgyFileName - Balance incremented for Gergana I by 10.29
+[2022-04-22T11:59:10.590] [INFO] dodgyFileName - Balance decremented for Stephen S by 9.4
+[2022-04-22T11:59:10.590] [INFO] dodgyFileName - Balance incremented for Gergana I by 9.4
+[2022-04-22T11:59:10.591] [INFO] dodgyFileName - Balance decremented for Ben B by 9.93
+[2022-04-22T11:59:10.591] [INFO] dodgyFileName - Balance incremented for Jon A by 9.93
+[2022-04-22T11:59:10.591] [INFO] dodgyFileName - Balance decremented for Jon A by 7.37
+[2022-04-22T11:59:10.592] [INFO] dodgyFileName - Balance incremented for Chris W by 7.37
+[2022-04-22T11:59:10.592] [INFO] dodgyFileName - Balance decremented for Ben B by 11.32
+[2022-04-22T11:59:10.593] [INFO] dodgyFileName - Account created for Sam N 
+                    with balance (11.32
+[2022-04-22T11:59:10.593] [INFO] dodgyFileName - Balance decremented for Chris W by 11.79
+[2022-04-22T11:59:10.594] [INFO] dodgyFileName - Balance incremented for Rob S by 11.79
+[2022-04-22T11:59:10.594] [INFO] dodgyFileName - Balance decremented for Sam N by 9.84
+[2022-04-22T11:59:10.595] [INFO] dodgyFileName - Balance incremented for Gergana I by 9.84
+[2022-04-22T11:59:10.595] [INFO] dodgyFileName - Balance decremented for Ben B by 7.33
+[2022-04-22T11:59:10.596] [INFO] dodgyFileName - Balance incremented for Todd by 7.33
+[2022-04-22T11:59:10.596] [INFO] dodgyFileName - Balance decremented for Chris W by 0.68
+[2022-04-22T11:59:10.597] [INFO] dodgyFileName - Balance incremented for Stephen S by 0.68
+[2022-04-22T11:59:10.597] [INFO] dodgyFileName - Balance decremented for Stephen S by 11.57
+[2022-04-22T11:59:10.597] [INFO] dodgyFileName - Balance incremented for Jon A by 11.57
+[2022-04-22T11:59:10.598] [INFO] dodgyFileName - Balance decremented for Laura B by 8.94
+[2022-04-22T11:59:10.598] [INFO] dodgyFileName - Balance incremented for Ben B by 8.94
+[2022-04-22T11:59:10.599] [INFO] dodgyFileName - Balance decremented for Gergana I by 8.37
+[2022-04-22T11:59:10.599] [INFO] dodgyFileName - Balance incremented for Laura B by 8.37
+[2022-04-22T11:59:10.599] [INFO] dodgyFileName - Balance decremented for Laura B by 6.56
+[2022-04-22T11:59:10.600] [INFO] dodgyFileName - Balance incremented for Gergana I by 6.56
+[2022-04-22T11:59:10.600] [INFO] dodgyFileName - Balance decremented for Laura B by 1.27
+[2022-04-22T11:59:10.601] [INFO] dodgyFileName - Account created for Tim L 
+                    with balance (1.27
+[2022-04-22T11:59:10.601] [INFO] dodgyFileName - Balance decremented for Todd by 10.19
+[2022-04-22T11:59:10.602] [INFO] dodgyFileName - Balance incremented for Rob S by 10.19
+[2022-04-22T11:59:10.602] [INFO] dodgyFileName - Balance decremented for Todd by 2.29
+[2022-04-22T11:59:10.602] [INFO] dodgyFileName - Balance incremented for Sam N by 2.29
+[2022-04-22T11:59:10.603] [INFO] dodgyFileName - Balance decremented for Ben B by 8.5
+[2022-04-22T11:59:10.603] [INFO] dodgyFileName - Balance incremented for Sam N by 8.5
+[2022-04-22T11:59:10.604] [INFO] dodgyFileName - Balance decremented for Laura B by 0.69
+[2022-04-22T11:59:10.604] [INFO] dodgyFileName - Balance incremented for Jon A by 0.69
+[2022-04-22T11:59:10.604] [INFO] dodgyFileName - Balance decremented for Chris W by 1.28
+[2022-04-22T11:59:10.605] [INFO] dodgyFileName - Balance incremented for Dan W by 1.28
+[2022-04-22T11:59:10.605] [INFO] dodgyFileName - Balance decremented for Sarah T by 11.48
+[2022-04-22T11:59:10.606] [INFO] dodgyFileName - Balance incremented for Dan W by 11.48
+[2022-04-22T11:59:10.606] [INFO] dodgyFileName - Balance decremented for Jon A by 10.73
+[2022-04-22T11:59:10.606] [INFO] dodgyFileName - Balance incremented for Sarah T by 10.73
+[2022-04-22T11:59:10.607] [INFO] dodgyFileName - Balance decremented for Stephen S by 4.83
+[2022-04-22T11:59:10.607] [INFO] dodgyFileName - Balance incremented for Rob S by 4.83
+[2022-04-22T11:59:10.608] [INFO] dodgyFileName - Balance decremented for Laura B by 9.96
+[2022-04-22T11:59:10.608] [INFO] dodgyFileName - Balance incremented for Chris W by 9.96
+[2022-04-22T11:59:10.609] [INFO] dodgyFileName - Balance decremented for Stephen S by 8.91
+[2022-04-22T11:59:10.609] [INFO] dodgyFileName - Balance incremented for Chris W by 8.91
+[2022-04-22T11:59:10.609] [INFO] dodgyFileName - Balance decremented for Dan W by 0.5
+[2022-04-22T11:59:10.610] [INFO] dodgyFileName - Balance incremented for Ben B by 0.5
+[2022-04-22T11:59:10.610] [INFO] dodgyFileName - Balance decremented for Jon A by 7.54
+[2022-04-22T11:59:10.611] [INFO] dodgyFileName - Balance incremented for Gergana I by 7.54
+[2022-04-22T11:59:10.611] [INFO] dodgyFileName - Balance decremented for Gergana I by 0.8
+[2022-04-22T11:59:10.611] [INFO] dodgyFileName - Balance incremented for Todd by 0.8
+[2022-04-22T11:59:10.612] [INFO] dodgyFileName - Balance decremented for Tim L by 8.1
+[2022-04-22T11:59:10.612] [INFO] dodgyFileName - Balance incremented for Todd by 8.1
+[2022-04-22T11:59:10.613] [INFO] dodgyFileName - Balance decremented for Gergana I by 8.49
+[2022-04-22T11:59:10.613] [INFO] dodgyFileName - Balance incremented for Chris W by 8.49
+[2022-04-22T11:59:10.613] [INFO] dodgyFileName - Balance decremented for Todd by 9.08
+[2022-04-22T11:59:10.614] [INFO] dodgyFileName - Balance incremented for Gergana I by 9.08
+[2022-04-22T11:59:10.614] [INFO] dodgyFileName - Balance decremented for Tim L by 6.38
+[2022-04-22T11:59:10.615] [INFO] dodgyFileName - Balance incremented for Sarah T by 6.38
+[2022-04-22T11:59:10.615] [INFO] dodgyFileName - Balance decremented for Gergana I by 2.39
+[2022-04-22T11:59:10.616] [INFO] dodgyFileName - Balance incremented for Ben B by 2.39
+[2022-04-22T11:59:10.617] [INFO] dodgyFileName - Balance decremented for Stephen S by 4.23
+[2022-04-22T11:59:10.617] [INFO] dodgyFileName - Balance incremented for Jon A by 4.23
+[2022-04-22T11:59:10.617] [INFO] dodgyFileName - Balance decremented for Jon A by 8.44
+[2022-04-22T11:59:10.618] [INFO] dodgyFileName - Balance incremented for Todd by 8.44
+[2022-04-22T11:59:10.618] [INFO] dodgyFileName - Balance decremented for Laura B by 0.52
+[2022-04-22T11:59:10.619] [INFO] dodgyFileName - Balance incremented for Tim L by 0.52
+[2022-04-22T11:59:10.619] [INFO] dodgyFileName - Balance decremented for Ben B by 10.91
+[2022-04-22T11:59:10.619] [INFO] dodgyFileName - Balance incremented for Jon A by 10.91
+[2022-04-22T11:59:10.620] [INFO] dodgyFileName - Balance decremented for Stephen S by 5.83
+[2022-04-22T11:59:10.620] [INFO] dodgyFileName - Balance incremented for Tim L by 5.83
+[2022-04-22T11:59:10.621] [INFO] dodgyFileName - Balance decremented for Sam N by 9.01
+[2022-04-22T11:59:10.621] [INFO] dodgyFileName - Balance incremented for Chris W by 9.01
+[2022-04-22T11:59:10.622] [INFO] dodgyFileName - Balance decremented for Gergana I by 10.85
+[2022-04-22T11:59:10.622] [INFO] dodgyFileName - Balance incremented for Ben B by 10.85
+[2022-04-22T11:59:10.623] [INFO] dodgyFileName - Balance decremented for Tim L by 8.6
+[2022-04-22T11:59:10.623] [INFO] dodgyFileName - Balance incremented for Todd by 8.6
