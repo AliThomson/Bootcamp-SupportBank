@@ -2270,3 +2270,2018 @@
 [2022-04-22T16:17:34.343] [INFO] filename - Balance incremented for Ben B by 10.85
 [2022-04-22T16:17:34.344] [INFO] filename - Balance decremented for Tim L by 8.6
 [2022-04-22T16:17:34.344] [INFO] filename - Balance incremented for Todd by 8.6
+[2022-04-22T16:37:18.491] [INFO] filename - Transaction added: 01/01/2015), 
+                From Laura B to Sarah T, 
+                narrative: Misc Morale
+[2022-04-22T16:37:18.493] [INFO] filename - Transaction added: 01/02/2015), 
+                From Stephen S to Laura B, 
+                narrative: Coffee
+[2022-04-22T16:37:18.493] [ERROR] filename - Amount (NaN) is not a number on 01/03/2015: from Ben B to Sam N
+[2022-04-22T16:37:18.494] [INFO] filename - Transaction added: 02/02/2015), 
+                From Stephen S to Rob S, 
+                narrative: Fantasy Football
+[2022-04-22T16:37:18.494] [INFO] filename - Transaction added: 02/03/2015), 
+                From Todd to Chris W, 
+                narrative: Sandbox Help
+[2022-04-22T16:37:18.494] [INFO] filename - Transaction added: 02/04/2015), 
+                From Stephen S to Chris W, 
+                narrative: Pokemon Training
+[2022-04-22T16:37:18.495] [INFO] filename - Transaction added: 04/01/2015), 
+                From Stephen S to Gergana I, 
+                narrative: Lunch
+[2022-04-22T16:37:18.495] [INFO] filename - Transaction added: 04/02/2015), 
+                From Rob S to Stephen S, 
+                narrative: Fantasy Football
+[2022-04-22T16:37:18.495] [INFO] filename - Transaction added: 04/03/2015), 
+                From Laura B to Jon A, 
+                narrative: Sandcastle Help
+[2022-04-22T16:37:18.496] [INFO] filename - Transaction added: 05/04/2015), 
+                From Chris W to Ben B, 
+                narrative: Lunch
+[2022-04-22T16:37:18.496] [INFO] filename - Transaction added: 06/02/2015), 
+                From Dan W to Gergana I, 
+                narrative: Automated Testing Services
+[2022-04-22T16:37:18.497] [INFO] filename - Transaction added: 06/03/2015), 
+                From Stephen S to Gergana I, 
+                narrative: Lego Assistance
+[2022-04-22T16:37:18.497] [INFO] filename - Transaction added: 07/01/2015), 
+                From Ben B to Jon A, 
+                narrative: Fantasy Football
+[2022-04-22T16:37:18.498] [INFO] filename - Transaction added: 07/02/2015), 
+                From Jon A to Chris W, 
+                narrative: Rails Consultancy
+[2022-04-22T16:37:18.498] [INFO] filename - Transaction added: 08/03/2015), 
+                From Ben B to Sam N, 
+                narrative: Pokemon Training
+[2022-04-22T16:37:18.498] [INFO] filename - Transaction added: 09/04/2015), 
+                From Chris W to Rob S, 
+                narrative: Audit and Other Financial Services
+[2022-04-22T16:37:18.499] [INFO] filename - Transaction added: 10/02/2015), 
+                From Sam N to Gergana I, 
+                narrative: Sandbox Help
+[2022-04-22T16:37:18.499] [INFO] filename - Transaction added: 11/01/2015), 
+                From Ben B to Todd, 
+                narrative: Lunch
+[2022-04-22T16:37:18.500] [INFO] filename - Transaction added: 11/02/2015), 
+                From Chris W to Stephen S, 
+                narrative: Misc Morale
+[2022-04-22T16:37:18.500] [INFO] filename - Transaction added: 11/03/2015), 
+                From Stephen S to Jon A, 
+                narrative: Sandcastle Help
+[2022-04-22T16:37:18.500] [INFO] filename - Transaction added: 12/01/2015), 
+                From Laura B to Ben B, 
+                narrative: Beers
+[2022-04-22T16:37:18.501] [INFO] filename - Transaction added: 12/04/2015), 
+                From Gergana I to Laura B, 
+                narrative: Stationary Items
+[2022-04-22T16:37:18.501] [INFO] filename - Transaction added: 13/02/2015), 
+                From Laura B to Gergana I, 
+                narrative: Beers
+[2022-04-22T16:37:18.501] [INFO] filename - Transaction added: 13/04/2015), 
+                From Laura B to Tim L, 
+                narrative: Services Rendered
+[2022-04-22T16:37:18.502] [INFO] filename - Transaction added: 15/01/2015), 
+                From Todd to Rob S, 
+                narrative: Beers
+[2022-04-22T16:37:18.502] [INFO] filename - Transaction added: 15/03/2015), 
+                From Todd to Sam N, 
+                narrative: Pokemon Training
+[2022-04-22T16:37:18.502] [INFO] filename - Transaction added: 15/04/2015), 
+                From Ben B to Sam N, 
+                narrative: Lego Assistance
+[2022-04-22T16:37:18.503] [INFO] filename - Transaction added: 16/01/2015), 
+                From Laura B to Jon A, 
+                narrative: Lego Assistance
+[2022-04-22T16:37:18.503] [INFO] filename - Transaction added: 16/02/2015), 
+                From Chris W to Dan W, 
+                narrative: Jenkins Fees
+[2022-04-22T16:37:18.504] [INFO] filename - Transaction added: 17/02/2015), 
+                From Sarah T to Dan W, 
+                narrative: Sandbox Help
+[2022-04-22T16:37:18.504] [INFO] filename - Transaction added: 18/01/2015), 
+                From Jon A to Sarah T, 
+                narrative: Coffee
+[2022-04-22T16:37:18.504] [INFO] filename - Transaction added: 18/02/2015), 
+                From Stephen S to Rob S, 
+                narrative: Lego Assistance
+[2022-04-22T16:37:18.505] [INFO] filename - Transaction added: 19/03/2015), 
+                From Laura B to Chris W, 
+                narrative: Coffee
+[2022-04-22T16:37:18.505] [INFO] filename - Transaction added: 19/04/2015), 
+                From Stephen S to Chris W, 
+                narrative: White Water Rafting
+[2022-04-22T16:37:18.506] [INFO] filename - Transaction added: 21/02/2015), 
+                From Dan W to Ben B, 
+                narrative: Pokemon Training
+[2022-04-22T16:37:18.506] [INFO] filename - Transaction added: 21/03/2015), 
+                From Jon A to Gergana I, 
+                narrative: Beers
+[2022-04-22T16:37:18.506] [INFO] filename - Transaction added: 22/01/2015), 
+                From Gergana I to Todd, 
+                narrative: Coffee
+[2022-04-22T16:37:18.507] [INFO] filename - Transaction added: 23/04/2015), 
+                From Tim L to Todd, 
+                narrative: Misc Morale
+[2022-04-22T16:37:18.507] [INFO] filename - Transaction added: 24/01/2015), 
+                From Gergana I to Chris W, 
+                narrative: Coffee
+[2022-04-22T16:37:18.507] [INFO] filename - Transaction added: 24/02/2015), 
+                From Todd to Gergana I, 
+                narrative: Coffee
+[2022-04-22T16:37:18.508] [INFO] filename - Transaction added: 24/04/2015), 
+                From Tim L to Sarah T, 
+                narrative: Arcade Social
+[2022-04-22T16:37:18.508] [INFO] filename - Transaction added: 25/03/2015), 
+                From Gergana I to Ben B, 
+                narrative: Automated Testing Services
+[2022-04-22T16:37:18.509] [INFO] filename - Transaction added: 26/02/2015), 
+                From Stephen S to Jon A, 
+                narrative: Pokemon Training
+[2022-04-22T16:37:18.509] [INFO] filename - Transaction added: 26/04/2015), 
+                From Jon A to Todd, 
+                narrative: Stationary Items
+[2022-04-22T16:37:18.509] [INFO] filename - Transaction added: 27/01/2015), 
+                From Laura B to Tim L, 
+                narrative: Jenkins Fees
+[2022-04-22T16:37:18.510] [INFO] filename - Transaction added: 27/04/2015), 
+                From Ben B to Jon A, 
+                narrative: Pokemon Training
+[2022-04-22T16:37:18.510] [INFO] filename - Transaction added: 28/03/2015), 
+                From Stephen S to Tim L, 
+                narrative: Lunch
+[2022-04-22T16:37:18.510] [INFO] filename - Transaction added: 29/01/2015), 
+                From Sam N to Chris W, 
+                narrative: Lunch
+[2022-04-22T16:37:18.511] [INFO] filename - Transaction added: 29/03/2015), 
+                From Gergana I to Ben B, 
+                narrative: Audit and Other Financial Services
+[2022-04-22T16:37:18.511] [INFO] filename - Transaction added: 30/03/2015), 
+                From Tim L to Todd, 
+                narrative: Pokemon Training
+[2022-04-22T16:37:18.512] [ERROR] filename - Date is not valid (Last Thursday), 
+                From Sarah T to Dan W, 
+                narrative: Beers
+[2022-04-22T16:37:18.512] [INFO] filename - Account created for Sarah T 
+                with balance (10.54
+[2022-04-22T16:37:18.512] [INFO] filename - Account created for Sarah T 
+                    with balance (10.54
+[2022-04-22T16:37:18.513] [INFO] filename - Account created for Laura B 
+                with balance (7.53
+[2022-04-22T16:37:18.513] [INFO] filename - Balance incremented for Laura B by 7.53
+[2022-04-22T16:37:18.513] [INFO] filename - Balance decremented for Stephen S by 7.43
+[2022-04-22T16:37:18.514] [INFO] filename - Account created for Rob S 
+                    with balance (7.43
+[2022-04-22T16:37:18.514] [INFO] filename - Account created for Chris W 
+                with balance (1.92
+[2022-04-22T16:37:18.515] [INFO] filename - Account created for Chris W 
+                    with balance (1.92
+[2022-04-22T16:37:18.515] [INFO] filename - Balance decremented for Stephen S by 1.11
+[2022-04-22T16:37:18.515] [INFO] filename - Balance incremented for Chris W by 1.11
+[2022-04-22T16:37:18.516] [INFO] filename - Balance decremented for Stephen S by 3.22
+[2022-04-22T16:37:18.516] [INFO] filename - Account created for Gergana I 
+                    with balance (3.22
+[2022-04-22T16:37:18.517] [INFO] filename - Balance decremented for Rob S by 5.78
+[2022-04-22T16:37:18.517] [INFO] filename - Balance incremented for Stephen S by 5.78
+[2022-04-22T16:37:18.517] [INFO] filename - Balance decremented for Laura B by 9.09
+[2022-04-22T16:37:18.518] [INFO] filename - Account created for Jon A 
+                    with balance (9.09
+[2022-04-22T16:37:18.518] [INFO] filename - Balance decremented for Chris W by 0.96
+[2022-04-22T16:37:18.519] [INFO] filename - Account created for Ben B 
+                    with balance (0.96
+[2022-04-22T16:37:18.519] [INFO] filename - Account created for Gergana I 
+                with balance (10.29
+[2022-04-22T16:37:18.519] [INFO] filename - Balance incremented for Gergana I by 10.29
+[2022-04-22T16:37:18.520] [INFO] filename - Balance decremented for Stephen S by 9.4
+[2022-04-22T16:37:18.520] [INFO] filename - Balance incremented for Gergana I by 9.4
+[2022-04-22T16:37:18.521] [INFO] filename - Balance decremented for Ben B by 9.93
+[2022-04-22T16:37:18.521] [INFO] filename - Balance incremented for Jon A by 9.93
+[2022-04-22T16:37:18.521] [INFO] filename - Balance decremented for Jon A by 7.37
+[2022-04-22T16:37:18.522] [INFO] filename - Balance incremented for Chris W by 7.37
+[2022-04-22T16:37:18.522] [INFO] filename - Balance decremented for Ben B by 11.32
+[2022-04-22T16:37:18.522] [INFO] filename - Account created for Sam N 
+                    with balance (11.32
+[2022-04-22T16:37:18.523] [INFO] filename - Balance decremented for Chris W by 11.79
+[2022-04-22T16:37:18.523] [INFO] filename - Balance incremented for Rob S by 11.79
+[2022-04-22T16:37:18.524] [INFO] filename - Balance decremented for Sam N by 9.84
+[2022-04-22T16:37:18.524] [INFO] filename - Balance incremented for Gergana I by 9.84
+[2022-04-22T16:37:18.524] [INFO] filename - Balance decremented for Ben B by 7.33
+[2022-04-22T16:37:18.525] [INFO] filename - Balance incremented for Todd by 7.33
+[2022-04-22T16:37:18.525] [INFO] filename - Balance decremented for Chris W by 0.68
+[2022-04-22T16:37:18.525] [INFO] filename - Balance incremented for Stephen S by 0.68
+[2022-04-22T16:37:18.526] [INFO] filename - Balance decremented for Stephen S by 11.57
+[2022-04-22T16:37:18.526] [INFO] filename - Balance incremented for Jon A by 11.57
+[2022-04-22T16:37:18.527] [INFO] filename - Balance decremented for Laura B by 8.94
+[2022-04-22T16:37:18.527] [INFO] filename - Balance incremented for Ben B by 8.94
+[2022-04-22T16:37:18.527] [INFO] filename - Balance decremented for Gergana I by 8.37
+[2022-04-22T16:37:18.528] [INFO] filename - Balance incremented for Laura B by 8.37
+[2022-04-22T16:37:18.528] [INFO] filename - Balance decremented for Laura B by 6.56
+[2022-04-22T16:37:18.529] [INFO] filename - Balance incremented for Gergana I by 6.56
+[2022-04-22T16:37:18.529] [INFO] filename - Balance decremented for Laura B by 1.27
+[2022-04-22T16:37:18.529] [INFO] filename - Account created for Tim L 
+                    with balance (1.27
+[2022-04-22T16:37:18.530] [INFO] filename - Balance decremented for Todd by 10.19
+[2022-04-22T16:37:18.530] [INFO] filename - Balance incremented for Rob S by 10.19
+[2022-04-22T16:37:18.530] [INFO] filename - Balance decremented for Todd by 2.29
+[2022-04-22T16:37:18.531] [INFO] filename - Balance incremented for Sam N by 2.29
+[2022-04-22T16:37:18.531] [INFO] filename - Balance decremented for Ben B by 8.5
+[2022-04-22T16:37:18.531] [INFO] filename - Balance incremented for Sam N by 8.5
+[2022-04-22T16:37:18.532] [INFO] filename - Balance decremented for Laura B by 0.69
+[2022-04-22T16:37:18.532] [INFO] filename - Balance incremented for Jon A by 0.69
+[2022-04-22T16:37:18.532] [INFO] filename - Balance decremented for Chris W by 1.28
+[2022-04-22T16:37:18.533] [INFO] filename - Balance incremented for Dan W by 1.28
+[2022-04-22T16:37:18.533] [INFO] filename - Balance decremented for Sarah T by 11.48
+[2022-04-22T16:37:18.534] [INFO] filename - Balance incremented for Dan W by 11.48
+[2022-04-22T16:37:18.534] [INFO] filename - Balance decremented for Jon A by 10.73
+[2022-04-22T16:37:18.534] [INFO] filename - Balance incremented for Sarah T by 10.73
+[2022-04-22T16:37:18.534] [INFO] filename - Balance decremented for Stephen S by 4.83
+[2022-04-22T16:37:18.535] [INFO] filename - Balance incremented for Rob S by 4.83
+[2022-04-22T16:37:18.535] [INFO] filename - Balance decremented for Laura B by 9.96
+[2022-04-22T16:37:18.535] [INFO] filename - Balance incremented for Chris W by 9.96
+[2022-04-22T16:37:18.536] [INFO] filename - Balance decremented for Stephen S by 8.91
+[2022-04-22T16:37:18.536] [INFO] filename - Balance incremented for Chris W by 8.91
+[2022-04-22T16:37:18.536] [INFO] filename - Balance decremented for Dan W by 0.5
+[2022-04-22T16:37:18.537] [INFO] filename - Balance incremented for Ben B by 0.5
+[2022-04-22T16:37:18.537] [INFO] filename - Balance decremented for Jon A by 7.54
+[2022-04-22T16:37:18.537] [INFO] filename - Balance incremented for Gergana I by 7.54
+[2022-04-22T16:37:18.538] [INFO] filename - Balance decremented for Gergana I by 0.8
+[2022-04-22T16:37:18.538] [INFO] filename - Balance incremented for Todd by 0.8
+[2022-04-22T16:37:18.538] [INFO] filename - Balance decremented for Tim L by 8.1
+[2022-04-22T16:37:18.539] [INFO] filename - Balance incremented for Todd by 8.1
+[2022-04-22T16:37:18.539] [INFO] filename - Balance decremented for Gergana I by 8.49
+[2022-04-22T16:37:18.539] [INFO] filename - Balance incremented for Chris W by 8.49
+[2022-04-22T16:37:18.540] [INFO] filename - Balance decremented for Todd by 9.08
+[2022-04-22T16:37:18.540] [INFO] filename - Balance incremented for Gergana I by 9.08
+[2022-04-22T16:37:18.540] [INFO] filename - Balance decremented for Tim L by 6.38
+[2022-04-22T16:37:18.540] [INFO] filename - Balance incremented for Sarah T by 6.38
+[2022-04-22T16:37:18.541] [INFO] filename - Balance decremented for Gergana I by 2.39
+[2022-04-22T16:37:18.541] [INFO] filename - Balance incremented for Ben B by 2.39
+[2022-04-22T16:37:18.541] [INFO] filename - Balance decremented for Stephen S by 4.23
+[2022-04-22T16:37:18.542] [INFO] filename - Balance incremented for Jon A by 4.23
+[2022-04-22T16:37:18.542] [INFO] filename - Balance decremented for Jon A by 8.44
+[2022-04-22T16:37:18.542] [INFO] filename - Balance incremented for Todd by 8.44
+[2022-04-22T16:37:18.543] [INFO] filename - Balance decremented for Laura B by 0.52
+[2022-04-22T16:37:18.543] [INFO] filename - Balance incremented for Tim L by 0.52
+[2022-04-22T16:37:18.543] [INFO] filename - Balance decremented for Ben B by 10.91
+[2022-04-22T16:37:18.543] [INFO] filename - Balance incremented for Jon A by 10.91
+[2022-04-22T16:37:18.544] [INFO] filename - Balance decremented for Stephen S by 5.83
+[2022-04-22T16:37:18.544] [INFO] filename - Balance incremented for Tim L by 5.83
+[2022-04-22T16:37:18.544] [INFO] filename - Balance decremented for Sam N by 9.01
+[2022-04-22T16:37:18.545] [INFO] filename - Balance incremented for Chris W by 9.01
+[2022-04-22T16:37:18.545] [INFO] filename - Balance decremented for Gergana I by 10.85
+[2022-04-22T16:37:18.545] [INFO] filename - Balance incremented for Ben B by 10.85
+[2022-04-22T16:37:18.546] [INFO] filename - Balance decremented for Tim L by 8.6
+[2022-04-22T16:37:18.546] [INFO] filename - Balance incremented for Todd by 8.6
+[2022-04-22T16:40:21.869] [INFO] filename - Transaction added: 01/01/2015), 
+                From Laura B to Sarah T, 
+                narrative: Misc Morale
+[2022-04-22T16:40:21.870] [INFO] filename - Transaction added: 01/02/2015), 
+                From Stephen S to Laura B, 
+                narrative: Coffee
+[2022-04-22T16:40:21.871] [ERROR] filename - Amount (NaN) is not a number on 01/03/2015: from Ben B to Sam N
+[2022-04-22T16:40:21.871] [INFO] filename - Transaction added: 02/02/2015), 
+                From Stephen S to Rob S, 
+                narrative: Fantasy Football
+[2022-04-22T16:40:21.871] [INFO] filename - Transaction added: 02/03/2015), 
+                From Todd to Chris W, 
+                narrative: Sandbox Help
+[2022-04-22T16:40:21.872] [INFO] filename - Transaction added: 02/04/2015), 
+                From Stephen S to Chris W, 
+                narrative: Pokemon Training
+[2022-04-22T16:40:21.872] [INFO] filename - Transaction added: 04/01/2015), 
+                From Stephen S to Gergana I, 
+                narrative: Lunch
+[2022-04-22T16:40:21.873] [INFO] filename - Transaction added: 04/02/2015), 
+                From Rob S to Stephen S, 
+                narrative: Fantasy Football
+[2022-04-22T16:40:21.873] [INFO] filename - Transaction added: 04/03/2015), 
+                From Laura B to Jon A, 
+                narrative: Sandcastle Help
+[2022-04-22T16:40:21.873] [INFO] filename - Transaction added: 05/04/2015), 
+                From Chris W to Ben B, 
+                narrative: Lunch
+[2022-04-22T16:40:21.874] [INFO] filename - Transaction added: 06/02/2015), 
+                From Dan W to Gergana I, 
+                narrative: Automated Testing Services
+[2022-04-22T16:40:21.874] [INFO] filename - Transaction added: 06/03/2015), 
+                From Stephen S to Gergana I, 
+                narrative: Lego Assistance
+[2022-04-22T16:40:21.874] [INFO] filename - Transaction added: 07/01/2015), 
+                From Ben B to Jon A, 
+                narrative: Fantasy Football
+[2022-04-22T16:40:21.875] [INFO] filename - Transaction added: 07/02/2015), 
+                From Jon A to Chris W, 
+                narrative: Rails Consultancy
+[2022-04-22T16:40:21.875] [INFO] filename - Transaction added: 08/03/2015), 
+                From Ben B to Sam N, 
+                narrative: Pokemon Training
+[2022-04-22T16:40:21.875] [INFO] filename - Transaction added: 09/04/2015), 
+                From Chris W to Rob S, 
+                narrative: Audit and Other Financial Services
+[2022-04-22T16:40:21.876] [INFO] filename - Transaction added: 10/02/2015), 
+                From Sam N to Gergana I, 
+                narrative: Sandbox Help
+[2022-04-22T16:40:21.876] [INFO] filename - Transaction added: 11/01/2015), 
+                From Ben B to Todd, 
+                narrative: Lunch
+[2022-04-22T16:40:21.876] [INFO] filename - Transaction added: 11/02/2015), 
+                From Chris W to Stephen S, 
+                narrative: Misc Morale
+[2022-04-22T16:40:21.877] [INFO] filename - Transaction added: 11/03/2015), 
+                From Stephen S to Jon A, 
+                narrative: Sandcastle Help
+[2022-04-22T16:40:21.877] [INFO] filename - Transaction added: 12/01/2015), 
+                From Laura B to Ben B, 
+                narrative: Beers
+[2022-04-22T16:40:21.878] [INFO] filename - Transaction added: 12/04/2015), 
+                From Gergana I to Laura B, 
+                narrative: Stationary Items
+[2022-04-22T16:40:21.878] [INFO] filename - Transaction added: 13/02/2015), 
+                From Laura B to Gergana I, 
+                narrative: Beers
+[2022-04-22T16:40:21.878] [INFO] filename - Transaction added: 13/04/2015), 
+                From Laura B to Tim L, 
+                narrative: Services Rendered
+[2022-04-22T16:40:21.879] [INFO] filename - Transaction added: 15/01/2015), 
+                From Todd to Rob S, 
+                narrative: Beers
+[2022-04-22T16:40:21.879] [INFO] filename - Transaction added: 15/03/2015), 
+                From Todd to Sam N, 
+                narrative: Pokemon Training
+[2022-04-22T16:40:21.879] [INFO] filename - Transaction added: 15/04/2015), 
+                From Ben B to Sam N, 
+                narrative: Lego Assistance
+[2022-04-22T16:40:21.880] [INFO] filename - Transaction added: 16/01/2015), 
+                From Laura B to Jon A, 
+                narrative: Lego Assistance
+[2022-04-22T16:40:21.880] [INFO] filename - Transaction added: 16/02/2015), 
+                From Chris W to Dan W, 
+                narrative: Jenkins Fees
+[2022-04-22T16:40:21.881] [INFO] filename - Transaction added: 17/02/2015), 
+                From Sarah T to Dan W, 
+                narrative: Sandbox Help
+[2022-04-22T16:40:21.881] [INFO] filename - Transaction added: 18/01/2015), 
+                From Jon A to Sarah T, 
+                narrative: Coffee
+[2022-04-22T16:40:21.881] [INFO] filename - Transaction added: 18/02/2015), 
+                From Stephen S to Rob S, 
+                narrative: Lego Assistance
+[2022-04-22T16:40:21.881] [INFO] filename - Transaction added: 19/03/2015), 
+                From Laura B to Chris W, 
+                narrative: Coffee
+[2022-04-22T16:40:21.882] [INFO] filename - Transaction added: 19/04/2015), 
+                From Stephen S to Chris W, 
+                narrative: White Water Rafting
+[2022-04-22T16:40:21.882] [INFO] filename - Transaction added: 21/02/2015), 
+                From Dan W to Ben B, 
+                narrative: Pokemon Training
+[2022-04-22T16:40:21.883] [INFO] filename - Transaction added: 21/03/2015), 
+                From Jon A to Gergana I, 
+                narrative: Beers
+[2022-04-22T16:40:21.883] [INFO] filename - Transaction added: 22/01/2015), 
+                From Gergana I to Todd, 
+                narrative: Coffee
+[2022-04-22T16:40:21.883] [INFO] filename - Transaction added: 23/04/2015), 
+                From Tim L to Todd, 
+                narrative: Misc Morale
+[2022-04-22T16:40:21.884] [INFO] filename - Transaction added: 24/01/2015), 
+                From Gergana I to Chris W, 
+                narrative: Coffee
+[2022-04-22T16:40:21.884] [INFO] filename - Transaction added: 24/02/2015), 
+                From Todd to Gergana I, 
+                narrative: Coffee
+[2022-04-22T16:40:21.884] [INFO] filename - Transaction added: 24/04/2015), 
+                From Tim L to Sarah T, 
+                narrative: Arcade Social
+[2022-04-22T16:40:21.885] [INFO] filename - Transaction added: 25/03/2015), 
+                From Gergana I to Ben B, 
+                narrative: Automated Testing Services
+[2022-04-22T16:40:21.885] [INFO] filename - Transaction added: 26/02/2015), 
+                From Stephen S to Jon A, 
+                narrative: Pokemon Training
+[2022-04-22T16:40:21.885] [INFO] filename - Transaction added: 26/04/2015), 
+                From Jon A to Todd, 
+                narrative: Stationary Items
+[2022-04-22T16:40:21.886] [INFO] filename - Transaction added: 27/01/2015), 
+                From Laura B to Tim L, 
+                narrative: Jenkins Fees
+[2022-04-22T16:40:21.886] [INFO] filename - Transaction added: 27/04/2015), 
+                From Ben B to Jon A, 
+                narrative: Pokemon Training
+[2022-04-22T16:40:21.886] [INFO] filename - Transaction added: 28/03/2015), 
+                From Stephen S to Tim L, 
+                narrative: Lunch
+[2022-04-22T16:40:21.887] [INFO] filename - Transaction added: 29/01/2015), 
+                From Sam N to Chris W, 
+                narrative: Lunch
+[2022-04-22T16:40:21.887] [INFO] filename - Transaction added: 29/03/2015), 
+                From Gergana I to Ben B, 
+                narrative: Audit and Other Financial Services
+[2022-04-22T16:40:21.888] [INFO] filename - Transaction added: 30/03/2015), 
+                From Tim L to Todd, 
+                narrative: Pokemon Training
+[2022-04-22T16:40:21.888] [ERROR] filename - Date is not valid (Last Thursday), 
+                From Sarah T to Dan W, 
+                narrative: Beers
+[2022-04-22T16:40:21.888] [INFO] filename - Account created for Sarah T 
+                with balance (10.54
+[2022-04-22T16:40:21.889] [INFO] filename - Account created for Sarah T 
+                    with balance (10.54
+[2022-04-22T16:40:21.889] [INFO] filename - Account created for Laura B 
+                with balance (7.53
+[2022-04-22T16:40:21.889] [INFO] filename - Balance incremented for Laura B by 7.53
+[2022-04-22T16:40:21.890] [INFO] filename - Balance decremented for Stephen S by 7.43
+[2022-04-22T16:40:21.890] [INFO] filename - Account created for Rob S 
+                    with balance (7.43
+[2022-04-22T16:40:21.890] [INFO] filename - Account created for Chris W 
+                with balance (1.92
+[2022-04-22T16:40:21.891] [INFO] filename - Account created for Chris W 
+                    with balance (1.92
+[2022-04-22T16:40:21.891] [INFO] filename - Balance decremented for Stephen S by 1.11
+[2022-04-22T16:40:21.891] [INFO] filename - Balance incremented for Chris W by 1.11
+[2022-04-22T16:40:21.892] [INFO] filename - Balance decremented for Stephen S by 3.22
+[2022-04-22T16:40:21.892] [INFO] filename - Account created for Gergana I 
+                    with balance (3.22
+[2022-04-22T16:40:21.893] [INFO] filename - Balance decremented for Rob S by 5.78
+[2022-04-22T16:40:21.893] [INFO] filename - Balance incremented for Stephen S by 5.78
+[2022-04-22T16:40:21.893] [INFO] filename - Balance decremented for Laura B by 9.09
+[2022-04-22T16:40:21.894] [INFO] filename - Account created for Jon A 
+                    with balance (9.09
+[2022-04-22T16:40:21.894] [INFO] filename - Balance decremented for Chris W by 0.96
+[2022-04-22T16:40:21.894] [INFO] filename - Account created for Ben B 
+                    with balance (0.96
+[2022-04-22T16:40:21.895] [INFO] filename - Account created for Gergana I 
+                with balance (10.29
+[2022-04-22T16:40:21.895] [INFO] filename - Balance incremented for Gergana I by 10.29
+[2022-04-22T16:40:21.895] [INFO] filename - Balance decremented for Stephen S by 9.4
+[2022-04-22T16:40:21.896] [INFO] filename - Balance incremented for Gergana I by 9.4
+[2022-04-22T16:40:21.896] [INFO] filename - Balance decremented for Ben B by 9.93
+[2022-04-22T16:40:21.896] [INFO] filename - Balance incremented for Jon A by 9.93
+[2022-04-22T16:40:21.897] [INFO] filename - Balance decremented for Jon A by 7.37
+[2022-04-22T16:40:21.897] [INFO] filename - Balance incremented for Chris W by 7.37
+[2022-04-22T16:40:21.897] [INFO] filename - Balance decremented for Ben B by 11.32
+[2022-04-22T16:40:21.898] [INFO] filename - Account created for Sam N 
+                    with balance (11.32
+[2022-04-22T16:40:21.898] [INFO] filename - Balance decremented for Chris W by 11.79
+[2022-04-22T16:40:21.898] [INFO] filename - Balance incremented for Rob S by 11.79
+[2022-04-22T16:40:21.899] [INFO] filename - Balance decremented for Sam N by 9.84
+[2022-04-22T16:40:21.899] [INFO] filename - Balance incremented for Gergana I by 9.84
+[2022-04-22T16:40:21.899] [INFO] filename - Balance decremented for Ben B by 7.33
+[2022-04-22T16:40:21.900] [INFO] filename - Balance incremented for Todd by 7.33
+[2022-04-22T16:40:21.900] [INFO] filename - Balance decremented for Chris W by 0.68
+[2022-04-22T16:40:21.900] [INFO] filename - Balance incremented for Stephen S by 0.68
+[2022-04-22T16:40:21.901] [INFO] filename - Balance decremented for Stephen S by 11.57
+[2022-04-22T16:40:21.901] [INFO] filename - Balance incremented for Jon A by 11.57
+[2022-04-22T16:40:21.901] [INFO] filename - Balance decremented for Laura B by 8.94
+[2022-04-22T16:40:21.901] [INFO] filename - Balance incremented for Ben B by 8.94
+[2022-04-22T16:40:21.902] [INFO] filename - Balance decremented for Gergana I by 8.37
+[2022-04-22T16:40:21.902] [INFO] filename - Balance incremented for Laura B by 8.37
+[2022-04-22T16:40:21.902] [INFO] filename - Balance decremented for Laura B by 6.56
+[2022-04-22T16:40:21.903] [INFO] filename - Balance incremented for Gergana I by 6.56
+[2022-04-22T16:40:21.903] [INFO] filename - Balance decremented for Laura B by 1.27
+[2022-04-22T16:40:21.903] [INFO] filename - Account created for Tim L 
+                    with balance (1.27
+[2022-04-22T16:40:21.904] [INFO] filename - Balance decremented for Todd by 10.19
+[2022-04-22T16:40:21.904] [INFO] filename - Balance incremented for Rob S by 10.19
+[2022-04-22T16:40:21.904] [INFO] filename - Balance decremented for Todd by 2.29
+[2022-04-22T16:40:21.905] [INFO] filename - Balance incremented for Sam N by 2.29
+[2022-04-22T16:40:21.905] [INFO] filename - Balance decremented for Ben B by 8.5
+[2022-04-22T16:40:21.905] [INFO] filename - Balance incremented for Sam N by 8.5
+[2022-04-22T16:40:21.905] [INFO] filename - Balance decremented for Laura B by 0.69
+[2022-04-22T16:40:21.906] [INFO] filename - Balance incremented for Jon A by 0.69
+[2022-04-22T16:40:21.906] [INFO] filename - Balance decremented for Chris W by 1.28
+[2022-04-22T16:40:21.906] [INFO] filename - Balance incremented for Dan W by 1.28
+[2022-04-22T16:40:21.907] [INFO] filename - Balance decremented for Sarah T by 11.48
+[2022-04-22T16:40:21.907] [INFO] filename - Balance incremented for Dan W by 11.48
+[2022-04-22T16:40:21.907] [INFO] filename - Balance decremented for Jon A by 10.73
+[2022-04-22T16:40:21.908] [INFO] filename - Balance incremented for Sarah T by 10.73
+[2022-04-22T16:40:21.908] [INFO] filename - Balance decremented for Stephen S by 4.83
+[2022-04-22T16:40:21.908] [INFO] filename - Balance incremented for Rob S by 4.83
+[2022-04-22T16:40:21.909] [INFO] filename - Balance decremented for Laura B by 9.96
+[2022-04-22T16:40:21.909] [INFO] filename - Balance incremented for Chris W by 9.96
+[2022-04-22T16:40:21.909] [INFO] filename - Balance decremented for Stephen S by 8.91
+[2022-04-22T16:40:21.910] [INFO] filename - Balance incremented for Chris W by 8.91
+[2022-04-22T16:40:21.910] [INFO] filename - Balance decremented for Dan W by 0.5
+[2022-04-22T16:40:21.910] [INFO] filename - Balance incremented for Ben B by 0.5
+[2022-04-22T16:40:21.911] [INFO] filename - Balance decremented for Jon A by 7.54
+[2022-04-22T16:40:21.911] [INFO] filename - Balance incremented for Gergana I by 7.54
+[2022-04-22T16:40:21.911] [INFO] filename - Balance decremented for Gergana I by 0.8
+[2022-04-22T16:40:21.912] [INFO] filename - Balance incremented for Todd by 0.8
+[2022-04-22T16:40:21.912] [INFO] filename - Balance decremented for Tim L by 8.1
+[2022-04-22T16:40:21.912] [INFO] filename - Balance incremented for Todd by 8.1
+[2022-04-22T16:40:21.912] [INFO] filename - Balance decremented for Gergana I by 8.49
+[2022-04-22T16:40:21.913] [INFO] filename - Balance incremented for Chris W by 8.49
+[2022-04-22T16:40:21.913] [INFO] filename - Balance decremented for Todd by 9.08
+[2022-04-22T16:40:21.913] [INFO] filename - Balance incremented for Gergana I by 9.08
+[2022-04-22T16:40:21.914] [INFO] filename - Balance decremented for Tim L by 6.38
+[2022-04-22T16:40:21.914] [INFO] filename - Balance incremented for Sarah T by 6.38
+[2022-04-22T16:40:21.914] [INFO] filename - Balance decremented for Gergana I by 2.39
+[2022-04-22T16:40:21.915] [INFO] filename - Balance incremented for Ben B by 2.39
+[2022-04-22T16:40:21.915] [INFO] filename - Balance decremented for Stephen S by 4.23
+[2022-04-22T16:40:21.915] [INFO] filename - Balance incremented for Jon A by 4.23
+[2022-04-22T16:40:21.915] [INFO] filename - Balance decremented for Jon A by 8.44
+[2022-04-22T16:40:21.916] [INFO] filename - Balance incremented for Todd by 8.44
+[2022-04-22T16:40:21.916] [INFO] filename - Balance decremented for Laura B by 0.52
+[2022-04-22T16:40:21.916] [INFO] filename - Balance incremented for Tim L by 0.52
+[2022-04-22T16:40:21.917] [INFO] filename - Balance decremented for Ben B by 10.91
+[2022-04-22T16:40:21.917] [INFO] filename - Balance incremented for Jon A by 10.91
+[2022-04-22T16:40:21.917] [INFO] filename - Balance decremented for Stephen S by 5.83
+[2022-04-22T16:40:21.918] [INFO] filename - Balance incremented for Tim L by 5.83
+[2022-04-22T16:40:21.918] [INFO] filename - Balance decremented for Sam N by 9.01
+[2022-04-22T16:40:21.918] [INFO] filename - Balance incremented for Chris W by 9.01
+[2022-04-22T16:40:21.918] [INFO] filename - Balance decremented for Gergana I by 10.85
+[2022-04-22T16:40:21.919] [INFO] filename - Balance incremented for Ben B by 10.85
+[2022-04-22T16:40:21.919] [INFO] filename - Balance decremented for Tim L by 8.6
+[2022-04-22T16:40:21.919] [INFO] filename - Balance incremented for Todd by 8.6
+[2022-04-22T16:41:55.540] [INFO] filename - Transaction added: 01/01/2014), 
+                From Jon A to Sarah T, 
+                narrative: Pokemon Training
+[2022-04-22T16:41:55.541] [INFO] filename - Transaction added: 01/02/2014), 
+                From Todd to Ben B, 
+                narrative: Snooker Night
+[2022-04-22T16:41:55.541] [INFO] filename - Transaction added: 01/03/2014), 
+                From Stephen S to Jon A, 
+                narrative: Coffee
+[2022-04-22T16:41:55.542] [INFO] filename - Transaction added: 01/04/2014), 
+                From Sam N to Laura B, 
+                narrative: Lunch
+[2022-04-22T16:41:55.542] [INFO] filename - Transaction added: 01/06/2014), 
+                From Tim L to Stephen S, 
+                narrative: Rails Consultancy
+[2022-04-22T16:41:55.543] [INFO] filename - Transaction added: 01/07/2014), 
+                From Rob S to Jon A, 
+                narrative: Lunch
+[2022-04-22T16:41:55.543] [INFO] filename - Transaction added: 01/08/2014), 
+                From Sam N to Gergana I, 
+                narrative: Coffee
+[2022-04-22T16:41:55.544] [INFO] filename - Transaction added: 01/09/2014), 
+                From Sam N to Gergana I, 
+                narrative: Pokemon Training
+[2022-04-22T16:41:55.544] [INFO] filename - Transaction added: 02/07/2014), 
+                From Stephen S to Dan W, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.545] [INFO] filename - Transaction added: 02/11/2014), 
+                From Sarah T to Tim L, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.545] [INFO] filename - Transaction added: 02/12/2014), 
+                From Jon A to Sam N, 
+                narrative: Pokemon Training
+[2022-04-22T16:41:55.546] [INFO] filename - Transaction added: 03/03/2014), 
+                From Sam N to Gergana I, 
+                narrative: Lunch
+[2022-04-22T16:41:55.546] [INFO] filename - Transaction added: 03/05/2014), 
+                From Jon A to Gergana I, 
+                narrative: Rails Consultancy
+[2022-04-22T16:41:55.547] [INFO] filename - Transaction added: 03/08/2014), 
+                From Laura B to Rob S, 
+                narrative: Rails Consultancy
+[2022-04-22T16:41:55.547] [INFO] filename - Transaction added: 03/09/2014), 
+                From Jon A to Tim L, 
+                narrative: Lunch
+[2022-04-22T16:41:55.547] [INFO] filename - Transaction added: 04/01/2014), 
+                From Stephen S to Tim L, 
+                narrative: Lunch
+[2022-04-22T16:41:55.548] [INFO] filename - Transaction added: 04/02/2014), 
+                From Chris W to Ben B, 
+                narrative: Spline Reticulation
+[2022-04-22T16:41:55.548] [INFO] filename - Transaction added: 04/04/2014), 
+                From Todd to Ben B, 
+                narrative: Rails Consultancy
+[2022-04-22T16:41:55.549] [INFO] filename - Transaction added: 04/08/2014), 
+                From Gergana I to Ben B, 
+                narrative: Coffee
+[2022-04-22T16:41:55.549] [INFO] filename - Transaction added: 04/10/2014), 
+                From Ben B to Todd, 
+                narrative: Lunch
+[2022-04-22T16:41:55.550] [INFO] filename - Transaction added: 04/11/2014), 
+                From Chris W to Rob S, 
+                narrative: Sandbox Help
+[2022-04-22T16:41:55.550] [INFO] filename - Transaction added: 05/02/2014), 
+                From Todd to Rob S, 
+                narrative: Sandbox Help
+[2022-04-22T16:41:55.550] [INFO] filename - Transaction added: 05/05/2014), 
+                From Dan W to Sarah T, 
+                narrative: Stationary Items
+[2022-04-22T16:41:55.551] [INFO] filename - Transaction added: 05/06/2014), 
+                From Dan W to Gergana I, 
+                narrative: Spline Reticulation
+[2022-04-22T16:41:55.551] [INFO] filename - Transaction added: 06/04/2014), 
+                From Jon A to Stephen S, 
+                narrative: Beers
+[2022-04-22T16:41:55.552] [INFO] filename - Transaction added: 06/05/2014), 
+                From Tim L to Chris W, 
+                narrative: Audit and Other Financial Services
+[2022-04-22T16:41:55.552] [INFO] filename - Transaction added: 06/07/2014), 
+                From Sam N to Jon A, 
+                narrative: Beers
+[2022-04-22T16:41:55.552] [INFO] filename - Transaction added: 06/09/2014), 
+                From Dan W to Todd, 
+                narrative: Lunch
+[2022-04-22T16:41:55.553] [INFO] filename - Transaction added: 06/10/2014), 
+                From Sarah T to Tim L, 
+                narrative: Spline Reticulation
+[2022-04-22T16:41:55.553] [INFO] filename - Transaction added: 06/12/2014), 
+                From Gergana I to Rob S, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.554] [INFO] filename - Transaction added: 07/02/2014), 
+                From Jon A to Sam N, 
+                narrative: Beers
+[2022-04-22T16:41:55.554] [INFO] filename - Transaction added: 07/03/2014), 
+                From Todd to Laura B, 
+                narrative: Pokemon Training
+[2022-04-22T16:41:55.555] [INFO] filename - Transaction added: 07/11/2014), 
+                From Rob S to Ben B, 
+                narrative: Rails Consultancy
+[2022-04-22T16:41:55.555] [INFO] filename - Transaction added: 08/01/2014), 
+                From Laura B to Stephen S, 
+                narrative: Lunch
+[2022-04-22T16:41:55.555] [INFO] filename - Transaction added: 08/04/2014), 
+                From Stephen S to Sam N, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.556] [INFO] filename - Transaction added: 08/08/2014), 
+                From Tim L to Laura B, 
+                narrative: Coffee
+[2022-04-22T16:41:55.556] [INFO] filename - Transaction added: 09/04/2014), 
+                From Ben B to Rob S, 
+                narrative: Coffee
+[2022-04-22T16:41:55.557] [INFO] filename - Transaction added: 09/06/2014), 
+                From Sarah T to Stephen S, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.557] [INFO] filename - Transaction added: 09/07/2014), 
+                From Dan W to Tim L, 
+                narrative: Misc Morale
+[2022-04-22T16:41:55.557] [INFO] filename - Transaction added: 09/09/2014), 
+                From Todd to Dan W, 
+                narrative: Audit and Other Financial Services
+[2022-04-22T16:41:55.558] [INFO] filename - Transaction added: 09/11/2014), 
+                From Sam N to Laura B, 
+                narrative: Beers
+[2022-04-22T16:41:55.558] [INFO] filename - Transaction added: 09/12/2014), 
+                From Jon A to Chris W, 
+                narrative: Pokemon Training
+[2022-04-22T16:41:55.559] [INFO] filename - Transaction added: 10/02/2014), 
+                From Dan W to Sam N, 
+                narrative: Lunch
+[2022-04-22T16:41:55.559] [INFO] filename - Transaction added: 10/03/2014), 
+                From Todd to Gergana I, 
+                narrative: Sandbox Help
+[2022-04-22T16:41:55.559] [INFO] filename - Transaction added: 10/04/2014), 
+                From Todd to Sarah T, 
+                narrative: Snooker Night
+[2022-04-22T16:41:55.560] [INFO] filename - Transaction added: 10/05/2014), 
+                From Laura B to Todd, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.560] [INFO] filename - Transaction added: 10/10/2014), 
+                From Ben B to Gergana I, 
+                narrative: Beers
+[2022-04-22T16:41:55.560] [INFO] filename - Transaction added: 11/01/2014), 
+                From Rob S to Ben B, 
+                narrative: Misc Morale
+[2022-04-22T16:41:55.561] [INFO] filename - Transaction added: 11/04/2014), 
+                From Todd to Laura B, 
+                narrative: Coffee
+[2022-04-22T16:41:55.561] [INFO] filename - Transaction added: 11/06/2014), 
+                From Stephen S to Sam N, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.562] [INFO] filename - Transaction added: 11/07/2014), 
+                From Dan W to Sarah T, 
+                narrative: Misc Morale
+[2022-04-22T16:41:55.562] [INFO] filename - Transaction added: 11/08/2014), 
+                From Stephen S to Rob S, 
+                narrative: Lunch
+[2022-04-22T16:41:55.562] [INFO] filename - Transaction added: 11/11/2014), 
+                From Jon A to Ben B, 
+                narrative: Stationary Items
+[2022-04-22T16:41:55.563] [INFO] filename - Transaction added: 12/09/2014), 
+                From Laura B to Jon A, 
+                narrative: Git-Fu Rendered
+[2022-04-22T16:41:55.563] [INFO] filename - Transaction added: 12/12/2014), 
+                From Dan W to Tim L, 
+                narrative: Coffee
+[2022-04-22T16:41:55.563] [INFO] filename - Transaction added: 13/05/2014), 
+                From Tim L to Ben B, 
+                narrative: Coffee
+[2022-04-22T16:41:55.564] [INFO] filename - Transaction added: 13/08/2014), 
+                From Sarah T to Todd, 
+                narrative: Beers
+[2022-04-22T16:41:55.564] [INFO] filename - Transaction added: 14/01/2014), 
+                From Stephen S to Ben B, 
+                narrative: Beers
+[2022-04-22T16:41:55.564] [INFO] filename - Transaction added: 14/02/2014), 
+                From Laura B to Stephen S, 
+                narrative: Snooker Night
+[2022-04-22T16:41:55.565] [INFO] filename - Transaction added: 14/03/2014), 
+                From Sarah T to Ben B, 
+                narrative: Spline Reticulation
+[2022-04-22T16:41:55.565] [INFO] filename - Transaction added: 14/06/2014), 
+                From Todd to Sam N, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.565] [INFO] filename - Transaction added: 14/07/2014), 
+                From Gergana I to Sam N, 
+                narrative: Coffee
+[2022-04-22T16:41:55.566] [INFO] filename - Transaction added: 14/08/2014), 
+                From Chris W to Tim L, 
+                narrative: Misc Morale
+[2022-04-22T16:41:55.566] [INFO] filename - Transaction added: 14/10/2014), 
+                From Ben B to Gergana I, 
+                narrative: Coffee
+[2022-04-22T16:41:55.566] [INFO] filename - Transaction added: 14/11/2014), 
+                From Sam N to Dan W, 
+                narrative: Spline Reticulation
+[2022-04-22T16:41:55.567] [INFO] filename - Transaction added: 14/12/2014), 
+                From Gergana I to Laura B, 
+                narrative: Lunch
+[2022-04-22T16:41:55.567] [INFO] filename - Transaction added: 15/01/2014), 
+                From Sam N to Stephen S, 
+                narrative: Spline Reticulation
+[2022-04-22T16:41:55.567] [INFO] filename - Transaction added: 15/02/2014), 
+                From Stephen S to Gergana I, 
+                narrative: Rails Consultancy
+[2022-04-22T16:41:55.568] [INFO] filename - Transaction added: 15/04/2014), 
+                From Rob S to Sam N, 
+                narrative: Snooker Night
+[2022-04-22T16:41:55.568] [INFO] filename - Transaction added: 16/06/2014), 
+                From Stephen S to Dan W, 
+                narrative: Lunch
+[2022-04-22T16:41:55.568] [INFO] filename - Transaction added: 16/07/2014), 
+                From Jon A to Dan W, 
+                narrative: Coffee
+[2022-04-22T16:41:55.569] [INFO] filename - Transaction added: 16/09/2014), 
+                From Gergana I to Rob S, 
+                narrative: Golf Bets
+[2022-04-22T16:41:55.569] [INFO] filename - Transaction added: 16/12/2014), 
+                From Todd to Tim L, 
+                narrative: Poker Winnings
+[2022-04-22T16:41:55.569] [INFO] filename - Transaction added: 17/03/2014), 
+                From Sarah T to Stephen S, 
+                narrative: Beers
+[2022-04-22T16:41:55.570] [INFO] filename - Transaction added: 17/05/2014), 
+                From Rob S to Sarah T, 
+                narrative: Misc Morale
+[2022-04-22T16:41:55.570] [INFO] filename - Transaction added: 18/02/2014), 
+                From Sarah T to Sam N, 
+                narrative: Spline Reticulation
+[2022-04-22T16:41:55.570] [INFO] filename - Transaction added: 18/07/2014), 
+                From Gergana I to Stephen S, 
+                narrative: Snooker Night
+[2022-04-22T16:41:55.571] [INFO] filename - Transaction added: 18/08/2014), 
+                From Jon A to Tim L, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.571] [INFO] filename - Transaction added: 18/10/2014), 
+                From Gergana I to Rob S, 
+                narrative: Jenkins Fees
+[2022-04-22T16:41:55.571] [INFO] filename - Transaction added: 18/11/2014), 
+                From Sam N to Chris W, 
+                narrative: Golf Bets
+[2022-04-22T16:41:55.571] [INFO] filename - Transaction added: 18/12/2014), 
+                From Chris W to Ben B, 
+                narrative: Coffee
+[2022-04-22T16:41:55.572] [INFO] filename - Transaction added: 19/01/2014), 
+                From Stephen S to Gergana I, 
+                narrative: Beers
+[2022-04-22T16:41:55.572] [INFO] filename - Transaction added: 19/04/2014), 
+                From Ben B to Gergana I, 
+                narrative: Lunch
+[2022-04-22T16:41:55.572] [INFO] filename - Transaction added: 19/05/2014), 
+                From Jon A to Todd, 
+                narrative: Beers
+[2022-04-22T16:41:55.573] [INFO] filename - Transaction added: 19/10/2014), 
+                From Dan W to Sam N, 
+                narrative: Automated Testing Services
+[2022-04-22T16:41:55.573] [INFO] filename - Transaction added: 19/11/2014), 
+                From Laura B to Jon A, 
+                narrative: Coffee
+[2022-04-22T16:41:55.573] [INFO] filename - Transaction added: 20/01/2014), 
+                From Sam N to Stephen S, 
+                narrative: Beers
+[2022-04-22T16:41:55.574] [INFO] filename - Transaction added: 20/03/2014), 
+                From Tim L to Sarah T, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.574] [INFO] filename - Transaction added: 20/04/2014), 
+                From Dan W to Gergana I, 
+                narrative: Beers
+[2022-04-22T16:41:55.574] [INFO] filename - Transaction added: 20/06/2014), 
+                From Ben B to Chris W, 
+                narrative: Rails Consultancy
+[2022-04-22T16:41:55.575] [INFO] filename - Transaction added: 20/09/2014), 
+                From Jon A to Ben B, 
+                narrative: Beers
+[2022-04-22T16:41:55.575] [INFO] filename - Transaction added: 20/12/2014), 
+                From Rob S to Gergana I, 
+                narrative: Lunch
+[2022-04-22T16:41:55.575] [INFO] filename - Transaction added: 21/08/2014), 
+                From Ben B to Gergana I, 
+                narrative: Rails Consultancy
+[2022-04-22T16:41:55.575] [INFO] filename - Transaction added: 21/11/2014), 
+                From Chris W to Todd, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.576] [INFO] filename - Transaction added: 21/12/2014), 
+                From Gergana I to Laura B, 
+                narrative: Pokemon Training
+[2022-04-22T16:41:55.576] [INFO] filename - Transaction added: 22/02/2014), 
+                From Tim L to Sam N, 
+                narrative: Pokemon Training
+[2022-04-22T16:41:55.576] [INFO] filename - Transaction added: 22/03/2014), 
+                From Rob S to Tim L, 
+                narrative: Misc Morale
+[2022-04-22T16:41:55.577] [INFO] filename - Transaction added: 22/05/2014), 
+                From Tim L to Todd, 
+                narrative: Coffee
+[2022-04-22T16:41:55.577] [INFO] filename - Transaction added: 22/06/2014), 
+                From Tim L to Stephen S, 
+                narrative: Coffee
+[2022-04-22T16:41:55.577] [INFO] filename - Transaction added: 22/07/2014), 
+                From Sarah T to Ben B, 
+                narrative: Coffee
+[2022-04-22T16:41:55.578] [INFO] filename - Transaction added: 22/08/2014), 
+                From Chris W to Sam N, 
+                narrative: Golf Bets
+[2022-04-22T16:41:55.578] [INFO] filename - Transaction added: 22/10/2014), 
+                From Dan W to Sam N, 
+                narrative: Beers
+[2022-04-22T16:41:55.578] [INFO] filename - Transaction added: 22/12/2014), 
+                From Dan W to Jon A, 
+                narrative: Lunch
+[2022-04-22T16:41:55.578] [INFO] filename - Transaction added: 23/03/2014), 
+                From Jon A to Sam N, 
+                narrative: Lunch
+[2022-04-22T16:41:55.579] [INFO] filename - Transaction added: 23/04/2014), 
+                From Stephen S to Rob S, 
+                narrative: Poker Winnings
+[2022-04-22T16:41:55.579] [INFO] filename - Transaction added: 23/06/2014), 
+                From Stephen S to Ben B, 
+                narrative: Spline Reticulation
+[2022-04-22T16:41:55.579] [INFO] filename - Transaction added: 23/07/2014), 
+                From Rob S to Tim L, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.580] [INFO] filename - Transaction added: 23/08/2014), 
+                From Ben B to Stephen S, 
+                narrative: Lunch
+[2022-04-22T16:41:55.580] [INFO] filename - Transaction added: 23/10/2014), 
+                From Jon A to Dan W, 
+                narrative: Lunch
+[2022-04-22T16:41:55.580] [INFO] filename - Transaction added: 23/11/2014), 
+                From Todd to Sarah T, 
+                narrative: Beers
+[2022-04-22T16:41:55.580] [INFO] filename - Transaction added: 24/01/2014), 
+                From Laura B to Sam N, 
+                narrative: Coffee
+[2022-04-22T16:41:55.581] [INFO] filename - Transaction added: 24/04/2014), 
+                From Tim L to Dan W, 
+                narrative: Misc Morale
+[2022-04-22T16:41:55.581] [INFO] filename - Transaction added: 24/05/2014), 
+                From Sam N to Tim L, 
+                narrative: Sandcastle Help
+[2022-04-22T16:41:55.581] [INFO] filename - Transaction added: 24/08/2014), 
+                From Laura B to Stephen S, 
+                narrative: Audit and Other Financial Services
+[2022-04-22T16:41:55.582] [INFO] filename - Transaction added: 24/09/2014), 
+                From Jon A to Laura B, 
+                narrative: Golf Bets
+[2022-04-22T16:41:55.583] [INFO] filename - Transaction added: 25/02/2014), 
+                From Todd to Rob S, 
+                narrative: Automated Testing Services
+[2022-04-22T16:41:55.583] [INFO] filename - Transaction added: 25/07/2014), 
+                From Laura B to Stephen S, 
+                narrative: Poker Winnings
+[2022-04-22T16:41:55.583] [INFO] filename - Transaction added: 25/08/2014), 
+                From Gergana I to Stephen S, 
+                narrative: Beers
+[2022-04-22T16:41:55.583] [INFO] filename - Transaction added: 25/10/2014), 
+                From Laura B to Todd, 
+                narrative: Beers
+[2022-04-22T16:41:55.584] [INFO] filename - Transaction added: 25/11/2014), 
+                From Chris W to Rob S, 
+                narrative: Pokemon Training
+[2022-04-22T16:41:55.584] [INFO] filename - Transaction added: 25/12/2014), 
+                From Todd to Rob S, 
+                narrative: Lego Assistance
+[2022-04-22T16:41:55.584] [INFO] filename - Transaction added: 26/04/2014), 
+                From Todd to Tim L, 
+                narrative: Lunch
+[2022-04-22T16:41:55.585] [INFO] filename - Transaction added: 26/05/2014), 
+                From Ben B to Laura B, 
+                narrative: Lunch
+[2022-04-22T16:41:55.585] [INFO] filename - Transaction added: 26/06/2014), 
+                From Chris W to Todd, 
+                narrative: Beers
+[2022-04-22T16:41:55.585] [INFO] filename - Transaction added: 27/02/2014), 
+                From Ben B to Rob S, 
+                narrative: Snooker Night
+[2022-04-22T16:41:55.586] [INFO] filename - Transaction added: 27/03/2014), 
+                From Ben B to Sam N, 
+                narrative: Misc Morale
+[2022-04-22T16:41:55.586] [INFO] filename - Transaction added: 27/09/2014), 
+                From Sarah T to Dan W, 
+                narrative: Beers
+[2022-04-22T16:41:55.586] [INFO] filename - Transaction added: 28/01/2014), 
+                From Todd to Ben B, 
+                narrative: Coffee
+[2022-04-22T16:41:55.587] [INFO] filename - Transaction added: 28/06/2014), 
+                From Sarah T to Gergana I, 
+                narrative: Beers
+[2022-04-22T16:41:55.587] [INFO] filename - Transaction added: 28/07/2014), 
+                From Gergana I to Chris W, 
+                narrative: Pokemon Training
+[2022-04-22T16:41:55.587] [INFO] filename - Transaction added: 28/08/2014), 
+                From Laura B to Tim L, 
+                narrative: Beers
+[2022-04-22T16:41:55.588] [INFO] filename - Transaction added: 28/10/2014), 
+                From Gergana I to Dan W, 
+                narrative: Misc Morale
+[2022-04-22T16:41:55.588] [INFO] filename - Transaction added: 28/11/2014), 
+                From Tim L to Dan W, 
+                narrative: Beers
+[2022-04-22T16:41:55.588] [INFO] filename - Transaction added: 28/12/2014), 
+                From Ben B to Laura B, 
+                narrative: Coffee
+[2022-04-22T16:41:55.589] [INFO] filename - Transaction added: 29/03/2014), 
+                From Todd to Sarah T, 
+                narrative: Git-Fu Rendered
+[2022-04-22T16:41:55.589] [INFO] filename - Transaction added: 29/06/2014), 
+                From Chris W to Laura B, 
+                narrative: Jenkins Fees
+[2022-04-22T16:41:55.589] [INFO] filename - Transaction added: 29/07/2014), 
+                From Jon A to Sam N, 
+                narrative: Lunch
+[2022-04-22T16:41:55.590] [INFO] filename - Transaction added: 29/08/2014), 
+                From Ben B to Chris W, 
+                narrative: Lunch
+[2022-04-22T16:41:55.590] [INFO] filename - Transaction added: 29/09/2014), 
+                From Ben B to Tim L, 
+                narrative: Misc Morale
+[2022-04-22T16:41:55.590] [INFO] filename - Transaction added: 29/10/2014), 
+                From Dan W to Ben B, 
+                narrative: Rails Consultancy
+[2022-04-22T16:41:55.591] [INFO] filename - Transaction added: 29/12/2014), 
+                From Ben B to Sam N, 
+                narrative: Coffee
+[2022-04-22T16:41:55.591] [INFO] filename - Transaction added: 30/03/2014), 
+                From Dan W to Laura B, 
+                narrative: Lunch
+[2022-04-22T16:41:55.591] [INFO] filename - Transaction added: 30/04/2014), 
+                From Laura B to Ben B, 
+                narrative: Golf Bets
+[2022-04-22T16:41:55.592] [INFO] filename - Transaction added: 30/05/2014), 
+                From Laura B to Todd, 
+                narrative: Lunch
+[2022-04-22T16:41:55.592] [INFO] filename - Transaction added: 30/09/2014), 
+                From Jon A to Dan W, 
+                narrative: Sandbox Help
+[2022-04-22T16:41:55.593] [INFO] filename - Transaction added: 30/10/2014), 
+                From Chris W to Gergana I, 
+                narrative: Jenkins Fees
+[2022-04-22T16:41:55.593] [INFO] filename - Transaction added: 31/01/2014), 
+                From Sam N to Gergana I, 
+                narrative: Services Rendered
+[2022-04-22T16:41:55.593] [INFO] filename - Transaction added: 31/05/2014), 
+                From Tim L to Ben B, 
+                narrative: Coffee
+[2022-04-22T16:41:55.594] [INFO] filename - Account created for Sarah T 
+                with balance (7.80
+[2022-04-22T16:41:55.595] [INFO] filename - Account created for Sarah T 
+                    with balance (7.80
+[2022-04-22T16:41:55.595] [INFO] filename - Account created for Ben B 
+                with balance (6.87
+[2022-04-22T16:41:55.595] [INFO] filename - Account created for Ben B 
+                    with balance (6.87
+[2022-04-22T16:41:55.596] [INFO] filename - Account created for Jon A 
+                with balance (8.75
+[2022-04-22T16:41:55.596] [INFO] filename - Balance incremented for Jon A by 8.75
+[2022-04-22T16:41:55.596] [INFO] filename - Account created for Laura B 
+                with balance (2.87
+[2022-04-22T16:41:55.597] [INFO] filename - Account created for Laura B 
+                    with balance (2.87
+[2022-04-22T16:41:55.597] [INFO] filename - Account created for Stephen S 
+                with balance (5.20
+[2022-04-22T16:41:55.597] [INFO] filename - Balance incremented for Stephen S by 5.2
+[2022-04-22T16:41:55.598] [INFO] filename - Account created for Jon A 
+                with balance (2.67
+[2022-04-22T16:41:55.598] [INFO] filename - Balance incremented for Jon A by 2.67
+[2022-04-22T16:41:55.598] [INFO] filename - Balance decremented for Sam N by 2.72
+[2022-04-22T16:41:55.599] [INFO] filename - Account created for Gergana I 
+                    with balance (2.72
+[2022-04-22T16:41:55.599] [INFO] filename - Balance decremented for Sam N by 9.41
+[2022-04-22T16:41:55.599] [INFO] filename - Balance incremented for Gergana I by 9.41
+[2022-04-22T16:41:55.600] [INFO] filename - Balance decremented for Stephen S by 2.9
+[2022-04-22T16:41:55.600] [INFO] filename - Account created for Dan W 
+                    with balance (2.90
+[2022-04-22T16:41:55.600] [INFO] filename - Balance decremented for Sarah T by 4.67
+[2022-04-22T16:41:55.601] [INFO] filename - Balance incremented for Tim L by 4.67
+[2022-04-22T16:41:55.601] [INFO] filename - Balance decremented for Jon A by 11.04
+[2022-04-22T16:41:55.601] [INFO] filename - Balance incremented for Sam N by 11.04
+[2022-04-22T16:41:55.602] [INFO] filename - Balance decremented for Sam N by 8.76
+[2022-04-22T16:41:55.602] [INFO] filename - Balance incremented for Gergana I by 8.76
+[2022-04-22T16:41:55.602] [INFO] filename - Balance decremented for Jon A by 10.51
+[2022-04-22T16:41:55.603] [INFO] filename - Balance incremented for Gergana I by 10.51
+[2022-04-22T16:41:55.603] [INFO] filename - Balance decremented for Laura B by 6.26
+[2022-04-22T16:41:55.603] [INFO] filename - Balance incremented for Rob S by 6.26
+[2022-04-22T16:41:55.604] [INFO] filename - Balance decremented for Jon A by 8.13
+[2022-04-22T16:41:55.604] [INFO] filename - Balance incremented for Tim L by 8.13
+[2022-04-22T16:41:55.604] [INFO] filename - Balance decremented for Stephen S by 4.37
+[2022-04-22T16:41:55.605] [INFO] filename - Balance incremented for Tim L by 4.37
+[2022-04-22T16:41:55.605] [INFO] filename - Account created for Ben B 
+                with balance (6.03
+[2022-04-22T16:41:55.605] [INFO] filename - Balance incremented for Ben B by 6.03
+[2022-04-22T16:41:55.606] [INFO] filename - Balance decremented for Todd by 10.85
+[2022-04-22T16:41:55.606] [INFO] filename - Balance incremented for Ben B by 10.85
+[2022-04-22T16:41:55.606] [INFO] filename - Balance decremented for Gergana I by 7.81
+[2022-04-22T16:41:55.607] [INFO] filename - Balance incremented for Ben B by 7.81
+[2022-04-22T16:41:55.607] [INFO] filename - Balance decremented for Ben B by 11.28
+[2022-04-22T16:41:55.607] [INFO] filename - Balance incremented for Todd by 11.28
+[2022-04-22T16:41:55.608] [INFO] filename - Balance decremented for Chris W by 6.15
+[2022-04-22T16:41:55.608] [INFO] filename - Balance incremented for Rob S by 6.15
+[2022-04-22T16:41:55.608] [INFO] filename - Balance decremented for Todd by 5.62
+[2022-04-22T16:41:55.609] [INFO] filename - Balance incremented for Rob S by 5.62
+[2022-04-22T16:41:55.609] [INFO] filename - Balance decremented for Dan W by 5.06
+[2022-04-22T16:41:55.609] [INFO] filename - Balance incremented for Sarah T by 5.06
+[2022-04-22T16:41:55.610] [INFO] filename - Balance decremented for Dan W by 5.61
+[2022-04-22T16:41:55.610] [INFO] filename - Balance incremented for Gergana I by 5.61
+[2022-04-22T16:41:55.610] [INFO] filename - Balance decremented for Jon A by 8.91
+[2022-04-22T16:41:55.611] [INFO] filename - Balance incremented for Stephen S by 8.91
+[2022-04-22T16:41:55.611] [INFO] filename - Balance decremented for Tim L by 7.45
+[2022-04-22T16:41:55.611] [INFO] filename - Balance incremented for Chris W by 7.45
+[2022-04-22T16:41:55.612] [INFO] filename - Balance decremented for Sam N by 4.37
+[2022-04-22T16:41:55.612] [INFO] filename - Balance incremented for Jon A by 4.37
+[2022-04-22T16:41:55.612] [INFO] filename - Balance decremented for Dan W by 1.8
+[2022-04-22T16:41:55.613] [INFO] filename - Balance incremented for Todd by 1.8
+[2022-04-22T16:41:55.613] [INFO] filename - Balance decremented for Sarah T by 7.44
+[2022-04-22T16:41:55.613] [INFO] filename - Balance incremented for Tim L by 7.44
+[2022-04-22T16:41:55.614] [INFO] filename - Balance decremented for Gergana I by 5.64
+[2022-04-22T16:41:55.614] [INFO] filename - Balance incremented for Rob S by 5.64
+[2022-04-22T16:41:55.614] [INFO] filename - Balance decremented for Jon A by 1.65
+[2022-04-22T16:41:55.615] [INFO] filename - Balance incremented for Sam N by 1.65
+[2022-04-22T16:41:55.615] [INFO] filename - Balance decremented for Todd by 9.39
+[2022-04-22T16:41:55.615] [INFO] filename - Balance incremented for Laura B by 9.39
+[2022-04-22T16:41:55.616] [INFO] filename - Balance decremented for Rob S by 3
+[2022-04-22T16:41:55.616] [INFO] filename - Balance incremented for Ben B by 3
+[2022-04-22T16:41:55.616] [INFO] filename - Balance decremented for Laura B by 5.09
+[2022-04-22T16:41:55.617] [INFO] filename - Balance incremented for Stephen S by 5.09
+[2022-04-22T16:41:55.617] [INFO] filename - Balance decremented for Stephen S by 2.96
+[2022-04-22T16:41:55.617] [INFO] filename - Balance incremented for Sam N by 2.96
+[2022-04-22T16:41:55.617] [INFO] filename - Balance decremented for Tim L by 3.76
+[2022-04-22T16:41:55.618] [INFO] filename - Balance incremented for Laura B by 3.76
+[2022-04-22T16:41:55.618] [INFO] filename - Balance decremented for Ben B by 1.31
+[2022-04-22T16:41:55.618] [INFO] filename - Balance incremented for Rob S by 1.31
+[2022-04-22T16:41:55.619] [INFO] filename - Balance decremented for Sarah T by 11.5
+[2022-04-22T16:41:55.619] [INFO] filename - Balance incremented for Stephen S by 11.5
+[2022-04-22T16:41:55.619] [INFO] filename - Balance decremented for Dan W by 5.45
+[2022-04-22T16:41:55.619] [INFO] filename - Balance incremented for Tim L by 5.45
+[2022-04-22T16:41:55.620] [INFO] filename - Balance decremented for Todd by 3.93
+[2022-04-22T16:41:55.620] [INFO] filename - Balance incremented for Dan W by 3.93
+[2022-04-22T16:41:55.620] [INFO] filename - Balance decremented for Sam N by 7.76
+[2022-04-22T16:41:55.621] [INFO] filename - Balance incremented for Laura B by 7.76
+[2022-04-22T16:41:55.621] [INFO] filename - Balance decremented for Jon A by 2.26
+[2022-04-22T16:41:55.621] [INFO] filename - Balance incremented for Chris W by 2.26
+[2022-04-22T16:41:55.621] [INFO] filename - Balance decremented for Dan W by 0.93
+[2022-04-22T16:41:55.622] [INFO] filename - Balance incremented for Sam N by 0.93
+[2022-04-22T16:41:55.622] [INFO] filename - Balance decremented for Todd by 1.62
+[2022-04-22T16:41:55.622] [INFO] filename - Balance incremented for Gergana I by 1.62
+[2022-04-22T16:41:55.623] [INFO] filename - Balance decremented for Todd by 3.55
+[2022-04-22T16:41:55.623] [INFO] filename - Balance incremented for Sarah T by 3.55
+[2022-04-22T16:41:55.623] [INFO] filename - Balance decremented for Laura B by 10.63
+[2022-04-22T16:41:55.624] [INFO] filename - Balance incremented for Todd by 10.63
+[2022-04-22T16:41:55.624] [INFO] filename - Balance decremented for Ben B by 3.98
+[2022-04-22T16:41:55.624] [INFO] filename - Balance incremented for Gergana I by 3.98
+[2022-04-22T16:41:55.625] [INFO] filename - Balance decremented for Rob S by 7.8
+[2022-04-22T16:41:55.625] [INFO] filename - Balance incremented for Ben B by 7.8
+[2022-04-22T16:41:55.625] [INFO] filename - Balance decremented for Todd by 3.72
+[2022-04-22T16:41:55.625] [INFO] filename - Balance incremented for Laura B by 3.72
+[2022-04-22T16:41:55.626] [INFO] filename - Balance decremented for Stephen S by 5.14
+[2022-04-22T16:41:55.626] [INFO] filename - Balance incremented for Sam N by 5.14
+[2022-04-22T16:41:55.626] [INFO] filename - Balance decremented for Dan W by 5.05
+[2022-04-22T16:41:55.627] [INFO] filename - Balance incremented for Sarah T by 5.05
+[2022-04-22T16:41:55.627] [INFO] filename - Balance decremented for Stephen S by 8.91
+[2022-04-22T16:41:55.627] [INFO] filename - Balance incremented for Rob S by 8.91
+[2022-04-22T16:41:55.628] [INFO] filename - Balance decremented for Jon A by 0.73
+[2022-04-22T16:41:55.628] [INFO] filename - Balance incremented for Ben B by 0.73
+[2022-04-22T16:41:55.628] [INFO] filename - Balance decremented for Laura B by 3.11
+[2022-04-22T16:41:55.628] [INFO] filename - Balance incremented for Jon A by 3.11
+[2022-04-22T16:41:55.629] [INFO] filename - Balance decremented for Dan W by 4.5
+[2022-04-22T16:41:55.629] [INFO] filename - Balance incremented for Tim L by 4.5
+[2022-04-22T16:41:55.629] [INFO] filename - Balance decremented for Tim L by 5.89
+[2022-04-22T16:41:55.630] [INFO] filename - Balance incremented for Ben B by 5.89
+[2022-04-22T16:41:55.630] [INFO] filename - Balance decremented for Sarah T by 8.25
+[2022-04-22T16:41:55.630] [INFO] filename - Balance incremented for Todd by 8.25
+[2022-04-22T16:41:55.630] [INFO] filename - Balance decremented for Stephen S by 7.36
+[2022-04-22T16:41:55.631] [INFO] filename - Balance incremented for Ben B by 7.36
+[2022-04-22T16:41:55.631] [INFO] filename - Balance decremented for Laura B by 10.78
+[2022-04-22T16:41:55.631] [INFO] filename - Balance incremented for Stephen S by 10.78
+[2022-04-22T16:41:55.632] [INFO] filename - Balance decremented for Sarah T by 2.1
+[2022-04-22T16:41:55.632] [INFO] filename - Balance incremented for Ben B by 2.1
+[2022-04-22T16:41:55.632] [INFO] filename - Balance decremented for Todd by 6.3
+[2022-04-22T16:41:55.633] [INFO] filename - Balance incremented for Sam N by 6.3
+[2022-04-22T16:41:55.633] [INFO] filename - Balance decremented for Gergana I by 10.92
+[2022-04-22T16:41:55.633] [INFO] filename - Balance incremented for Sam N by 10.92
+[2022-04-22T16:41:55.633] [INFO] filename - Balance decremented for Chris W by 6.59
+[2022-04-22T16:41:55.634] [INFO] filename - Balance incremented for Tim L by 6.59
+[2022-04-22T16:41:55.634] [INFO] filename - Balance decremented for Ben B by 11.65
+[2022-04-22T16:41:55.634] [INFO] filename - Balance incremented for Gergana I by 11.65
+[2022-04-22T16:41:55.635] [INFO] filename - Balance decremented for Sam N by 0.8
+[2022-04-22T16:41:55.635] [INFO] filename - Balance incremented for Dan W by 0.8
+[2022-04-22T16:41:55.635] [INFO] filename - Balance decremented for Gergana I by 4.26
+[2022-04-22T16:41:55.635] [INFO] filename - Balance incremented for Laura B by 4.26
+[2022-04-22T16:41:55.636] [INFO] filename - Balance decremented for Sam N by 11.63
+[2022-04-22T16:41:55.636] [INFO] filename - Balance incremented for Stephen S by 11.63
+[2022-04-22T16:41:55.636] [INFO] filename - Balance decremented for Stephen S by 6.91
+[2022-04-22T16:41:55.636] [INFO] filename - Balance incremented for Gergana I by 6.91
+[2022-04-22T16:41:55.637] [INFO] filename - Balance decremented for Rob S by 8.86
+[2022-04-22T16:41:55.637] [INFO] filename - Balance incremented for Sam N by 8.86
+[2022-04-22T16:41:55.637] [INFO] filename - Balance decremented for Stephen S by 4.79
+[2022-04-22T16:41:55.638] [INFO] filename - Balance incremented for Dan W by 4.79
+[2022-04-22T16:41:55.638] [INFO] filename - Balance decremented for Jon A by 11.75
+[2022-04-22T16:41:55.638] [INFO] filename - Balance incremented for Dan W by 11.75
+[2022-04-22T16:41:55.638] [INFO] filename - Balance decremented for Gergana I by 1.28
+[2022-04-22T16:41:55.639] [INFO] filename - Balance incremented for Rob S by 1.28
+[2022-04-22T16:41:55.639] [INFO] filename - Balance decremented for Todd by 7.17
+[2022-04-22T16:41:55.639] [INFO] filename - Balance incremented for Tim L by 7.17
+[2022-04-22T16:41:55.640] [INFO] filename - Balance decremented for Sarah T by 0.66
+[2022-04-22T16:41:55.640] [INFO] filename - Balance incremented for Stephen S by 0.66
+[2022-04-22T16:41:55.640] [INFO] filename - Balance decremented for Rob S by 3.61
+[2022-04-22T16:41:55.640] [INFO] filename - Balance incremented for Sarah T by 3.61
+[2022-04-22T16:41:55.641] [INFO] filename - Balance decremented for Sarah T by 1.6
+[2022-04-22T16:41:55.641] [INFO] filename - Balance incremented for Sam N by 1.6
+[2022-04-22T16:41:55.641] [INFO] filename - Balance decremented for Gergana I by 11.57
+[2022-04-22T16:41:55.642] [INFO] filename - Balance incremented for Stephen S by 11.57
+[2022-04-22T16:41:55.642] [INFO] filename - Balance decremented for Jon A by 7.22
+[2022-04-22T16:41:55.642] [INFO] filename - Balance incremented for Tim L by 7.22
+[2022-04-22T16:41:55.642] [INFO] filename - Balance decremented for Gergana I by 5.47
+[2022-04-22T16:41:55.643] [INFO] filename - Balance incremented for Rob S by 5.47
+[2022-04-22T16:41:55.643] [INFO] filename - Balance decremented for Sam N by 6.44
+[2022-04-22T16:41:55.643] [INFO] filename - Balance incremented for Chris W by 6.44
+[2022-04-22T16:41:55.643] [INFO] filename - Balance decremented for Chris W by 11.17
+[2022-04-22T16:41:55.644] [INFO] filename - Balance incremented for Ben B by 11.17
+[2022-04-22T16:41:55.644] [INFO] filename - Balance decremented for Stephen S by 5.88
+[2022-04-22T16:41:55.644] [INFO] filename - Balance incremented for Gergana I by 5.88
+[2022-04-22T16:41:55.645] [INFO] filename - Balance decremented for Ben B by 7.61
+[2022-04-22T16:41:55.645] [INFO] filename - Balance incremented for Gergana I by 7.61
+[2022-04-22T16:41:55.645] [INFO] filename - Balance decremented for Jon A by 9.04
+[2022-04-22T16:41:55.646] [INFO] filename - Balance incremented for Todd by 9.04
+[2022-04-22T16:41:55.646] [INFO] filename - Balance decremented for Dan W by 8
+[2022-04-22T16:41:55.646] [INFO] filename - Balance incremented for Sam N by 8
+[2022-04-22T16:41:55.646] [INFO] filename - Balance decremented for Laura B by 2.61
+[2022-04-22T16:41:55.647] [INFO] filename - Balance incremented for Jon A by 2.61
+[2022-04-22T16:41:55.647] [INFO] filename - Balance decremented for Sam N by 8.2
+[2022-04-22T16:41:55.647] [INFO] filename - Balance incremented for Stephen S by 8.2
+[2022-04-22T16:41:55.648] [INFO] filename - Balance decremented for Tim L by 2.28
+[2022-04-22T16:41:55.648] [INFO] filename - Balance incremented for Sarah T by 2.28
+[2022-04-22T16:41:55.648] [INFO] filename - Balance decremented for Dan W by 11.92
+[2022-04-22T16:41:55.649] [INFO] filename - Balance incremented for Gergana I by 11.92
+[2022-04-22T16:41:55.649] [INFO] filename - Balance decremented for Ben B by 1.34
+[2022-04-22T16:41:55.649] [INFO] filename - Balance incremented for Chris W by 1.34
+[2022-04-22T16:41:55.649] [INFO] filename - Balance decremented for Jon A by 3.71
+[2022-04-22T16:41:55.650] [INFO] filename - Balance incremented for Ben B by 3.71
+[2022-04-22T16:41:55.650] [INFO] filename - Balance decremented for Rob S by 1.07
+[2022-04-22T16:41:55.650] [INFO] filename - Balance incremented for Gergana I by 1.07
+[2022-04-22T16:41:55.651] [INFO] filename - Balance decremented for Ben B by 9.25
+[2022-04-22T16:41:55.651] [INFO] filename - Balance incremented for Gergana I by 9.25
+[2022-04-22T16:41:55.651] [INFO] filename - Balance decremented for Chris W by 1.42
+[2022-04-22T16:41:55.651] [INFO] filename - Balance incremented for Todd by 1.42
+[2022-04-22T16:41:55.652] [INFO] filename - Balance decremented for Gergana I by 6.86
+[2022-04-22T16:41:55.652] [INFO] filename - Balance incremented for Laura B by 6.86
+[2022-04-22T16:41:55.652] [INFO] filename - Balance decremented for Tim L by 5.2
+[2022-04-22T16:41:55.653] [INFO] filename - Balance incremented for Sam N by 5.2
+[2022-04-22T16:41:55.653] [INFO] filename - Balance decremented for Rob S by 1.95
+[2022-04-22T16:41:55.653] [INFO] filename - Balance incremented for Tim L by 1.95
+[2022-04-22T16:41:55.653] [INFO] filename - Balance decremented for Tim L by 3.81
+[2022-04-22T16:41:55.654] [INFO] filename - Balance incremented for Todd by 3.81
+[2022-04-22T16:41:55.654] [INFO] filename - Balance decremented for Tim L by 6.44
+[2022-04-22T16:41:55.654] [INFO] filename - Balance incremented for Stephen S by 6.44
+[2022-04-22T16:41:55.655] [INFO] filename - Balance decremented for Sarah T by 11.56
+[2022-04-22T16:41:55.655] [INFO] filename - Balance incremented for Ben B by 11.56
+[2022-04-22T16:41:55.655] [INFO] filename - Balance decremented for Chris W by 1.9
+[2022-04-22T16:41:55.655] [INFO] filename - Balance incremented for Sam N by 1.9
+[2022-04-22T16:41:55.656] [INFO] filename - Balance decremented for Dan W by 0.55
+[2022-04-22T16:41:55.656] [INFO] filename - Balance incremented for Sam N by 0.55
+[2022-04-22T16:41:55.656] [INFO] filename - Balance decremented for Dan W by 3.66
+[2022-04-22T16:41:55.656] [INFO] filename - Balance incremented for Jon A by 3.66
+[2022-04-22T16:41:55.657] [INFO] filename - Balance decremented for Jon A by 8.49
+[2022-04-22T16:41:55.657] [INFO] filename - Balance incremented for Sam N by 8.49
+[2022-04-22T16:41:55.657] [INFO] filename - Balance decremented for Stephen S by 3.41
+[2022-04-22T16:41:55.658] [INFO] filename - Balance incremented for Rob S by 3.41
+[2022-04-22T16:41:55.658] [INFO] filename - Balance decremented for Stephen S by 11.85
+[2022-04-22T16:41:55.658] [INFO] filename - Balance incremented for Ben B by 11.85
+[2022-04-22T16:41:55.658] [INFO] filename - Balance decremented for Rob S by 11.47
+[2022-04-22T16:41:55.659] [INFO] filename - Balance incremented for Tim L by 11.47
+[2022-04-22T16:41:55.659] [INFO] filename - Balance decremented for Ben B by 5.02
+[2022-04-22T16:41:55.659] [INFO] filename - Balance incremented for Stephen S by 5.02
+[2022-04-22T16:41:55.660] [INFO] filename - Balance decremented for Jon A by 2.37
+[2022-04-22T16:41:55.660] [INFO] filename - Balance incremented for Dan W by 2.37
+[2022-04-22T16:41:55.660] [INFO] filename - Balance decremented for Todd by 2.24
+[2022-04-22T16:41:55.660] [INFO] filename - Balance incremented for Sarah T by 2.24
+[2022-04-22T16:41:55.661] [INFO] filename - Balance decremented for Laura B by 11.68
+[2022-04-22T16:41:55.661] [INFO] filename - Balance incremented for Sam N by 11.68
+[2022-04-22T16:41:55.661] [INFO] filename - Balance decremented for Tim L by 6.38
+[2022-04-22T16:41:55.662] [INFO] filename - Balance incremented for Dan W by 6.38
+[2022-04-22T16:41:55.662] [INFO] filename - Balance decremented for Sam N by 8.8
+[2022-04-22T16:41:55.662] [INFO] filename - Balance incremented for Tim L by 8.8
+[2022-04-22T16:41:55.663] [INFO] filename - Balance decremented for Laura B by 7.45
+[2022-04-22T16:41:55.663] [INFO] filename - Balance incremented for Stephen S by 7.45
+[2022-04-22T16:41:55.663] [INFO] filename - Balance decremented for Jon A by 5.61
+[2022-04-22T16:41:55.664] [INFO] filename - Balance incremented for Laura B by 5.61
+[2022-04-22T16:41:55.664] [INFO] filename - Balance decremented for Todd by 7.1
+[2022-04-22T16:41:55.665] [INFO] filename - Balance incremented for Rob S by 7.1
+[2022-04-22T16:41:55.665] [INFO] filename - Balance decremented for Laura B by 9.42
+[2022-04-22T16:41:55.665] [INFO] filename - Balance incremented for Stephen S by 9.42
+[2022-04-22T16:41:55.666] [INFO] filename - Balance decremented for Gergana I by 8.57
+[2022-04-22T16:41:55.666] [INFO] filename - Balance incremented for Stephen S by 8.57
+[2022-04-22T16:41:55.666] [INFO] filename - Balance decremented for Laura B by 8.42
+[2022-04-22T16:41:55.667] [INFO] filename - Balance incremented for Todd by 8.42
+[2022-04-22T16:41:55.667] [INFO] filename - Balance decremented for Chris W by 5.76
+[2022-04-22T16:41:55.667] [INFO] filename - Balance incremented for Rob S by 5.76
+[2022-04-22T16:41:55.668] [INFO] filename - Balance decremented for Todd by 1.86
+[2022-04-22T16:41:55.669] [INFO] filename - Balance incremented for Rob S by 1.86
+[2022-04-22T16:41:55.669] [INFO] filename - Balance decremented for Todd by 1.46
+[2022-04-22T16:41:55.669] [INFO] filename - Balance incremented for Tim L by 1.46
+[2022-04-22T16:41:55.670] [INFO] filename - Balance decremented for Ben B by 7.36
+[2022-04-22T16:41:55.670] [INFO] filename - Balance incremented for Laura B by 7.36
+[2022-04-22T16:41:55.670] [INFO] filename - Balance decremented for Chris W by 9.81
+[2022-04-22T16:41:55.671] [INFO] filename - Balance incremented for Todd by 9.81
+[2022-04-22T16:41:55.671] [INFO] filename - Balance decremented for Ben B by 8.41
+[2022-04-22T16:41:55.671] [INFO] filename - Balance incremented for Rob S by 8.41
+[2022-04-22T16:41:55.672] [INFO] filename - Balance decremented for Ben B by 10.76
+[2022-04-22T16:41:55.672] [INFO] filename - Balance incremented for Sam N by 10.76
+[2022-04-22T16:41:55.672] [INFO] filename - Balance decremented for Sarah T by 11.6
+[2022-04-22T16:41:55.672] [INFO] filename - Balance incremented for Dan W by 11.6
+[2022-04-22T16:41:55.673] [INFO] filename - Balance decremented for Todd by 6.81
+[2022-04-22T16:41:55.673] [INFO] filename - Balance incremented for Ben B by 6.81
+[2022-04-22T16:41:55.673] [INFO] filename - Balance decremented for Sarah T by 4.03
+[2022-04-22T16:41:55.674] [INFO] filename - Balance incremented for Gergana I by 4.03
+[2022-04-22T16:41:55.674] [INFO] filename - Balance decremented for Gergana I by 2.33
+[2022-04-22T16:41:55.674] [INFO] filename - Balance incremented for Chris W by 2.33
+[2022-04-22T16:41:55.675] [INFO] filename - Balance decremented for Laura B by 0.57
+[2022-04-22T16:41:55.675] [INFO] filename - Balance incremented for Tim L by 0.57
+[2022-04-22T16:41:55.675] [INFO] filename - Balance decremented for Gergana I by 5.04
+[2022-04-22T16:41:55.675] [INFO] filename - Balance incremented for Dan W by 5.04
+[2022-04-22T16:41:55.676] [INFO] filename - Balance decremented for Tim L by 8.76
+[2022-04-22T16:41:55.676] [INFO] filename - Balance incremented for Dan W by 8.76
+[2022-04-22T16:41:55.676] [INFO] filename - Balance decremented for Ben B by 1.44
+[2022-04-22T16:41:55.677] [INFO] filename - Balance incremented for Laura B by 1.44
+[2022-04-22T16:41:55.677] [INFO] filename - Balance decremented for Todd by 5.01
+[2022-04-22T16:41:55.677] [INFO] filename - Balance incremented for Sarah T by 5.01
+[2022-04-22T16:41:55.677] [INFO] filename - Balance decremented for Chris W by 8.7
+[2022-04-22T16:41:55.678] [INFO] filename - Balance incremented for Laura B by 8.7
+[2022-04-22T16:41:55.678] [INFO] filename - Balance decremented for Jon A by 5.31
+[2022-04-22T16:41:55.678] [INFO] filename - Balance incremented for Sam N by 5.31
+[2022-04-22T16:41:55.679] [INFO] filename - Balance decremented for Ben B by 1.66
+[2022-04-22T16:41:55.679] [INFO] filename - Balance incremented for Chris W by 1.66
+[2022-04-22T16:41:55.679] [INFO] filename - Balance decremented for Ben B by 3.43
+[2022-04-22T16:41:55.679] [INFO] filename - Balance incremented for Tim L by 3.43
+[2022-04-22T16:41:55.680] [INFO] filename - Balance decremented for Dan W by 5.87
+[2022-04-22T16:41:55.680] [INFO] filename - Balance incremented for Ben B by 5.87
+[2022-04-22T16:41:55.680] [INFO] filename - Balance decremented for Ben B by 5.26
+[2022-04-22T16:41:55.680] [INFO] filename - Balance incremented for Sam N by 5.26
+[2022-04-22T16:41:55.681] [INFO] filename - Balance decremented for Dan W by 4.77
+[2022-04-22T16:41:55.681] [INFO] filename - Balance incremented for Laura B by 4.77
+[2022-04-22T16:41:55.681] [INFO] filename - Balance decremented for Laura B by 5.77
+[2022-04-22T16:41:55.682] [INFO] filename - Balance incremented for Ben B by 5.77
+[2022-04-22T16:41:55.682] [INFO] filename - Balance decremented for Laura B by 7.01
+[2022-04-22T16:41:55.682] [INFO] filename - Balance incremented for Todd by 7.01
+[2022-04-22T16:41:55.683] [INFO] filename - Balance decremented for Jon A by 9.26
+[2022-04-22T16:41:55.683] [INFO] filename - Balance incremented for Dan W by 9.26
+[2022-04-22T16:41:55.683] [INFO] filename - Balance decremented for Chris W by 8.9
+[2022-04-22T16:41:55.684] [INFO] filename - Balance incremented for Gergana I by 8.9
+[2022-04-22T16:41:55.684] [INFO] filename - Balance decremented for Sam N by 6.29
+[2022-04-22T16:41:55.684] [INFO] filename - Balance incremented for Gergana I by 6.29
+[2022-04-22T16:41:55.685] [INFO] filename - Balance decremented for Tim L by 8.23
+[2022-04-22T16:41:55.685] [INFO] filename - Balance incremented for Ben B by 8.23
+[2022-04-22T17:35:05.377] [INFO] filename - Transaction added: 01/01/2014), 
+            From Jon A to Sarah T, 
+            narrative: Pokemon Training
+[2022-04-22T17:35:05.379] [INFO] filename - Transaction added: 01/02/2014), 
+            From Todd to Ben B, 
+            narrative: Snooker Night
+[2022-04-22T17:35:05.379] [INFO] filename - Transaction added: 01/03/2014), 
+            From Stephen S to Jon A, 
+            narrative: Coffee
+[2022-04-22T17:35:05.380] [INFO] filename - Transaction added: 01/04/2014), 
+            From Sam N to Laura B, 
+            narrative: Lunch
+[2022-04-22T17:35:05.380] [INFO] filename - Transaction added: 01/06/2014), 
+            From Tim L to Stephen S, 
+            narrative: Rails Consultancy
+[2022-04-22T17:35:05.381] [INFO] filename - Transaction added: 01/07/2014), 
+            From Rob S to Jon A, 
+            narrative: Lunch
+[2022-04-22T17:35:05.381] [INFO] filename - Transaction added: 01/08/2014), 
+            From Sam N to Gergana I, 
+            narrative: Coffee
+[2022-04-22T17:35:05.381] [INFO] filename - Transaction added: 01/09/2014), 
+            From Sam N to Gergana I, 
+            narrative: Pokemon Training
+[2022-04-22T17:35:05.382] [INFO] filename - Transaction added: 02/07/2014), 
+            From Stephen S to Dan W, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.382] [INFO] filename - Transaction added: 02/11/2014), 
+            From Sarah T to Tim L, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.383] [INFO] filename - Transaction added: 02/12/2014), 
+            From Jon A to Sam N, 
+            narrative: Pokemon Training
+[2022-04-22T17:35:05.383] [INFO] filename - Transaction added: 03/03/2014), 
+            From Sam N to Gergana I, 
+            narrative: Lunch
+[2022-04-22T17:35:05.384] [INFO] filename - Transaction added: 03/05/2014), 
+            From Jon A to Gergana I, 
+            narrative: Rails Consultancy
+[2022-04-22T17:35:05.384] [INFO] filename - Transaction added: 03/08/2014), 
+            From Laura B to Rob S, 
+            narrative: Rails Consultancy
+[2022-04-22T17:35:05.384] [INFO] filename - Transaction added: 03/09/2014), 
+            From Jon A to Tim L, 
+            narrative: Lunch
+[2022-04-22T17:35:05.385] [INFO] filename - Transaction added: 04/01/2014), 
+            From Stephen S to Tim L, 
+            narrative: Lunch
+[2022-04-22T17:35:05.385] [INFO] filename - Transaction added: 04/02/2014), 
+            From Chris W to Ben B, 
+            narrative: Spline Reticulation
+[2022-04-22T17:35:05.386] [INFO] filename - Transaction added: 04/04/2014), 
+            From Todd to Ben B, 
+            narrative: Rails Consultancy
+[2022-04-22T17:35:05.386] [INFO] filename - Transaction added: 04/08/2014), 
+            From Gergana I to Ben B, 
+            narrative: Coffee
+[2022-04-22T17:35:05.386] [INFO] filename - Transaction added: 04/10/2014), 
+            From Ben B to Todd, 
+            narrative: Lunch
+[2022-04-22T17:35:05.387] [INFO] filename - Transaction added: 04/11/2014), 
+            From Chris W to Rob S, 
+            narrative: Sandbox Help
+[2022-04-22T17:35:05.387] [INFO] filename - Transaction added: 05/02/2014), 
+            From Todd to Rob S, 
+            narrative: Sandbox Help
+[2022-04-22T17:35:05.388] [INFO] filename - Transaction added: 05/05/2014), 
+            From Dan W to Sarah T, 
+            narrative: Stationary Items
+[2022-04-22T17:35:05.388] [INFO] filename - Transaction added: 05/06/2014), 
+            From Dan W to Gergana I, 
+            narrative: Spline Reticulation
+[2022-04-22T17:35:05.388] [INFO] filename - Transaction added: 06/04/2014), 
+            From Jon A to Stephen S, 
+            narrative: Beers
+[2022-04-22T17:35:05.389] [INFO] filename - Transaction added: 06/05/2014), 
+            From Tim L to Chris W, 
+            narrative: Audit and Other Financial Services
+[2022-04-22T17:35:05.389] [INFO] filename - Transaction added: 06/07/2014), 
+            From Sam N to Jon A, 
+            narrative: Beers
+[2022-04-22T17:35:05.389] [INFO] filename - Transaction added: 06/09/2014), 
+            From Dan W to Todd, 
+            narrative: Lunch
+[2022-04-22T17:35:05.390] [INFO] filename - Transaction added: 06/10/2014), 
+            From Sarah T to Tim L, 
+            narrative: Spline Reticulation
+[2022-04-22T17:35:05.390] [INFO] filename - Transaction added: 06/12/2014), 
+            From Gergana I to Rob S, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.390] [INFO] filename - Transaction added: 07/02/2014), 
+            From Jon A to Sam N, 
+            narrative: Beers
+[2022-04-22T17:35:05.391] [INFO] filename - Transaction added: 07/03/2014), 
+            From Todd to Laura B, 
+            narrative: Pokemon Training
+[2022-04-22T17:35:05.391] [INFO] filename - Transaction added: 07/11/2014), 
+            From Rob S to Ben B, 
+            narrative: Rails Consultancy
+[2022-04-22T17:35:05.392] [INFO] filename - Transaction added: 08/01/2014), 
+            From Laura B to Stephen S, 
+            narrative: Lunch
+[2022-04-22T17:35:05.392] [INFO] filename - Transaction added: 08/04/2014), 
+            From Stephen S to Sam N, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.392] [INFO] filename - Transaction added: 08/08/2014), 
+            From Tim L to Laura B, 
+            narrative: Coffee
+[2022-04-22T17:35:05.393] [INFO] filename - Transaction added: 09/04/2014), 
+            From Ben B to Rob S, 
+            narrative: Coffee
+[2022-04-22T17:35:05.393] [INFO] filename - Transaction added: 09/06/2014), 
+            From Sarah T to Stephen S, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.393] [INFO] filename - Transaction added: 09/07/2014), 
+            From Dan W to Tim L, 
+            narrative: Misc Morale
+[2022-04-22T17:35:05.394] [INFO] filename - Transaction added: 09/09/2014), 
+            From Todd to Dan W, 
+            narrative: Audit and Other Financial Services
+[2022-04-22T17:35:05.394] [INFO] filename - Transaction added: 09/11/2014), 
+            From Sam N to Laura B, 
+            narrative: Beers
+[2022-04-22T17:35:05.394] [INFO] filename - Transaction added: 09/12/2014), 
+            From Jon A to Chris W, 
+            narrative: Pokemon Training
+[2022-04-22T17:35:05.395] [INFO] filename - Transaction added: 10/02/2014), 
+            From Dan W to Sam N, 
+            narrative: Lunch
+[2022-04-22T17:35:05.395] [INFO] filename - Transaction added: 10/03/2014), 
+            From Todd to Gergana I, 
+            narrative: Sandbox Help
+[2022-04-22T17:35:05.395] [INFO] filename - Transaction added: 10/04/2014), 
+            From Todd to Sarah T, 
+            narrative: Snooker Night
+[2022-04-22T17:35:05.396] [INFO] filename - Transaction added: 10/05/2014), 
+            From Laura B to Todd, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.396] [INFO] filename - Transaction added: 10/10/2014), 
+            From Ben B to Gergana I, 
+            narrative: Beers
+[2022-04-22T17:35:05.396] [INFO] filename - Transaction added: 11/01/2014), 
+            From Rob S to Ben B, 
+            narrative: Misc Morale
+[2022-04-22T17:35:05.397] [INFO] filename - Transaction added: 11/04/2014), 
+            From Todd to Laura B, 
+            narrative: Coffee
+[2022-04-22T17:35:05.397] [INFO] filename - Transaction added: 11/06/2014), 
+            From Stephen S to Sam N, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.398] [INFO] filename - Transaction added: 11/07/2014), 
+            From Dan W to Sarah T, 
+            narrative: Misc Morale
+[2022-04-22T17:35:05.398] [INFO] filename - Transaction added: 11/08/2014), 
+            From Stephen S to Rob S, 
+            narrative: Lunch
+[2022-04-22T17:35:05.398] [INFO] filename - Transaction added: 11/11/2014), 
+            From Jon A to Ben B, 
+            narrative: Stationary Items
+[2022-04-22T17:35:05.399] [INFO] filename - Transaction added: 12/09/2014), 
+            From Laura B to Jon A, 
+            narrative: Git-Fu Rendered
+[2022-04-22T17:35:05.399] [INFO] filename - Transaction added: 12/12/2014), 
+            From Dan W to Tim L, 
+            narrative: Coffee
+[2022-04-22T17:35:05.399] [INFO] filename - Transaction added: 13/05/2014), 
+            From Tim L to Ben B, 
+            narrative: Coffee
+[2022-04-22T17:35:05.400] [INFO] filename - Transaction added: 13/08/2014), 
+            From Sarah T to Todd, 
+            narrative: Beers
+[2022-04-22T17:35:05.400] [INFO] filename - Transaction added: 14/01/2014), 
+            From Stephen S to Ben B, 
+            narrative: Beers
+[2022-04-22T17:35:05.400] [INFO] filename - Transaction added: 14/02/2014), 
+            From Laura B to Stephen S, 
+            narrative: Snooker Night
+[2022-04-22T17:35:05.401] [INFO] filename - Transaction added: 14/03/2014), 
+            From Sarah T to Ben B, 
+            narrative: Spline Reticulation
+[2022-04-22T17:35:05.401] [INFO] filename - Transaction added: 14/06/2014), 
+            From Todd to Sam N, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.401] [INFO] filename - Transaction added: 14/07/2014), 
+            From Gergana I to Sam N, 
+            narrative: Coffee
+[2022-04-22T17:35:05.402] [INFO] filename - Transaction added: 14/08/2014), 
+            From Chris W to Tim L, 
+            narrative: Misc Morale
+[2022-04-22T17:35:05.402] [INFO] filename - Transaction added: 14/10/2014), 
+            From Ben B to Gergana I, 
+            narrative: Coffee
+[2022-04-22T17:35:05.402] [INFO] filename - Transaction added: 14/11/2014), 
+            From Sam N to Dan W, 
+            narrative: Spline Reticulation
+[2022-04-22T17:35:05.403] [INFO] filename - Transaction added: 14/12/2014), 
+            From Gergana I to Laura B, 
+            narrative: Lunch
+[2022-04-22T17:35:05.403] [INFO] filename - Transaction added: 15/01/2014), 
+            From Sam N to Stephen S, 
+            narrative: Spline Reticulation
+[2022-04-22T17:35:05.403] [INFO] filename - Transaction added: 15/02/2014), 
+            From Stephen S to Gergana I, 
+            narrative: Rails Consultancy
+[2022-04-22T17:35:05.403] [INFO] filename - Transaction added: 15/04/2014), 
+            From Rob S to Sam N, 
+            narrative: Snooker Night
+[2022-04-22T17:35:05.404] [INFO] filename - Transaction added: 16/06/2014), 
+            From Stephen S to Dan W, 
+            narrative: Lunch
+[2022-04-22T17:35:05.404] [INFO] filename - Transaction added: 16/07/2014), 
+            From Jon A to Dan W, 
+            narrative: Coffee
+[2022-04-22T17:35:05.404] [INFO] filename - Transaction added: 16/09/2014), 
+            From Gergana I to Rob S, 
+            narrative: Golf Bets
+[2022-04-22T17:35:05.405] [INFO] filename - Transaction added: 16/12/2014), 
+            From Todd to Tim L, 
+            narrative: Poker Winnings
+[2022-04-22T17:35:05.405] [INFO] filename - Transaction added: 17/03/2014), 
+            From Sarah T to Stephen S, 
+            narrative: Beers
+[2022-04-22T17:35:05.405] [INFO] filename - Transaction added: 17/05/2014), 
+            From Rob S to Sarah T, 
+            narrative: Misc Morale
+[2022-04-22T17:35:05.405] [INFO] filename - Transaction added: 18/02/2014), 
+            From Sarah T to Sam N, 
+            narrative: Spline Reticulation
+[2022-04-22T17:35:05.406] [INFO] filename - Transaction added: 18/07/2014), 
+            From Gergana I to Stephen S, 
+            narrative: Snooker Night
+[2022-04-22T17:35:05.406] [INFO] filename - Transaction added: 18/08/2014), 
+            From Jon A to Tim L, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.406] [INFO] filename - Transaction added: 18/10/2014), 
+            From Gergana I to Rob S, 
+            narrative: Jenkins Fees
+[2022-04-22T17:35:05.407] [INFO] filename - Transaction added: 18/11/2014), 
+            From Sam N to Chris W, 
+            narrative: Golf Bets
+[2022-04-22T17:35:05.407] [INFO] filename - Transaction added: 18/12/2014), 
+            From Chris W to Ben B, 
+            narrative: Coffee
+[2022-04-22T17:35:05.407] [INFO] filename - Transaction added: 19/01/2014), 
+            From Stephen S to Gergana I, 
+            narrative: Beers
+[2022-04-22T17:35:05.408] [INFO] filename - Transaction added: 19/04/2014), 
+            From Ben B to Gergana I, 
+            narrative: Lunch
+[2022-04-22T17:35:05.408] [INFO] filename - Transaction added: 19/05/2014), 
+            From Jon A to Todd, 
+            narrative: Beers
+[2022-04-22T17:35:05.408] [INFO] filename - Transaction added: 19/10/2014), 
+            From Dan W to Sam N, 
+            narrative: Automated Testing Services
+[2022-04-22T17:35:05.408] [INFO] filename - Transaction added: 19/11/2014), 
+            From Laura B to Jon A, 
+            narrative: Coffee
+[2022-04-22T17:35:05.409] [INFO] filename - Transaction added: 20/01/2014), 
+            From Sam N to Stephen S, 
+            narrative: Beers
+[2022-04-22T17:35:05.409] [INFO] filename - Transaction added: 20/03/2014), 
+            From Tim L to Sarah T, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.409] [INFO] filename - Transaction added: 20/04/2014), 
+            From Dan W to Gergana I, 
+            narrative: Beers
+[2022-04-22T17:35:05.410] [INFO] filename - Transaction added: 20/06/2014), 
+            From Ben B to Chris W, 
+            narrative: Rails Consultancy
+[2022-04-22T17:35:05.410] [INFO] filename - Transaction added: 20/09/2014), 
+            From Jon A to Ben B, 
+            narrative: Beers
+[2022-04-22T17:35:05.410] [INFO] filename - Transaction added: 20/12/2014), 
+            From Rob S to Gergana I, 
+            narrative: Lunch
+[2022-04-22T17:35:05.410] [INFO] filename - Transaction added: 21/08/2014), 
+            From Ben B to Gergana I, 
+            narrative: Rails Consultancy
+[2022-04-22T17:35:05.411] [INFO] filename - Transaction added: 21/11/2014), 
+            From Chris W to Todd, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.411] [INFO] filename - Transaction added: 21/12/2014), 
+            From Gergana I to Laura B, 
+            narrative: Pokemon Training
+[2022-04-22T17:35:05.411] [INFO] filename - Transaction added: 22/02/2014), 
+            From Tim L to Sam N, 
+            narrative: Pokemon Training
+[2022-04-22T17:35:05.412] [INFO] filename - Transaction added: 22/03/2014), 
+            From Rob S to Tim L, 
+            narrative: Misc Morale
+[2022-04-22T17:35:05.412] [INFO] filename - Transaction added: 22/05/2014), 
+            From Tim L to Todd, 
+            narrative: Coffee
+[2022-04-22T17:35:05.412] [INFO] filename - Transaction added: 22/06/2014), 
+            From Tim L to Stephen S, 
+            narrative: Coffee
+[2022-04-22T17:35:05.412] [INFO] filename - Transaction added: 22/07/2014), 
+            From Sarah T to Ben B, 
+            narrative: Coffee
+[2022-04-22T17:35:05.413] [INFO] filename - Transaction added: 22/08/2014), 
+            From Chris W to Sam N, 
+            narrative: Golf Bets
+[2022-04-22T17:35:05.413] [INFO] filename - Transaction added: 22/10/2014), 
+            From Dan W to Sam N, 
+            narrative: Beers
+[2022-04-22T17:35:05.413] [INFO] filename - Transaction added: 22/12/2014), 
+            From Dan W to Jon A, 
+            narrative: Lunch
+[2022-04-22T17:35:05.413] [INFO] filename - Transaction added: 23/03/2014), 
+            From Jon A to Sam N, 
+            narrative: Lunch
+[2022-04-22T17:35:05.414] [INFO] filename - Transaction added: 23/04/2014), 
+            From Stephen S to Rob S, 
+            narrative: Poker Winnings
+[2022-04-22T17:35:05.414] [INFO] filename - Transaction added: 23/06/2014), 
+            From Stephen S to Ben B, 
+            narrative: Spline Reticulation
+[2022-04-22T17:35:05.414] [INFO] filename - Transaction added: 23/07/2014), 
+            From Rob S to Tim L, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.415] [INFO] filename - Transaction added: 23/08/2014), 
+            From Ben B to Stephen S, 
+            narrative: Lunch
+[2022-04-22T17:35:05.415] [INFO] filename - Transaction added: 23/10/2014), 
+            From Jon A to Dan W, 
+            narrative: Lunch
+[2022-04-22T17:35:05.415] [INFO] filename - Transaction added: 23/11/2014), 
+            From Todd to Sarah T, 
+            narrative: Beers
+[2022-04-22T17:35:05.416] [INFO] filename - Transaction added: 24/01/2014), 
+            From Laura B to Sam N, 
+            narrative: Coffee
+[2022-04-22T17:35:05.416] [INFO] filename - Transaction added: 24/04/2014), 
+            From Tim L to Dan W, 
+            narrative: Misc Morale
+[2022-04-22T17:35:05.416] [INFO] filename - Transaction added: 24/05/2014), 
+            From Sam N to Tim L, 
+            narrative: Sandcastle Help
+[2022-04-22T17:35:05.416] [INFO] filename - Transaction added: 24/08/2014), 
+            From Laura B to Stephen S, 
+            narrative: Audit and Other Financial Services
+[2022-04-22T17:35:05.417] [INFO] filename - Transaction added: 24/09/2014), 
+            From Jon A to Laura B, 
+            narrative: Golf Bets
+[2022-04-22T17:35:05.417] [INFO] filename - Transaction added: 25/02/2014), 
+            From Todd to Rob S, 
+            narrative: Automated Testing Services
+[2022-04-22T17:35:05.417] [INFO] filename - Transaction added: 25/07/2014), 
+            From Laura B to Stephen S, 
+            narrative: Poker Winnings
+[2022-04-22T17:35:05.417] [INFO] filename - Transaction added: 25/08/2014), 
+            From Gergana I to Stephen S, 
+            narrative: Beers
+[2022-04-22T17:35:05.418] [INFO] filename - Transaction added: 25/10/2014), 
+            From Laura B to Todd, 
+            narrative: Beers
+[2022-04-22T17:35:05.418] [INFO] filename - Transaction added: 25/11/2014), 
+            From Chris W to Rob S, 
+            narrative: Pokemon Training
+[2022-04-22T17:35:05.418] [INFO] filename - Transaction added: 25/12/2014), 
+            From Todd to Rob S, 
+            narrative: Lego Assistance
+[2022-04-22T17:35:05.419] [INFO] filename - Transaction added: 26/04/2014), 
+            From Todd to Tim L, 
+            narrative: Lunch
+[2022-04-22T17:35:05.419] [INFO] filename - Transaction added: 26/05/2014), 
+            From Ben B to Laura B, 
+            narrative: Lunch
+[2022-04-22T17:35:05.419] [INFO] filename - Transaction added: 26/06/2014), 
+            From Chris W to Todd, 
+            narrative: Beers
+[2022-04-22T17:35:05.419] [INFO] filename - Transaction added: 27/02/2014), 
+            From Ben B to Rob S, 
+            narrative: Snooker Night
+[2022-04-22T17:35:05.420] [INFO] filename - Transaction added: 27/03/2014), 
+            From Ben B to Sam N, 
+            narrative: Misc Morale
+[2022-04-22T17:35:05.420] [INFO] filename - Transaction added: 27/09/2014), 
+            From Sarah T to Dan W, 
+            narrative: Beers
+[2022-04-22T17:35:05.420] [INFO] filename - Transaction added: 28/01/2014), 
+            From Todd to Ben B, 
+            narrative: Coffee
+[2022-04-22T17:35:05.421] [INFO] filename - Transaction added: 28/06/2014), 
+            From Sarah T to Gergana I, 
+            narrative: Beers
+[2022-04-22T17:35:05.421] [INFO] filename - Transaction added: 28/07/2014), 
+            From Gergana I to Chris W, 
+            narrative: Pokemon Training
+[2022-04-22T17:35:05.421] [INFO] filename - Transaction added: 28/08/2014), 
+            From Laura B to Tim L, 
+            narrative: Beers
+[2022-04-22T17:35:05.422] [INFO] filename - Transaction added: 28/10/2014), 
+            From Gergana I to Dan W, 
+            narrative: Misc Morale
+[2022-04-22T17:35:05.422] [INFO] filename - Transaction added: 28/11/2014), 
+            From Tim L to Dan W, 
+            narrative: Beers
+[2022-04-22T17:35:05.422] [INFO] filename - Transaction added: 28/12/2014), 
+            From Ben B to Laura B, 
+            narrative: Coffee
+[2022-04-22T17:35:05.422] [INFO] filename - Transaction added: 29/03/2014), 
+            From Todd to Sarah T, 
+            narrative: Git-Fu Rendered
+[2022-04-22T17:35:05.423] [INFO] filename - Transaction added: 29/06/2014), 
+            From Chris W to Laura B, 
+            narrative: Jenkins Fees
+[2022-04-22T17:35:05.423] [INFO] filename - Transaction added: 29/07/2014), 
+            From Jon A to Sam N, 
+            narrative: Lunch
+[2022-04-22T17:35:05.423] [INFO] filename - Transaction added: 29/08/2014), 
+            From Ben B to Chris W, 
+            narrative: Lunch
+[2022-04-22T17:35:05.424] [INFO] filename - Transaction added: 29/09/2014), 
+            From Ben B to Tim L, 
+            narrative: Misc Morale
+[2022-04-22T17:35:05.424] [INFO] filename - Transaction added: 29/10/2014), 
+            From Dan W to Ben B, 
+            narrative: Rails Consultancy
+[2022-04-22T17:35:05.424] [INFO] filename - Transaction added: 29/12/2014), 
+            From Ben B to Sam N, 
+            narrative: Coffee
+[2022-04-22T17:35:05.425] [INFO] filename - Transaction added: 30/03/2014), 
+            From Dan W to Laura B, 
+            narrative: Lunch
+[2022-04-22T17:35:05.425] [INFO] filename - Transaction added: 30/04/2014), 
+            From Laura B to Ben B, 
+            narrative: Golf Bets
+[2022-04-22T17:35:05.426] [INFO] filename - Transaction added: 30/05/2014), 
+            From Laura B to Todd, 
+            narrative: Lunch
+[2022-04-22T17:35:05.426] [INFO] filename - Transaction added: 30/09/2014), 
+            From Jon A to Dan W, 
+            narrative: Sandbox Help
+[2022-04-22T17:35:05.427] [INFO] filename - Transaction added: 30/10/2014), 
+            From Chris W to Gergana I, 
+            narrative: Jenkins Fees
+[2022-04-22T17:35:05.427] [INFO] filename - Transaction added: 31/01/2014), 
+            From Sam N to Gergana I, 
+            narrative: Services Rendered
+[2022-04-22T17:35:05.427] [INFO] filename - Transaction added: 31/05/2014), 
+            From Tim L to Ben B, 
+            narrative: Coffee
+[2022-04-22T17:35:05.428] [INFO] filename - Account created for undefined 
+                with balance (NaN
+[2022-04-22T17:35:05.428] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.428] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.428] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.429] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.429] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.429] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.430] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.430] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.430] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.430] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.431] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.431] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.431] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.432] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.432] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.432] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.433] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.433] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.433] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.433] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.434] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.434] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.434] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.435] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.435] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.435] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.436] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.436] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.436] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.436] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.437] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.437] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.437] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.439] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.439] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.439] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.440] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.441] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.441] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.442] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.442] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.442] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.442] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.443] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.443] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.443] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.444] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.444] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.444] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.445] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.445] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.445] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.445] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.446] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.446] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.446] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.447] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.447] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.447] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.448] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.448] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.448] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.448] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.449] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.449] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.450] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.450] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.450] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.451] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.451] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.451] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.451] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.452] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.452] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.452] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.453] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.453] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.453] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.454] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.454] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.454] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.455] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.455] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.455] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.456] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.456] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.456] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.457] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.457] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.457] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.457] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.458] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.458] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.458] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.459] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.459] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.459] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.460] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.460] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.460] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.460] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.461] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.461] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.461] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.462] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.462] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.462] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.462] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.463] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.463] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.463] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.464] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.464] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.464] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.465] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.465] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.465] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.465] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.466] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.466] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.466] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.467] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.467] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.467] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.467] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.468] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.468] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.468] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.469] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.469] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.469] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.470] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.470] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.471] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.471] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.471] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.471] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.472] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.472] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.472] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.473] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.473] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.473] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.473] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.474] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.474] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.474] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.475] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.475] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.475] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.476] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.476] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.476] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.476] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.477] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.477] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.477] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.478] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.478] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.478] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.478] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.479] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.479] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.479] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.480] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.480] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.480] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.481] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.481] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.481] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.481] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.482] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.482] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.482] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.483] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.483] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.483] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.483] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.484] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.484] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.484] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.485] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.485] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.485] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.486] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.486] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.486] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.487] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.487] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.487] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.487] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.488] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.488] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.488] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.489] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.489] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.489] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.489] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.490] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.490] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.490] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.491] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.491] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.491] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.491] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.492] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.492] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.492] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.493] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.493] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.493] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.494] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.494] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.494] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.494] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.495] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.495] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.495] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.496] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.496] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.496] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.496] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.497] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.497] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.497] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.498] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.498] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.498] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.498] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.499] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.499] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.499] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.500] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.500] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.500] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.500] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.501] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.501] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.501] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.502] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.502] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.503] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.503] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.503] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.504] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.504] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.504] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.505] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.505] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.506] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.506] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.506] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.506] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.507] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.507] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.507] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.508] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.508] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.508] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.508] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.509] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.509] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.509] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.510] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.510] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.510] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.510] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.511] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.511] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.511] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.512] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.512] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.512] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.513] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.513] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.513] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.513] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.514] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.514] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.514] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.515] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.515] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.515] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.515] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.516] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.516] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.517] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.517] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.517] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.518] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.518] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.518] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.518] [INFO] filename - Balance incremented for undefined by undefined
+[2022-04-22T17:35:05.519] [INFO] filename - Balance decremented for undefined by undefined
+[2022-04-22T17:35:05.519] [INFO] filename - Balance incremented for undefined by undefined

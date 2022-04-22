@@ -2,13 +2,13 @@ const fs = require('fs');
 const readlineSync = require('readline-sync');
 const log4js = require('log4js');
 const logger = log4js.getLogger('filename');
-const format = require('date-fns/format');
-const {loadCsvData, loadJsonData} = require('./loadFile');
+const {loadCsvData,
+    loadJsonData,
+    loadXmlData} = require('./loadFile');
 const {formatDate,
-    setCsvToInput,
-    setCsvFromInput,
-    setJsonFromInput,
-    setJsonToInput} = require('./inputValidation');
+    setCsvInput,
+    setJsonInput,
+    setXmlInput} = require('./inputValidation');
 
 log4js.configure({
     appenders: {
@@ -22,7 +22,8 @@ log4js.configure({
 const dodgyFileName = "DodgyTransactions2015.csv";
 const goodFileName = "Transactions2014.csv";
 const jsonFileName = "Transactions2013.json";
-let filename = dodgyFileName;
+let filename = readlineSync.question('Which file would you like to import?');
+
 let fileType = filename.split('.').pop().toLowerCase();
 const accountData = fs.readFileSync(filename).toString();
 let inputData = [];
@@ -31,6 +32,9 @@ if (fileType === 'csv') {
 }
 if (fileType === 'json') {
     inputData = loadJsonData(accountData);
+}
+if (fileType === 'xml') {
+    inputData = loadXmlData(accountData);
 }
 
 class Bank {
@@ -59,40 +63,21 @@ class Account {
 let bank = [];
 try {
     for (let i = 0; i < inputData.length; i++) {
-        let amount = parseFloat(inputData[i]['Amount'])
+        let outputData = [];
 
-        let dateFromFile  = inputData[i]['Date'];
-        let outputDate = "";
-
-        if (isNaN(Date.parse(dateFromFile))) {
-            outputDate = formatDate(dateFromFile);
-        } else {
-            outputDate = Date.parse(dateFromFile);
+        if (fileType === 'csv') {
+            outputData = setCsvInput(inputData, i);
+        } else if (fileType === 'json') {
+            outputData = setJsonInput(inputData, i);
+        } else if (fileType === 'xml') {
+            outputData = setXmlInput(inputData, i);
         }
+//Check all the logging is working (it's not)
 
-        if (isNaN(outputDate)) {
-            logger.error(`Date is not valid (${inputData[i]['Date']}), 
-                From ${inputData[i]['From']} to ${inputData[i]['To']}, 
-                narrative: ${inputData[i]['Narrative']}`);
-        } else if (isNaN(amount)) {
-            logger.error(`Amount (${amount}) is not a number on ${inputData[i]['Date']}: from ${inputData[i]['From']} to ${inputData[i]['To']}`)
-        } else {
-            let from = "";
-            let to =  "";
-
-            if (fileType === 'csv') {
-                from = setCsvFromInput(inputData, i);
-                to = setCsvToInput(inputData, i);
-            } else if (fileType === 'json') {
-                from = setJsonFromInput(inputData, i);
-                to = setJsonToInput(inputData, i);
-            }
-            bank.push(new Bank((format(outputDate, 'd-M-yyyy')), from, to, inputData[i]['Narrative'], amount));
-            logger.info(`Transaction added: ${inputData[i]['Date']}), 
-                From ${inputData[i]['From']} to ${inputData[i]['To']}, 
-                narrative: ${inputData[i]['Narrative']}`);
-
-        }
+        bank.push(new Bank(outputData));
+        logger.info(`Transaction added: ${inputData[i]['Date']}), 
+            From ${inputData[i]['From']} to ${inputData[i]['To']}, 
+            narrative: ${inputData[i]['Narrative']}`);
     }
 }
 catch(err) {
@@ -141,6 +126,7 @@ bank.forEach(transaction =>
                 console.log(key, toAccounts[key]);
             }
         }
+
 let option = readlineSync.question('What would you like to output? List All or List [Account holder]');
 if (option === "List All") {
     printAll();

@@ -1,5 +1,7 @@
 const fs = require("fs");
 const csvToObj = require('csv-to-js-parser').csvToObj;
+const xml2js = require('xml2js');
+const parser = new xml2js.Parser({ attrkey: "ATTR" });
 
 module.exports = {
     loadCsvData: function (accountData) {
@@ -11,7 +13,7 @@ module.exports = {
         return inputData;
     },
     loadXmlData: function (accountData) {
-        let inputData = [];
+        let inputData = parser.parseString(accountData);
         return inputData;
     }
 }
