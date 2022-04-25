@@ -5,8 +5,7 @@ const logger = log4js.getLogger('filename');
 const {loadCsvData,
     loadJsonData,
     loadXmlData} = require('./loadFile');
-const {formatDate,
-    setCsvInput,
+const {setCsvInput,
     setJsonInput,
     setXmlInput} = require('./inputValidation');
 
@@ -26,7 +25,7 @@ let filename = readlineSync.question('Which file would you like to import?');
 
 let accountData = "";
 try {
-    accountData = fs.readFileSync(filename).toString();
+    accountData = fs.readFileSync(filename, "utf8").toString();
 }
 catch (err) {
     logger.error("Can't find that file", err);
@@ -72,21 +71,21 @@ let bank = [];
         try {
             let outputData = [];
 
-        if (fileType === 'csv') {
-            outputData = setCsvInput(inputData, i);
-        } else if (fileType === 'json') {
-            outputData = setJsonInput(inputData, i);
-        } else if (fileType === 'xml') {
-            outputData = setXmlInput(inputData, i);
-        }
-//Check all the logging is working (it's not)
+            if (fileType === 'csv') {
+                outputData = setCsvInput(inputData, i);
+            } else if (fileType === 'json') {
+                outputData = setJsonInput(inputData, i);
+            } else if (fileType === 'xml') {
+                outputData = setXmlInput(inputData, i);
+            }
+            //Check all the logging is working (it's not)
 
-        if (outputData) {
-            bank.push(new Bank(outputData['date'], outputData['from'], outputData['to'], outputData['narrative'], outputData['amount']));
-            logger.info(`Transaction added: ${outputData['date']}), 
-            From ${outputData['from']} to ${outputData['to']}, 
-            narrative: ${outputData['narrative']}`);
-        }
+            if (outputData) {
+                bank.push(new Bank(outputData['date'], outputData['from'], outputData['to'], outputData['narrative'], outputData['amount']));
+                logger.info(`Transaction added: ${outputData['date']}), 
+                From ${outputData['from']} to ${outputData['to']}, 
+                narrative: ${outputData['narrative']}`);
+            }
         }
         catch(err) {
             logger.error("Could not add transaction", err);

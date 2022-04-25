@@ -1,6 +1,8 @@
 const format = require("date-fns/format");
 const log4js = require("log4js");
 const logger = log4js.getLogger('filename');
+const moment = require('moment'); // require
+moment().format();
 module.exports = {
     // Change all these so each file type has one function which takes the inputData and returns an output data object
     setCsvInput: function (inputData, i) {
@@ -43,14 +45,22 @@ module.exports = {
         }
     },
     setXmlInput: function (inputData, i) {
-        let outputData = {
-            date: inputData[i]['Date'],
-            from: inputData[i]['Parties']['From'],
-            to: inputData[i]['Parties']['To'],
-            narrative: inputData[i]['Description'],
-            amount: inputData[i]['Value']
-        };
-        return outputData;
+        let dateFromFile = inputData[i].attributes.Date;
+        let gregorianDate = moment((dateFromFile-25569)*86400000).format("DD/MM/yyyy");
+        let outputDate = formatDate(gregorianDate);
+        let amount = parseFloat(inputData[i].elements[1].elements[0].text);
+        if (isNaN(amount)) {
+            logger.error(`i = ${i}, Amount (${amount}) is not a number on ${inputData[i]['Date']}: from ${inputData[i]['FromAccount']} to ${inputData[i]['ToAccount']}`)
+        } else {
+            let outputData = {
+                date: outputDate,
+                from: inputData[i].elements[2].elements[0].elements[0].text,
+                to: inputData[i].elements[2].elements[1].elements[0].text,
+                narrative: inputData[i].elements[0].elements[0].text,
+                amount: amount
+            };
+            return outputData;
+        }
     }
 }
 
