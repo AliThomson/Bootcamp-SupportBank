@@ -4,56 +4,56 @@ const logger = log4js.getLogger('filename');
 const moment = require('moment'); // require
 moment().format();
 module.exports = {
-    formatInput: function (fileType, inputData, i) {
+    formatInput: function (fileType, transaction) {
         if (fileType === "csv") {
-            let dateFromFile = inputData[i]['Date'];
+            let dateFromFile = transaction.Date;
             let outputDate = formatDate(dateFromFile);
 
-            let amount = parseFloat(inputData[i]['Amount'])
+            let amount = parseFloat(transaction.Amount)
             if (isNaN(amount)) {
-                logger.error(`i = ${i}, Amount (${amount}) is not a number on ${inputData[i]['Date']}: from ${inputData[i]['From']} to ${inputData[i]['To']}`)
+                logger.error(`i = ${i}, Amount (${amount}) is not a number on ${transaction.Date}: from ${transaction.From} to ${transaction.To}`)
             } else {
 
                 let outputData = {
                     date: outputDate,
-                    from: inputData[i]['From'],
-                    to: inputData[i]['To'],
-                    narrative: inputData[i]['Narrative'],
+                    from: transaction.From,
+                    to: transaction.To,
+                    narrative: transaction.Narrative,
                     amount: amount
                 }
                 return outputData;
             }
         } else if (fileType === "json") {
-            let dateFromFile = inputData[i]['Date'];
+            let dateFromFile = transaction.Date;
             let outputDate = formatDate(dateFromFile);
 
-            let amount = parseFloat(inputData[i]['Amount']);
+            let amount = parseFloat(transaction.Amount);
             if (isNaN(amount)) {
-                logger.error(`i = ${i}, Amount (${amount}) is not a number on ${inputData[i]['Date']}: from ${inputData[i]['FromAccount']} to ${inputData[i]['ToAccount']}`)
+                logger.error(`i = ${i}, Amount (${amount}) is not a number on ${transaction.Date}: from ${transaction.FromAccount} to ${transaction.ToAccount}`)
             } else {
 
                 let outputData = {
                     date: outputDate,
-                    from: inputData[i]['FromAccount'],
-                    to: inputData[i]['ToAccount'],
-                    narrative: inputData[i]['Narrative'],
+                    from: transaction.FromAccount,
+                    to: transaction.ToAccount,
+                    narrative: transaction.Narrative,
                     amount: amount
                 }
                 return outputData;
             }
         } else if (fileType ==="xml") {
-            let dateFromFile = inputData[i].attributes.Date;
+            let dateFromFile = transaction.attributes.Date;
             let gregorianDate = moment((dateFromFile-25569)*86400000).format("DD/MM/yyyy");
             let outputDate = formatDate(gregorianDate);
-            let amount = parseFloat(inputData[i].elements[1].elements[0].text);
+            let amount = parseFloat(transaction.elements[1].elements[0].text);
             if (isNaN(amount)) {
-                logger.error(`i = ${i}, Amount (${amount}) is not a number on ${inputData[i]['Date']}: from ${inputData[i]['FromAccount']} to ${inputData[i]['ToAccount']}`)
+                logger.error(`i = ${i}, Amount (${amount}) is not a number on ${transaction.Date}: from ${transaction.FromAccount} to ${transaction.ToAccount}`)
             } else {
                 let outputData = {
                     date: outputDate,
-                    from: inputData[i].elements[2].elements[0].elements[0].text,
-                    to: inputData[i].elements[2].elements[1].elements[0].text,
-                    narrative: inputData[i].elements[0].elements[0].text,
+                    from: transaction.elements[2].elements[0].elements[0].text,
+                    to: transaction.elements[2].elements[1].elements[0].text,
+                    narrative: transaction.elements[0].elements[0].text,
                     amount: amount
                 };
                 return outputData;

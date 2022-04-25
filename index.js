@@ -56,46 +56,44 @@ class Account {
 
 let bank = [];
 
-for (let i = 0; i < inputData.length; i++) {
+inputData.forEach(transaction => {
     try {
-        const outputData = formatInput(fileType, inputData, i);
+        const outputData = formatInput(fileType, transaction);
 
         if (outputData) {
-            bank.push(new Bank(outputData['date'], outputData['from'], outputData['to'], outputData['narrative'], outputData['amount']));
-            logger.info(`Transaction added: ${outputData['date']}), 
-            From ${outputData['from']} to ${outputData['to']}, 
-            narrative: ${outputData['narrative']}`);
+            bank.push(new Bank(outputData.date, outputData.from, outputData.to, outputData.narrative, outputData.amount));
+            logger.info(`Transaction added: ${outputData.date}), 
+            From ${outputData.from} to ${outputData.to}, 
+            narrative: ${outputData.narrative}`);
         }
     }
     catch(err) {
         logger.error("Could not add transaction", err);
     }
-}
+})
 let accounts = [];
 
 bank.forEach(transaction =>
      {
-        if (accounts.some(account => account['holder'] === transaction['from'])) {
-            let account = accounts.find(account => account['holder'] === transaction['from']);
-            let balance = parseFloat(account['balance']) - parseFloat(transaction['amount']);
-            account['balance'] = balance.toFixed(2);
-            logger.info(`Balance decremented for ${account['holder']} by ${transaction['amount']}`);
+         const fromAccount = accounts.find(account => account.holder === transaction.from)
+         if (fromAccount) {
+             let balance = parseFloat(fromAccount.balance) - parseFloat(transaction.amount);
+             fromAccount.balance = balance.toFixed(2);
+             logger.info(`Balance decremented for ${fromAccount.holder} by ${transaction.amount}`);
+         } else {
+             accounts.push(new Account(transaction.from, parseFloat(transaction.amount).toFixed(2) * -1));
+             logger.info(`Account created for ${transaction.to} 
+                with balance (${parseFloat(transaction.amount).toFixed(2)}`);
+         }
+         const toAccount = accounts.find(account => account.holder === transaction.to)
+         if (toAccount) {
+            let balance = parseFloat(toAccount.balance) + parseFloat(transaction.amount);
+            toAccount.balance = balance.toFixed(2);
+            logger.info(`Balance incremented for ${toAccount.holder} by ${transaction.amount}`);
         } else {
-            accounts.push(new Account(transaction['from'], parseFloat(transaction['amount']).toFixed(2) * -1));
-            logger.info(`Account created for ${transaction['to']} 
-            with balance (${parseFloat(transaction['amount']).toFixed(2)}`);
-        }
-
-        if (accounts.some(account => account['holder'] === transaction['to'])) {
-            let account = accounts.find(account =>
-                account['holder'] === transaction['to']);
-            let balance = parseFloat(account['balance']) + parseFloat(transaction['amount']);
-            account['balance'] = balance.toFixed(2);
-            logger.info(`Balance incremented for ${account['holder']} by ${transaction['amount']}`);
-        } else {
-            accounts.push(new Account(transaction['to'], parseFloat(transaction['amount']).toFixed(2)));
-            logger.info(`Account created for ${transaction['to']} 
-                with balance (${parseFloat(transaction['amount']).toFixed(2)}`);
+            accounts.push(new Account(transaction.to, parseFloat(transaction.amount).toFixed(2)));
+            logger.info(`Account created for ${transaction.to} 
+                with balance (${parseFloat(transaction.amount).toFixed(2)}`);
         }
     });
 
@@ -120,7 +118,7 @@ if (option === "List All") {
     printAll();
 } else {
     let holder = option.substring(5);
-    if (accounts.some(account => account['holder'] === holder)) {
+    if (accounts.some(account => account.holder === holder)) {
         printAccount(holder);
     } else {
         console.log("Please enter a valid account holder");
