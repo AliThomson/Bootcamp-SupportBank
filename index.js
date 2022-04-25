@@ -1,12 +1,8 @@
 const fs = require('fs');
 const readlineSync = require('readline-sync');
 const log4js = require('log4js');
-const {loadData,
-    loadJsonData,
-    loadXmlData} = require('./loadFile');
-const {setCsvInput,
-    setJsonInput,
-    setXmlInput} = require('./inputValidation');
+const {loadData} = require('./loadFile');
+const {formatInput} = require('./inputValidation');
 
 const logger = log4js.getLogger('filename');
 log4js.configure({
@@ -36,41 +32,33 @@ const inputData = loadData(accountData, fileType)
 
 
 class Bank {
-        date;
-        from;
-        to;
-        narrative;
-        amount;
-        constructor(date, from, to, narrative, amount) {
-                this.date = date;
-                this.from = from;
-                this.to = to;
-                this.narrative = narrative;
-                this.amount = amount;
-        }
+    date;
+    from;
+    to;
+    narrative;
+    amount;
+    constructor(date, from, to, narrative, amount) {
+            this.date = date;
+            this.from = from;
+            this.to = to;
+            this.narrative = narrative;
+            this.amount = amount;
+    }
 }
 class Account {
-        holder;
-        balance;
-        constructor(holder, balance) {
-                this.holder = holder;
-                this.balance = balance;
-        };
+    holder;
+    balance;
+    constructor(holder, balance) {
+            this.holder = holder;
+            this.balance = balance;
+    };
 }
 
 let bank = [];
 
 for (let i = 0; i < inputData.length; i++) {
     try {
-        let outputData = [];
-
-        if (fileType === 'csv') {
-            outputData = setCsvInput(inputData, i);
-        } else if (fileType === 'json') {
-            outputData = setJsonInput(inputData, i);
-        } else if (fileType === 'xml') {
-            outputData = setXmlInput(inputData, i);
-        }
+        const outputData = formatInput(fileType, inputData, i);
 
         if (outputData) {
             bank.push(new Bank(outputData['date'], outputData['from'], outputData['to'], outputData['narrative'], outputData['amount']));
@@ -82,7 +70,6 @@ for (let i = 0; i < inputData.length; i++) {
     catch(err) {
         logger.error("Could not add transaction", err);
     }
-
 }
 let accounts = [];
 
