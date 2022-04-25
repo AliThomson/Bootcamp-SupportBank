@@ -1,14 +1,14 @@
 const fs = require('fs');
 const readlineSync = require('readline-sync');
 const log4js = require('log4js');
-const logger = log4js.getLogger('filename');
-const {loadCsvData,
+const {loadData,
     loadJsonData,
     loadXmlData} = require('./loadFile');
 const {setCsvInput,
     setJsonInput,
     setXmlInput} = require('./inputValidation');
 
+const logger = log4js.getLogger('filename');
 log4js.configure({
     appenders: {
         file: { type: 'fileSync', filename: 'logs/debug.log' }
@@ -21,7 +21,7 @@ log4js.configure({
 const dodgyFileName = "DodgyTransactions2015.csv";
 const goodFileName = "Transactions2014.csv";
 const jsonFileName = "Transactions2013.json";
-let filename = readlineSync.question('Which file would you like to import?');
+const filename = readlineSync.question('Which file would you like to import?');
 
 let accountData = "";
 try {
@@ -30,17 +30,10 @@ try {
 catch (err) {
     logger.error("Can't find that file", err);
 }
-let inputData = [];
-let fileType = filename.split('.').pop().toLowerCase();
-if (fileType === 'csv') {
-    inputData = loadCsvData(accountData);
-} else if (fileType === 'json') {
-    inputData = loadJsonData(accountData);
-} else if (fileType === 'xml') {
-    inputData = loadXmlData(accountData);
-} else {
-    console.log("Please enter a valid file type (csv, json or xml)");
-}
+
+const fileType = filename.split('.').pop().toLowerCase();
+const inputData = loadData(accountData, fileType)
+
 
 class Bank {
         date;
@@ -67,28 +60,27 @@ class Account {
 
 let bank = [];
 
-    for (let i = 0; i < inputData.length; i++) {
-        try {
-            let outputData = [];
+for (let i = 0; i < inputData.length; i++) {
+    try {
+        let outputData = [];
 
-            if (fileType === 'csv') {
-                outputData = setCsvInput(inputData, i);
-            } else if (fileType === 'json') {
-                outputData = setJsonInput(inputData, i);
-            } else if (fileType === 'xml') {
-                outputData = setXmlInput(inputData, i);
-            }
-            //Check all the logging is working (it's not)
-
-            if (outputData) {
-                bank.push(new Bank(outputData['date'], outputData['from'], outputData['to'], outputData['narrative'], outputData['amount']));
-                logger.info(`Transaction added: ${outputData['date']}), 
-                From ${outputData['from']} to ${outputData['to']}, 
-                narrative: ${outputData['narrative']}`);
-            }
+        if (fileType === 'csv') {
+            outputData = setCsvInput(inputData, i);
+        } else if (fileType === 'json') {
+            outputData = setJsonInput(inputData, i);
+        } else if (fileType === 'xml') {
+            outputData = setXmlInput(inputData, i);
         }
-        catch(err) {
-            logger.error("Could not add transaction", err);
+
+        if (outputData) {
+            bank.push(new Bank(outputData['date'], outputData['from'], outputData['to'], outputData['narrative'], outputData['amount']));
+            logger.info(`Transaction added: ${outputData['date']}), 
+            From ${outputData['from']} to ${outputData['to']}, 
+            narrative: ${outputData['narrative']}`);
+        }
+    }
+    catch(err) {
+        logger.error("Could not add transaction", err);
     }
 
 }
@@ -96,28 +88,28 @@ let accounts = [];
 
 bank.forEach(transaction =>
      {
-            if (accounts.some(account => account['holder'] === transaction['from'])) {
-                    let account = accounts.find(account => account['holder'] === transaction['from']);
-                    let balance = parseFloat(account['balance']) - parseFloat(transaction['amount']);
-                    account['balance'] = balance.toFixed(2);
-                logger.info(`Balance decremented for ${account['holder']} by ${transaction['amount']}`);
-            } else {
-                    accounts.push(new Account(transaction['from'], parseFloat(transaction['amount']).toFixed(2) * -1));
-                logger.info(`Account created for ${transaction['to']} 
-                with balance (${parseFloat(transaction['amount']).toFixed(2)}`);
-            }
+        if (accounts.some(account => account['holder'] === transaction['from'])) {
+            let account = accounts.find(account => account['holder'] === transaction['from']);
+            let balance = parseFloat(account['balance']) - parseFloat(transaction['amount']);
+            account['balance'] = balance.toFixed(2);
+            logger.info(`Balance decremented for ${account['holder']} by ${transaction['amount']}`);
+        } else {
+            accounts.push(new Account(transaction['from'], parseFloat(transaction['amount']).toFixed(2) * -1));
+            logger.info(`Account created for ${transaction['to']} 
+            with balance (${parseFloat(transaction['amount']).toFixed(2)}`);
+        }
 
-            if (accounts.some(account => account['holder'] === transaction['to'])) {
-                    let account = accounts.find(account =>
-                        account['holder'] === transaction['to']);
-                    let balance = parseFloat(account['balance']) + parseFloat(transaction['amount']);
-                    account['balance'] = balance.toFixed(2);
-                logger.info(`Balance incremented for ${account['holder']} by ${transaction['amount']}`);
-            } else {
-                    accounts.push(new Account(transaction['to'], parseFloat(transaction['amount']).toFixed(2)));
-                logger.info(`Account created for ${transaction['to']} 
-                    with balance (${parseFloat(transaction['amount']).toFixed(2)}`);
-            }
+        if (accounts.some(account => account['holder'] === transaction['to'])) {
+            let account = accounts.find(account =>
+                account['holder'] === transaction['to']);
+            let balance = parseFloat(account['balance']) + parseFloat(transaction['amount']);
+            account['balance'] = balance.toFixed(2);
+            logger.info(`Balance incremented for ${account['holder']} by ${transaction['amount']}`);
+        } else {
+            accounts.push(new Account(transaction['to'], parseFloat(transaction['amount']).toFixed(2)));
+            logger.info(`Account created for ${transaction['to']} 
+                with balance (${parseFloat(transaction['amount']).toFixed(2)}`);
+        }
     });
 
         function printAll() {

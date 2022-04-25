@@ -1,24 +1,25 @@
-const fs = require("fs");
 const csvToObj = require('csv-to-js-parser').csvToObj;
-const xml2js = require('xml2js');
-//const parser = new xml2js.Parser({ attrkey: "ATTR" });
 const convert = require('xml-js');
 
 module.exports = {
-    loadCsvData: function (accountData) {
-        let inputData = csvToObj(accountData);
-        return inputData;
+    loadData: function (accountData, fileType) {
+        if (fileType === 'csv') {
+            return inputData = csvToObj(accountData);
+        } else if (fileType === 'json') {
+            return inputData = JSON.parse(accountData);
+        } else if (fileType === 'xml') {
+            const fullInputData = convert.xml2js(accountData, {compact: false});
+            return inputData = fullInputData.elements[0].elements;
+        } else {
+            console.log("Please enter a valid file type (csv, json or xml)");
+        }
     },
     loadJsonData: function (accountData) {
         let inputData = JSON.parse(accountData);
         return inputData;
     },
     loadXmlData: function (accountData) {
-         let fullInputData = convert.xml2js(accountData, {compact: false});
-         //parser.parseString(accountData, (error) => {
-            // if(error !== null) {
-            //     console.log(error);
-            // }});
+        let fullInputData = convert.xml2js(accountData, {compact: false});
         let inputData = fullInputData.elements[0].elements;
 
         return inputData;
