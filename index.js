@@ -97,21 +97,21 @@ bank.forEach(transaction =>
         }
     });
 
-        function printAll() {
-            for (const key of Object.keys(accounts)) {
-                console.log(key, accounts[key]);
-            }
-        }
-        function printAccount(holder) {
-            let fromAccounts = bank.filter(transaction => transaction.from === holder);
-            for (const key of Object.keys(fromAccounts)) {
-                console.log(key, fromAccounts[key]);
-            }
-            let toAccounts = bank.filter(transaction => transaction.to === holder);
-            for (const key of Object.keys(toAccounts)) {
-                console.log(key, toAccounts[key]);
-            }
-        }
+    function printAll() {
+        accounts.forEach((value, key) => {
+            console.log(key, value);
+        })
+    }
+    function printAccount(holder) {
+        let fromAccounts = bank.filter(transaction => transaction.from === holder);
+        fromAccounts.forEach((value, key) => {
+            console.log(key, value);
+        })
+        let toAccounts = bank.filter(transaction => transaction.to === holder);
+        toAccounts.forEach((value, key) => {
+            console.log(key, value);
+        })
+    }
 
 let option = readlineSync.question('What would you like to output? List All or List [Account holder]');
 if (option === "List All") {
