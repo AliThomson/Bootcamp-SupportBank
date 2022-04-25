@@ -27,16 +27,20 @@ module.exports = {
         let dateFromFile = inputData[i]['Date'];
         let outputDate = formatDate(dateFromFile);
 
-        let amount = parseFloat(inputData[i]['Amount'])
+        let amount = parseFloat(inputData[i]['Amount']);
+        if (isNaN(amount)) {
+            logger.error(`i = ${i}, Amount (${amount}) is not a number on ${inputData[i]['Date']}: from ${inputData[i]['FromAccount']} to ${inputData[i]['ToAccount']}`)
+        } else {
 
-        let outputData = {
-            date: outputDate,
-            from: inputData[i]['FromAccount'],
-            to: inputData[i]['ToAccount'],
-            narrative: inputData[i]['Narrative'],
-            amount: amount
-        };
-        return outputData;
+            let outputData = {
+                date: outputDate,
+                from: inputData[i]['FromAccount'],
+                to: inputData[i]['ToAccount'],
+                narrative: inputData[i]['Narrative'],
+                amount: amount
+            }
+            return outputData;
+        }
     },
     setXmlInput: function (inputData, i) {
         let outputData = {
@@ -52,17 +56,16 @@ module.exports = {
 
 function formatDate(dateFromFile) {
     let outputDate = "";
-
-    // if (!isNaN(Date.parse(dateFromFile))) {
-    //     outputDate = Date.parse(dateFromFile);
-    // } else {
-
+    if (dateFromFile.includes("/")) {
         let dateArray = dateFromFile.split("/");
         let day = parseInt(dateArray[0], 10);
         let month = parseInt(dateArray[1], 10) - 1;
         let year = parseInt(dateArray[2], 10);
         outputDate = new Date(year, month, day);
-    // }
+    } else {
+        outputDate = Date.parse(dateFromFile);
+    }
+
     if (isNaN(outputDate)) {
         logger.error(`Date is not valid (${dateFromFile})`);
     } else {
