@@ -24,17 +24,23 @@ const goodFileName = "Transactions2014.csv";
 const jsonFileName = "Transactions2013.json";
 let filename = readlineSync.question('Which file would you like to import?');
 
-let fileType = filename.split('.').pop().toLowerCase();
-const accountData = fs.readFileSync(filename).toString();
+let accountData = "";
+try {
+    accountData = fs.readFileSync(filename).toString();
+}
+catch (err) {
+    logger.error("Can't find that file", err);
+}
 let inputData = [];
+let fileType = filename.split('.').pop().toLowerCase();
 if (fileType === 'csv') {
     inputData = loadCsvData(accountData);
-}
-if (fileType === 'json') {
+} else if (fileType === 'json') {
     inputData = loadJsonData(accountData);
-}
-if (fileType === 'xml') {
+} else if (fileType === 'xml') {
     inputData = loadXmlData(accountData);
+} else {
+    console.log("Please enter a valid file type (csv, json or xml)");
 }
 
 class Bank {
@@ -61,9 +67,10 @@ class Account {
 }
 
 let bank = [];
-try {
+
     for (let i = 0; i < inputData.length; i++) {
-        let outputData = [];
+        try {
+            let outputData = [];
 
         if (fileType === 'csv') {
             outputData = setCsvInput(inputData, i);
@@ -74,14 +81,17 @@ try {
         }
 //Check all the logging is working (it's not)
 
-        bank.push(new Bank(outputData));
-        logger.info(`Transaction added: ${inputData[i]['Date']}), 
-            From ${inputData[i]['From']} to ${inputData[i]['To']}, 
-            narrative: ${inputData[i]['Narrative']}`);
+        if (outputData) {
+            bank.push(new Bank(outputData['date'], outputData['from'], outputData['to'], outputData['narrative'], outputData['amount']));
+            logger.info(`Transaction added: ${outputData['date']}), 
+            From ${outputData['from']} to ${outputData['to']}, 
+            narrative: ${outputData['narrative']}`);
+        }
+        }
+        catch(err) {
+            logger.error("Could not add transaction", err);
     }
-}
-catch(err) {
-    logger.error(err)
+
 }
 let accounts = [];
 

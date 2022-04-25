@@ -9,7 +9,7 @@ module.exports = {
 
         let amount = parseFloat(inputData[i]['Amount'])
         if (isNaN(amount)) {
-            logger.error(`Amount (${amount}) is not a number on ${outputDate}: from ${inputData[i]['From']} to ${inputData[i]['To']}`)
+            logger.error(`i = ${i}, Amount (${amount}) is not a number on ${inputData[i]['Date']}: from ${inputData[i]['From']} to ${inputData[i]['To']}`)
         } else {
 
             let outputData = {
@@ -53,19 +53,20 @@ module.exports = {
 function formatDate(dateFromFile) {
     let outputDate = "";
 
-    if (!isNaN(Date.parse(dateFromFile))) {
-        outputDate = Date.parse(dateFromFile);
-    } else {
+    // if (!isNaN(Date.parse(dateFromFile))) {
+    //     outputDate = Date.parse(dateFromFile);
+    // } else {
 
         let dateArray = dateFromFile.split("/");
         let day = parseInt(dateArray[0], 10);
         let month = parseInt(dateArray[1], 10) - 1;
         let year = parseInt(dateArray[2], 10);
-
         outputDate = new Date(year, month, day);
-    }
+    // }
     if (isNaN(outputDate)) {
         logger.error(`Date is not valid (${dateFromFile})`);
+    } else {
+        outputDate = format(outputDate, 'dd-MM-yyyy');
     }
     return outputDate;
 }
