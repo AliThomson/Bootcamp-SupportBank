@@ -83,7 +83,7 @@ bank.forEach(transaction =>
          } else {
              accounts.push(new Account(transaction.from, parseFloat(transaction.amount).toFixed(2) * -1));
              logger.info(`Account created for ${transaction.to} 
-                with balance (${parseFloat(transaction.amount).toFixed(2)}`);
+                with balance ${parseFloat(transaction.amount).toFixed(2)}`);
          }
          const toAccount = accounts.find(account => account.holder === transaction.to)
          if (toAccount) {
@@ -93,7 +93,7 @@ bank.forEach(transaction =>
         } else {
             accounts.push(new Account(transaction.to, parseFloat(transaction.amount).toFixed(2)));
             logger.info(`Account created for ${transaction.to} 
-                with balance (${parseFloat(transaction.amount).toFixed(2)}`);
+                with balance ${parseFloat(transaction.amount).toFixed(2)}`);
         }
     });
 

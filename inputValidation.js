@@ -1,17 +1,18 @@
 const format = require("date-fns/format");
 const log4js = require("log4js");
 const logger = log4js.getLogger('filename');
-const moment = require('moment'); // require
+const moment = require('moment');
 moment().format();
-module.exports = {
-    formatInput: function (fileType, transaction) {
-        if (fileType === "csv") {
-            let dateFromFile = transaction.Date;
-            let outputDate = formatDate(dateFromFile);
 
-            let amount = parseFloat(transaction.Amount)
+exports.formatInput = function (fileType, transaction) {
+    if (fileType === "csv") {
+        const dateFromFile = transaction.Date;
+        let outputDate = moment(dateFromFile, "DD-MM-YYYY");
+        if (outputDate.isValid()) {
+            outputDate = moment(outputDate).format("Do MMM YYYY");
+            let amount = parseFloat(transaction.Amount);
             if (isNaN(amount)) {
-                logger.error(`i = ${i}, Amount (${amount}) is not a number on ${transaction.Date}: from ${transaction.From} to ${transaction.To}`)
+                logger.error(`Amount (${transaction.Amount}) is not a number on ${transaction.Date}: from ${transaction.From} to ${transaction.To}`)
             } else {
 
                 let outputData = {
@@ -23,13 +24,17 @@ module.exports = {
                 }
                 return outputData;
             }
-        } else if (fileType === "json") {
-            let dateFromFile = transaction.Date;
-            let outputDate = formatDate(dateFromFile);
-
-            let amount = parseFloat(transaction.Amount);
+        } else {
+            logger.error(`Date is not valid (${dateFromFile})`);
+        }
+    } else if (fileType === "json") {
+        const dateFromFile = transaction.Date;
+        let outputDate = moment(dateFromFile, "YYYY-MM-DD");
+        if (outputDate.isValid()) {
+            outputDate = moment(outputDate).format("Do MMM YYYY");
+            const amount = parseFloat(transaction.Amount);
             if (isNaN(amount)) {
-                logger.error(`i = ${i}, Amount (${amount}) is not a number on ${transaction.Date}: from ${transaction.FromAccount} to ${transaction.ToAccount}`)
+                logger.error(`Amount (${amount}) is not a number on ${transaction.Date}: from ${transaction.FromAccount} to ${transaction.ToAccount}`)
             } else {
 
                 let outputData = {
@@ -41,13 +46,20 @@ module.exports = {
                 }
                 return outputData;
             }
-        } else if (fileType ==="xml") {
-            let dateFromFile = transaction.attributes.Date;
-            let gregorianDate = moment((dateFromFile-25569)*86400000).format("DD/MM/yyyy");
-            let outputDate = formatDate(gregorianDate);
+        }
+    } else if (fileType ==="xml") {
+        let dateFromFile = transaction.attributes.Date;
+        //Convert julian date to gregorian
+        //First subtract the julian date of 1st Jan 1970 from our julian date
+        //Then multiply this by the number of milliseconds in a day
+        const jd1stJan1970 = 25569;
+        const msInADay = 86400000;
+        let outputDate = moment((dateFromFile-jd1stJan1970)*msInADay);
+        if (outputDate.isValid()) {
+            outputDate = moment(outputDate).format("Do MMM YYYY");
             let amount = parseFloat(transaction.elements[1].elements[0].text);
             if (isNaN(amount)) {
-                logger.error(`i = ${i}, Amount (${amount}) is not a number on ${transaction.Date}: from ${transaction.FromAccount} to ${transaction.ToAccount}`)
+                logger.error(`Amount (${amount}) is not a number on ${transaction.Date}: from ${transaction.FromAccount} to ${transaction.ToAccount}`);
             } else {
                 let outputData = {
                     date: outputDate,
@@ -58,26 +70,6 @@ module.exports = {
                 };
                 return outputData;
             }
-        };
-    }
-}
-
-function formatDate(dateFromFile) {
-    let outputDate = "";
-    if (dateFromFile.includes("/")) {
-        let dateArray = dateFromFile.split("/");
-        let day = parseInt(dateArray[0], 10);
-        let month = parseInt(dateArray[1], 10) - 1;
-        let year = parseInt(dateArray[2], 10);
-        outputDate = new Date(year, month, day);
-    } else {
-        outputDate = Date.parse(dateFromFile);
-    }
-
-    if (isNaN(outputDate)) {
-        logger.error(`Date is not valid (${dateFromFile})`);
-    } else {
-        outputDate = format(outputDate, 'dd-MM-yyyy');
-    }
-    return outputDate;
+        }
+    };
 }
